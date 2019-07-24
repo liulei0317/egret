@@ -128,11 +128,11 @@
         }
         var detectOrient = function () {
             setTimeout(function () {
-                detectOrientOri()
+                // detectOrientOri()
             }, 300)
         }
-        // var evt = "onorientationchange" in window ? "orientationchange" : "resize";
-        // window.addEventListener(evt, detectOrient)
+        var evt = "onorientationchange" in window ? "orientationchange" : "resize";
+        window.addEventListener(evt, detectOrient)
         // detectOrientOri();
         var loadScript = function (list, callback) {
             var loaded = 0;
@@ -181,8 +181,8 @@
                  * "calculateCanvasScaleFactor": //a function return canvas scale factor
                  * }
                  **/
-                // window.removeEventListener('resize', detectOrient, false);
-                // window.removeEventListener('orientationchange', detectOrient, false);
+                window.removeEventListener('resize', detectOrient, false);
+                window.removeEventListener('orientationchange', detectOrient, false);
                 document.fonts.ready.then(success, fail);
                 function success() {
                     console.info("load font success.");
