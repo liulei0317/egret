@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mySkin.clubRoomItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="906" height="152">
+	<e:Image source="img_club_border_2_png" scale9Grid="30,24,8,6" left="0" right="0" top="0" bottom="0"/>
+	<e:Image x="0" y="0" source="img_club_border_1_png" width="200" height="148" scale9Grid="18,24,8,9"/>
+	<e:Image id="imgTemplateColor" x="0" y="0" scale9Grid="18,24,8,9" source="img_color_room_2_png" width="200"/>
+	<e:Group x="0" y="0">
+		<e:Label id="labelRoomType" text="进园子" x="64" y="13" size="24" fontFamily="fzzy" textColor="0xfefefe"/>
+		<e:Label id="labelRoomNumber" text="房号:123456" x="14" y="63" size="22" fontFamily="fzzy" textColor="0x9D4E08"/>
+		<e:Label id="labelRoomTurnNum" text="8把" x="14" y="87.63" size="22" fontFamily="fzzy" textColor="0x9D4E08"/>
+		<e:Label id="labelPayMode" text="会长付费" x="14" y="114.96" size="22" fontFamily="fzzy" textColor="0x9D4E08"/>
+		<ns1:ClubRoomUserItem id="userItem1" x="227.17" skinName="mySkin.clubRoomUserItemSkin" y="18"/>
+		<ns1:ClubRoomUserItem id="userItem2" x="359" skinName="mySkin.clubRoomUserItemSkin" y="18"/>
+		<ns1:ClubRoomUserItem id="userItem3" x="491" skinName="mySkin.clubRoomUserItemSkin" y="18"/>
+		<ns1:ClubRoomUserItem id="userItem4" x="623.12" skinName="mySkin.clubRoomUserItemSkin" y="18"/>
+		<ns1:EButton id="btnRoomInfo" label="" x="151" y="93.96">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_club_roomRules_1_png" source.down="btn_club_roomRules_1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<e:Rect id="rectJoinRoom" width="539.21" height="143.39" x="213.12" y="3.61" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0"/>
+	</e:Group>
+	<e:Group x="751.48" verticalCenter="0">
+		<ns1:EButton id="btnCancelRoom" label="" y="71.6" x="1.0000000000001137" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_club_dissolve_1_png" source.down="btn_club_dissolve_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</ns1:EButton>
+		<ns1:EButton id="btnInvitePlayer" label="" x="0" y="2" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_club_invite_1_png" source.down="btn_club_invite_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</ns1:EButton>
+		<e:Label id="labelGaming" text="游戏中" y="12" size="20" textColor="0x9D4E08" horizontalCenter="0"/>
+		<e:Label id="labelTurnNum" text="16/16把" y="41" size="20" textColor="0x9D4E08" horizontalCenter="0" fontFamily="fzzy"/>
+	</e:Group>
+</e:Skin>

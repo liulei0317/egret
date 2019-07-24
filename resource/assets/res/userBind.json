@@ -1,0 +1,13 @@
+{"file":"userBind.png","frames":{
+"userbind_btn_regain1_png":{"x":211,"y":437,"w":172,"h":69,"offX":0,"offY":0,"sourceW":172,"sourceH":69},
+"userbind_btn_binding1_png":{"x":1,"y":108,"w":234,"h":88,"offX":0,"offY":0,"sourceW":234,"sourceH":88},
+"userbind_btn_binding2_png":{"x":237,"y":192,"w":222,"h":84,"offX":6,"offY":2,"sourceW":234,"sourceH":88},
+"userbind_btn_changebinding1_png":{"x":1,"y":1,"w":243,"h":105,"offX":0,"offY":1,"sourceW":243,"sourceH":106},
+"userbind_btn_changebinding2_png":{"x":246,"y":1,"w":231,"h":99,"offX":6,"offY":4,"sourceW":243,"sourceH":106},
+"userbind_btn_obtain1_png":{"x":201,"y":366,"w":172,"h":69,"offX":0,"offY":0,"sourceW":172,"sourceH":69},
+"userbind_btn_obtain2_png":{"x":1,"y":444,"w":164,"h":65,"offX":4,"offY":2,"sourceW":172,"sourceH":69},
+"userbind_btn_personal_charge_record_1_png":{"x":1,"y":284,"w":208,"h":80,"offX":10,"offY":0,"sourceW":229,"sourceH":98},
+"userbind_btn_personal_charge_record_2_png":{"x":1,"y":366,"w":198,"h":76,"offX":15,"offY":2,"sourceW":229,"sourceH":98},
+"userbind_btn_realname1_png":{"x":246,"y":102,"w":234,"h":88,"offX":0,"offY":0,"sourceW":234,"sourceH":88},
+"userbind_btn_realname2_png":{"x":1,"y":198,"w":222,"h":84,"offX":6,"offY":2,"sourceW":234,"sourceH":88},
+"userbind_btn_record1_png":{"x":225,"y":278,"w":208,"h":80,"offX":0,"offY":0,"sourceW":208,"sourceH":80}}}

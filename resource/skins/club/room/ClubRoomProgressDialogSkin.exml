@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mySkin.ClubRoomProgressDialogSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="1280" height="720">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image scale9Grid="252,170,48,35" source="frame_2_png" width="860" height="632.67" x="0" y="20" anchorOffsetY="0"/>
+		<ns1:EButton id="btnClose" label="" y="16.08" x="761.5">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_jlb_common_close_1_png" source.down="btn_jlb_common_close_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<ns1:EButton id="btnCancelRoom" label="" y="539.09" horizontalCenter="0.5">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_btn_dissolve_room_1_png" source.down="club_btn_dissolve_room_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<e:Image width="749.03" height="362.62" y="161.55" source="img_club_base_2_png" scale9Grid="25,17,13,10" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-0.5"/>
+		<ns1:EScroller id="scrollerTables" width="742" height="310" y="201.23" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0">
+			<e:Group/>
+		</ns1:EScroller>
+		<e:Group y="142.22" horizontalCenter="0">
+			<e:Image x="0" y="3.67" scale9Grid="25,17,13,10" anchorOffsetX="0" anchorOffsetY="0" source="img_club_base_png" width="750"/>
+			<e:Label text="ID" x="39.07" y="14.67" textColor="0x874208" size="28" fontFamily="fzch"/>
+			<e:Label text="玩家昵称" x="194" y="14.67" textColor="0x874208" size="28" fontFamily="fzch"/>
+			<e:Label text="分数" x="397" y="14.67" textColor="0x874208" size="28" fontFamily="fzch"/>
+			<e:Label text="外包" x="530.76" y="14.67" textColor="0x874208" size="28" fontFamily="fzch"/>
+			<e:Label text="状态" x="660.07" y="14.67" textColor="0x874208" size="28" fontFamily="fzch"/>
+		</e:Group>
+		<e:Label id="labelRoomNumber" text="房间号：" x="59.5" y="60.64" textColor="0x874208" fontFamily="fzch" size="29"/>
+		<e:Label id="labelTurnNum" text="把数：" x="481.43" y="60.64" textColor="0x874208" fontFamily="fzch" size="29"/>
+		<e:Label id="labelRoomType" text="类型：" x="59.5" y="101.22" textColor="0x874208" fontFamily="fzch" size="29"/>
+		<e:Label id="labelTotalTime" text="进行时间：" x="481.43" y="101.22" textColor="0x874208" fontFamily="fzch" size="29"/>
+	</e:Group>
+</e:Skin>

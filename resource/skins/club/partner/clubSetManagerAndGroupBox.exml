@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NewFile" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" xmlns:game="game.*">
+	<e:Image source="frame_1_png" width="750" height="668" scale9Grid="238,177,61,46" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="club_json.img_club_base_2_png" width="660" height="145" scale9Grid="7,6,46,36" y="106" horizontalCenter="0"/>
+	<e:Image source="club_json.img_club_base_png" width="660" height="49" scale9Grid="21,14,17,19" horizontalCenter="0" y="78"/>
+	<e:Label text="当前归属组为:" x="320" y="91" fontFamily="fzch" verticalAlign="middle" textAlign="center" textColor="0x805D31"/>
+	<e:Label id="Text_curGroup_name" text="恒源祥恒源祥" x="516" y="91" fontFamily="fzch" verticalAlign="middle" textAlign="center" textColor="0x805D31"/>
+	<ns1:EButton id="btn_close" label="" y="8" x="936">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled" xmlns:game="game.*" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="common2_json.btn_jlb_common_close_1_png" source.down="common2_json.btn_jlb_common_close_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<e:Group x="310" y="262">
+		<e:Image source="club_json.img_club_base_2_png" width="660" height="350" scale9Grid="7,6,46,36" x="1" y="7.68"/>
+		<ns1:EScroller id="scroller" width="640" height="300" y="55" x="10">
+			<e:Group width="640" height="300"/>
+		</ns1:EScroller>
+		<e:Group x="0" y="2.68">
+			<e:Image source="club_json.img_club_base_png" width="660" height="49" scale9Grid="21,14,17,19" y="0" x="0"/>
+			<e:Label text="更换归属组为:" x="14" y="12" fontFamily="fzch" textColor="0x805D31" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Group>
+	<game:ClubSetManagerItem id="ClubSetManagerItem" y="132.5" skinName="clubSetManagerItem" horizontalCenter="0"/>
+</e:Skin>

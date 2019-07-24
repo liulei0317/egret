@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mySkin.clubItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group x="0" y="0">
+		<ns1:EToggleButton id="toggle" label="" x="10" y="0" selected="false">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="lable_club_myClub_2_png" source.down="lable_club_myClub_1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</ns1:EToggleButton>
+		<e:Label id="labelClubName" text="这是个俱乐部" y="9" fontFamily="fzch" size="28" textAlign="center" verticalAlign="middle" anchorOffsetX="0" width="168" touchEnabled="false" horizontalCenter="-2.5" textColor="0xffffff"/>
+		<e:Label id="labelClubMemberNum" text="255/255" y="43.04" fontFamily="fzch" size="20" width="172" verticalAlign="middle" textAlign="center" touchEnabled="false" horizontalCenter="-2.5" textColor="0xffffff"/>
+		<e:Image id="imgSelfClub" x="0.44" y="0" source="img_club_myClub_creat_png" touchEnabled="false"/>
+		<e:Label id="labelGameName" text="麻将" x="0" y="1.14" textColor="0x7F422E" anchorOffsetX="0" width="27.22" anchorOffsetY="0" height="70.84" size="26" fontFamily="fzzy" verticalAlign="middle" textAlign="center" visible="false"/>
+		<e:Image id="imgRedTip" x="201.33" y="1" source="common2_json.img_red_point_png"/>
+	</e:Group>
+</e:Skin>

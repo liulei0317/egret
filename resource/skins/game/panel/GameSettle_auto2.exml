@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameSettle_auto2" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="1560" height="720">
+	<e:Image source="bg_jiesuan_jiatu_jpg" horizontalCenter="0" bottom="0" width="1560"/>
+	<e:Image horizontalCenter="0" top="2" width="1560" source="img_nj_settle_gameoverbg2_png" scale9Grid="618,324,59,57"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Group y="0" horizontalCenter="0" width="1280" height="720">
+		<e:Label id="Text_clubName" text="俱乐部名称:" x="937.77" y="0" size="25" fontFamily="fzch" textColor="0xFFFFFF" textAlign="right" width="300"/>
+		<e:Group x="2" y="65.8" width="218" height="249">
+			<e:Image source="img_nj_settle_hutypeframebg_png" width="180" height="33" horizontalCenter="0" bottom="0"/>
+			<e:Label id="Text_date" text="2017-09-08 18:14" size="20" fontFamily="fzzy" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="0" bottom="7"/>
+			<e:Image id="Image_huType" source="img_nj_settle_wordtitle_liuju_png" scaleX="1" scaleY="1" horizontalCenter="0" bottom="37"/>
+		</e:Group>
+		<e:Group x="-10" y="404" scaleX="1" scaleY="1">
+			<e:Image source="img_nj_settle_shareQRcode_bg_png" x="12" y="0"/>
+			<e:Rect id="Image_qrcode" width="180" height="180" x="21" y="6.66" alpha="0"/>
+		</e:Group>
+
+		<ns1:GameSettleUserInfo id="UserInfo1" x="188.64" y="203.8" skinName="GameSette_UserInfoSkin"/>
+		<ns1:GameSettleUserInfo id="UserInfo2" x="188.64" y="305" skinName="GameSette_UserInfoSkin"/>
+		<ns1:GameSettleUserInfo id="UserInfo3" x="188.64" y="406" skinName="GameSette_UserInfoSkin"/>
+		<ns1:GameSettleUserInfo id="UserInfo4" x="189" y="506.8" skinName="GameSette_UserInfoSkin"/>
+		<e:Image id="Image_title" source="img_nj_settle_liujutitle_1_png" y="71.8" horizontalCenter="0"/>
+		<e:Image source="img_nj_settle_liujutitle_line_png" y="169.8" horizontalCenter="0.5"/>
+		<e:Group x="9" y="638.79">
+			<ns1:EButton id="Button_copyReplayId" label="" x="0" y="0" width="204" height="54">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="frame_nj_settle_shareReviewCode_png" source.down="frame_nj_settle_shareReviewCode_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</ns1:EButton>
+			<e:Label text="点击复制回放码" x="32.35" y="2.65" width="143" height="22" size="20" fontFamily="fzzy" touchEnabled="false"/>
+			<e:Label id="Text_replayId" text="12345678" x="55.64" y="28.65" width="87" height="22" size="20" fontFamily="fzzy" textAlign="center" touchEnabled="false"/>
+		</e:Group>
+		<ns1:EButton id="Button_share" label="" x="883.45" y="591.8" visible="false">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_nj_settle_share_n_png" source.down="btn_nj_settle_share_p_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</ns1:EButton>
+		<e:Group id="Group_quick" y="640" horizontalCenter="6.5">
+			<e:Button id="Button_quicklook" label="" x="0" y="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="button_njmj_checkjiesuan_n_png" source.down="button_njmj_checkjiesuan_p_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Label id="Text_quicklook_countdown" text="15" y="18.76" height="34" fontFamily="fzzy" horizontalCenter="93.5" textColor="0xFFFFFF"/>
+		</e:Group>
+		<e:Group id="Group_continue" y="629" horizontalCenter="6.5">
+			<ns1:EButton id="Button_continue" label="" x="0" y="14.64">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_nj_settle_continue_n_png" source.down="btn_nj_settle_continue_p_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:EButton>
+			<e:Label id="Text_continue_countdown" text="15" y="35.91" height="34" fontFamily="fzzy" touchEnabled="false" horizontalCenter="87.5" textColor="0xFFFFFF"/>
+		</e:Group>
+		<e:Image id="logo" source="logo_png" x="0.59" y="309.47" scaleX="0.5" scaleY="0.5"/>
+	</e:Group>
+</e:Skin>

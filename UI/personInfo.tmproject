@@ -1,0 +1,42 @@
+{
+    "projectName": "personInfo",
+    "version": 5,
+    "files": [
+        "./TP/qhmahjong/personInfo/item_male.png",
+        "./TP/qhmahjong/personInfo/item_female.png",
+        "./TP/qhmahjong/personInfo/img_personal_tips.png",
+        "./TP/qhmahjong/personInfo/img_personal_location.png",
+        "./TP/qhmahjong/personInfo/img_personal_line_1.png",
+        "./TP/qhmahjong/personInfo/img_personal_item_8.png",
+        "./TP/qhmahjong/personInfo/img_personal_item_7.png",
+        "./TP/qhmahjong/personInfo/img_personal_item_6.png",
+        "./TP/qhmahjong/personInfo/img_personal_item_5.png",
+        "./TP/qhmahjong/personInfo/img_personal_item_4.png",
+        "./TP/qhmahjong/personInfo/img_personal_item_3.png",
+        "./TP/qhmahjong/personInfo/img_personal_item_2.png",
+        "./TP/qhmahjong/personInfo/img_personal_item_1.png",
+        "./TP/qhmahjong/personInfo/icon_personal_phone.png",
+        "./TP/qhmahjong/personInfo/frame_headshot.png",
+        "./TP/qhmahjong/personInfo/button_personal_delete_pic_2.png",
+        "./TP/qhmahjong/personInfo/button_personal_delete_pic_1.png",
+        "./TP/qhmahjong/personInfo/button_personal_addPic.png",
+        "./TP/qhmahjong/personInfo/btn_personal_history_2.png",
+        "./TP/qhmahjong/personInfo/btn_personal_history_1.png",
+        "./TP/qhmahjong/personInfo/btn_personal_charge_record_2.png",
+        "./TP/qhmahjong/personInfo/btn_personal_charge_record_1.png",
+        "./TP/qhmahjong/personInfo/bg.png",
+        "./TP/qhmahjong/personInfo/bg_personal_text_bg.png",
+        "./TP/qhmahjong/personInfo/bg_personal_listTitle.png",
+        "./TP/qhmahjong/personInfo/bg_personal_listText.png",
+        "./TP/qhmahjong/personInfo/bg_personal_item_2.png",
+        "./TP/qhmahjong/personInfo/bg_personal_item_1.png",
+        "./TP/qhmahjong/personInfo/bg_personal_addPic.png"
+    ],
+    "options": {
+        "sizeMode": "2n",
+        "useExtension": 1,
+        "layoutGap": 1,
+        "extend": 0,
+        "layoutMath": "3"
+    }
+}

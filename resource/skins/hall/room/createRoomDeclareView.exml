@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="createRoomDeclareView" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="frame_1_png" width="1164" height="680" horizontalCenter="0" verticalCenter="0" scale9Grid="213,167,113,67"/>
+	<e:Label text="游戏声明" y="54" textColor="0x874208" fontFamily="fzch" size="40" horizontalCenter="0"/>
+	<e:Image source="common2_json.common2_bg_1_png" width="1070" height="460" scale9Grid="7,6,46,36" horizontalCenter="0" verticalCenter="-20"/>
+	<e:Scroller width="1050" height="420" horizontalCenter="0" verticalCenter="-20">
+		<e:Group width="1050" height="420">
+			<e:Label text="    钻石约牌房内只结算积分，不结算游戏币。积分仅用于每盘对局的分数记录，在每个房间游戏结束时清零，仅限于用户本人在游戏中使用，不具有任何货币价值。\n    钻石约牌房的钻石属于游戏道具，仅限于约牌开房使用，不具有任何其他用途。约牌房内提供约牌房积分、个性玩法自定义设置、个性房间装饰等服务。约牌房钻石的消耗及售价以本公司制定的标准为准。任何用户之间在线上或线下交易的行为均为本公司所禁止。\n\n    【温馨提示】：本公司对用户所拥有的积分、游戏币、钻石等均不提供任何形式的官方回购、直接或变相兑换现金或实物、相互赠予、转让等服务及相关功能。本公司严禁用户之间在线上或线下进行任何形式的相互叫卖、转让积分、游戏币、钻石等行为。一经发现，本公司有权采取封号处理；情节严重的，有权将相关线索移交有关部门处理。" textColor="0x6d3d29" fontFamily="fzzy" size="27" width="1050" y="0" horizontalCenter="0"/>
+		</e:Group>
+	</e:Scroller>
+	<ns1:EButton id="btnClose" label="" y="582" horizontalCenter="0">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_json.btn_jlb_tips_ok_1_png" source.down="club_json.btn_jlb_tips_ok_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+</e:Skin>

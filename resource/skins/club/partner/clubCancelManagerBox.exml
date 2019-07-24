@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="clubCancelManagerBox" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="frame_1_png" horizontalCenter="0" verticalCenter="0" width="626" height="413" scale9Grid="238,177,61,46"/>
+	<e:Image source="club_json.img_club_base_2_png" width="520" height="290" horizontalCenter="0" verticalCenter="0" scale9Grid="7,6,46,36"/>
+	<e:Image source="club_json.img_club_base_png" width="520" height="50" scale9Grid="21,14,17,19" horizontalCenter="0" y="198"/>
+	<e:Label text="当前归属组为:" x="394" y="212" fontFamily="fzch" textColor="0x805d31" verticalAlign="middle" textAlign="center"/>
+	<e:Label id="groupName" text="牛牛牛牛牛牛" x="592" y="212" fontFamily="fzch" textColor="0x805D31" verticalAlign="middle" textAlign="left"/>
+	<ns1:EButton id="btn_close" label="" y="154" x="858">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled" xmlns:game="game.*" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="common2_json.btn_jlb_common_close_1_png" source.down="common2_json.btn_jlb_common_close_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<e:Image id="Image_head" source="common_json.headshot_example_png" x="544.02" y="298.11" width="88" height="88"/>
+	<e:Image source="gameUI_json.img_gameui_headshot_top_png" x="540.67" y="295.09" scale9Grid="11,11,70,70" width="94" height="94"/>
+	<e:Label id="Text_name" text="名称名称名称" x="646" y="315.09" fontFamily="fzzy" size="19" textColor="0x9d4d0a" width="228" textAlign="left" verticalAlign="middle"/>
+	<e:Label id="Text_id" text="ID:123456" x="646" y="352.09" fontFamily="fzzy" size="19" textColor="0x9D4D0A" width="228" textAlign="left" verticalAlign="middle"/>
+	<ns1:EButton id="Button_cancel" label="" horizontalCenter="0" y="430">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="clubPartner_json.btn_club_admincancel1_png" source.down="clubPartner_json.btn_club_admincancel2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+</e:Skin>

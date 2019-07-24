@@ -1,0 +1,23 @@
+{
+    "projectName": "floatingWindow",
+    "files": [
+        "./TP/qhmahjong/floatingWindow/btn_h5_suspend_refresh1.png",
+        "./TP/qhmahjong/floatingWindow/btn_h5_suspend_fullscreen2.png",
+        "./TP/qhmahjong/floatingWindow/btn_h5_suspend_fullscreen1.png",
+        "./TP/qhmahjong/floatingWindow/btn_h5_suspend_exitfull1.png",
+        "./TP/qhmahjong/floatingWindow/btn_h5_suspend_exitfull.png",
+        "./TP/qhmahjong/floatingWindow/img_h5_suspend_line.png",
+        "./TP/qhmahjong/floatingWindow/img_h5_suspend.png",
+        "./TP/qhmahjong/floatingWindow/btn_h5_suspend2.png",
+        "./TP/qhmahjong/floatingWindow/btn_h5_suspend1.png",
+        "./TP/qhmahjong/floatingWindow/btn_h5_suspend_refresh2.png"
+    ],
+    "options": {
+        "layoutMath": "3",
+        "sizeMode": "2n",
+        "useExtension": 1,
+        "layoutGap": 1,
+        "extend": 0
+    },
+    "version": 5
+}

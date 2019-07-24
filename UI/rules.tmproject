@@ -1,0 +1,15 @@
+{
+    "projectName": "rules",
+    "version": 5,
+    "files": [
+        "./TP/qhmahjong/rules/btn_roomInfo_rules_2.png",
+        "./TP/qhmahjong/rules/btn_roomInfo_rules_1.png"
+    ],
+    "options": {
+        "sizeMode": "2n",
+        "useExtension": 1,
+        "layoutGap": 1,
+        "extend": 0,
+        "layoutMath": "3"
+    }
+}

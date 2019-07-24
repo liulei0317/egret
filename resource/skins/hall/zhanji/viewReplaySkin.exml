@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  class="myskins.viewReplaySkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  xmlns:ns1="*">
+	<w:Config id="16b79398868"/>
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image x="0" y="0" width="696" height="430" source="frame_2_png" scale9Grid="228,78,82,178"/>
+		<ns1:EButton id="btnOK" label="" y="288" x="400">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common2_json.btn_club_history_reviewOthers_ok_1_png" source.down="common2_json.btn_club_history_reviewOthers_ok_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:EButton>
+
+		<e:Image width="546" source="club_json.img_club_base_2_png" scale9Grid="14,11,35,26" height="60" horizontalCenter="0" verticalCenter="-12"/>
+
+		<ns1:EButton id="btnCancel" label="" y="288" horizontalCenter="-158">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common2_json.btn_club_table_dissolveCancel_1_png" source.down="common2_json.btn_club_table_dissolveCancel_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:EButton>
+		<e:Label text="请输入他人分享的回放码" y="90" size="43" textColor="0x9d4e08" fontFamily="fzch" horizontalCenter="0"/>
+		<e:EditableText id="input" width="400" height="55" text="" horizontalCenter="0" y="176" fontFamily="fzzy" prompt="点击输入回放码" textAlign="center" verticalAlign="middle" restrict="0-9" textColor="0x805d31"/>
+
+
+
+	</e:Group>
+</e:Skin>

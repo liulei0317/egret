@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameSettleWinerInfoSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="685" height="129">
+	<e:Group x="0" verticalCenter="0">
+		<e:Image id="Image_head" source="headshot_example_png" x="19" y="19.5" scaleX="0.8" scaleY="0.8" width="83" height="83"/>
+		<e:Image x="15" y="14.5" source="club2_json.img_club_headshot_top_png" scaleX="0.8" scaleY="0.8"/>
+		<e:Image id="Image_myself" source="img_nj_settle_benjia_png" x="25.75" y="11.75"/>
+		<e:Image id="Image_homer" x="14.5" y="10.25" source="common2_json.btn_nj_record_homericon_png"/>
+		<e:Image id="Image_banker" source="img_club_history_dealer_png" x="58.25" y="11.75"/>
+		<e:Label id="Text_userName" text="玩家名字六字" y="101" size="18" fontFamily="fzzy" width="108" height="18" textAlign="center" horizontalCenter="0"/>
+	</e:Group>
+	<ns1:EScroller id="FanList" width="550" height="110" y="9" x="135">
+		<e:Group/>
+	</ns1:EScroller>
+</e:Skin>

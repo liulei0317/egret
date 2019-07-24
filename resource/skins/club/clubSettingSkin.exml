@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mySkin.clubSettingSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="frame_1_png" scale9Grid="245,144,57,52" left="0" right="0" top="0" bottom="0" height="720" width="1050"/>
+		<ns1:EButton id="btnClose" label="" top="0" right="0">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_jlb_common_close_1_png" source.down="btn_jlb_common_close_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:EButton>
+		<ns1:EButton id="btnSave" label="" y="575.25" horizontalCenter="1">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_button_clubset_save_png" source.down="club_button_clubset_save_press_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<e:Group y="56" width="900" anchorOffsetY="0" height="116" horizontalCenter="0">
+			<e:Label text="人满开局设置：" y="4" fontFamily="fzch" scaleX="1" scaleY="1" textAlign="right" size="30" textColor="0x6d3d29" x="6"/>
+			<ns1:ERadioButton id="offlineStartType0" x="210" y="0" skinName="mySkin.radioButton_1_Skin"/>
+			<ns1:ERadioButton id="offlineStartType2" x="522" y="0" skinName="mySkin.radioButton_1_Skin"/>
+			<ns1:ERadioButton id="offlineStartType1" x="210" y="58.49" skinName="mySkin.radioButton_1_Skin"/>
+			<e:Image x="266" y="57.61" scale9Grid="11,12,10,9" width="116" anchorOffsetX="0" source="img_club_base_2_png"/>
+			<e:Label id="labelKickTip" text="(10-60)秒后踢出离线玩家" y="62.67" fontFamily="fzzy" scaleX="1" scaleY="1" textAlign="right" x="390" textColor="0x6d3d29"/>
+			<e:EditableText id="editKickTime" width="94" height="40" text="30" x="272" y="61.15" anchorOffsetX="0" anchorOffsetY="0" fontFamily="fzzy" textColor="0x6F2C23" verticalAlign="middle" maxChars="2" size="30"/>
+		</e:Group>
+		<e:Group y="174" width="900" anchorOffsetY="0" height="175" touchEnabled="false" touchChildren="true" horizontalCenter="0">
+
+			<e:Image x="566.88" scale9Grid="11,12,10,9" width="116" anchorOffsetX="0" source="img_club_base_2_png" y="29.95"/>
+
+			<e:Label text="牌局托管设置：" fontFamily="fzch" textAlign="right" verticalCenter="-60.5" size="30" textColor="0x6d3d29" x="6"/>
+			<e:Label text="}" fontFamily="fzzy" textAlign="center" size="70" textColor="0x6D3D29" x="397" y="7" height="85" verticalAlign="middle"/>
+			<e:EditableText id="editAutoHostTime" width="100" height="40" text="10" x="566.88" anchorOffsetX="0" anchorOffsetY="0" maxChars="3" textColor="0x6F2C23" verticalAlign="middle" fontFamily="fzzy" size="30" y="33.68"/>
+			<ns1:ERadioButton id="radioAutoHostTime" x="210" skinName="mySkin.radioButton_1_Skin" verticalCenter="-60.5"/>
+			<ns1:ERadioButton id="radioAutoDisTime" x="210" skinName="mySkin.radioButton_1_Skin" verticalCenter="-3.5" touchEnabled="false" touchChildren="true"/>
+			<ns1:ERadioButton id="radioNoHost" x="210" skinName="mySkin.radioButton_1_Skin" touchEnabled="false" touchChildren="true" y="121"/>
+			<e:Label id="labelAutoHostTip" text="（60~300秒）" fontFamily="fzzy" scaleX="1" scaleY="1" textAlign="right" x="678.88" textColor="0x6d3d29" y="39.94"/>
+			<e:Label id="labelAutoHostTip0" text="超时时间：" fontFamily="fzzy" scaleX="1" scaleY="1" textAlign="right" x="427.88" textColor="0x6D3D29" y="39.94"/>
+		</e:Group>
+		<e:Group y="352" width="900" anchorOffsetY="0" height="214.19" horizontalCenter="0">
+			<ns1:ERadioButton id="cbFangZuoBi" x="210" y="7.6" skinName="mySkin.radioButton_2_Skin"/>
+			<ns1:ERadioButton id="cbNeedGPS" x="388.05" y="7.6" skinName="mySkin.radioButton_2_Skin"/>
+			<ns1:ERadioButton id="cbVoice" x="603.93" y="7.6" skinName="mySkin.radioButton_2_Skin"/>
+			<ns1:ERadioButton id="cbHDLY" x="210" y="60" skinName="mySkin.radioButton_2_Skin"/>
+			<ns1:ERadioButton id="cbApplyDismiss" x="388.05" y="60" skinName="mySkin.radioButton_2_Skin"/>
+			<ns1:ERadioButton id="cbForbid3" x="603.93" y="60" skinName="mySkin.radioButton_2_Skin"/>
+			<ns1:ERadioButton id="cbAutoMatch" x="210" y="112" skinName="mySkin.radioButton_2_Skin"/>
+			<ns1:ERadioButton id="cbHideRoomUserInfo" x="479.07" y="112" skinName="mySkin.radioButton_2_Skin"/>
+			<ns1:ERadioButton id="cbHideGameUserInfo" x="210" y="164.55" skinName="mySkin.radioButton_2_Skin"/>
+			<e:Label text="其他：" fontFamily="fzch" textAlign="right" textColor="0x6D3D29" size="30" anchorOffsetX="0" y="5" x="126"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

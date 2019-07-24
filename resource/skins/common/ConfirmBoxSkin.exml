@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ConfirmBoxSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image width="600" height="350" scale9Grid="17,16,106,98" horizontalCenter="0" verticalCenter="0" source="frame_1_png"/>
+	<e:Label id="Text_info" text="开局前解散房间不会消耗房卡， 是否解散房间开局前解散房间不会消耗房卡， 是否解散房间" size="28" fontFamily="fzzy" horizontalCenter="0" verticalCenter="-44.5" maxWidth="430" textAlign="center" textColor="0x874208"/>
+	<ns1:EButton id="Button_cancel" label="" x="424" y="398" width="200" height="100">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="common2_json.btn_club_table_dissolveCancel_1_png" source.down="button_cancel_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<ns1:EButton id="Button_Ok" label="" x="670" y="398" width="201" height="101">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="common2_json.btn_club_history_reviewOthers_ok_1_png" source.down="common2_json.btn_club_history_reviewOthers_ok_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+</e:Skin>

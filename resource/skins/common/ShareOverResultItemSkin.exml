@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShareOverResultItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="572" height="87">
+	<e:Image source="bg_share_contect_png" scale9Grid="14,15,18,11" width="572" height="87" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="Text_userName" text="微信名字六字" fontFamily="fzzy" size="40" x="96" textColor="0x905a3f" verticalCenter="0" width="240" height="40"/>
+	<e:Label id="Text_score" text="+300" fontFamily="fzzy" size="40" textColor="0x905A3F" x="361" verticalCenter="0"/>
+	<e:Label id="Text_wbScore" text="+300" fontFamily="fzzy" size="40" textColor="0x905A3F" x="471" verticalCenter="0.5"/>
+	<e:Image id="Image_head" source="common_json.headshot_example_png" x="17" verticalCenter="0" width="66" height="66"/>
+	<e:Image id="Image_homer" source="img_share_host_png" x="34" y="48"/>
+</e:Skin>

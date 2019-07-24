@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="personInfoOtherSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="1280" height="720">
+	<e:Image width="870" height="580" horizontalCenter="0" source="frame_1_png" scale9Grid="188,128,229,51" verticalCenter="0"/>
+	<e:Group y="129" horizontalCenter="0" width="680" height="130">
+		<e:Image source="personInfo_json.frame_headshot_png" x="0" y="-4" width="139" height="139"/>
+		<e:Image id="Image_head" width="128" height="128" scaleX="1" scaleY="1" source="common_json.headshot_example_png" y="2" x="6"/>
+		<e:Label id="Text_userName" text="哈哈哈哈哈哈" x="157" y="8.689999999999998" width="195" height="36" textColor="0x6f2c23" size="32" fontFamily="fzzy" scaleX="1" scaleY="1"/>
+		<e:Image id="Image_gender" source="item_male_png" x="353.49" y="8.689999999999998" scaleX="1" scaleY="1"/>
+		<e:Label id="Text_userId" text="ID:123456" x="157" y="58" width="99" height="22" textColor="0x6F2C23" size="20" fontFamily="fzzy" scaleX="1" scaleY="1"/>
+		<e:Label id="Text_ip" text="IP:192.168.118.118" x="409" y="56" width="183" height="27" textColor="0x6F2C23" size="20" fontFamily="fzzy" scaleX="1" scaleY="1"/>
+		<e:Group x="157" y="91">
+			<e:Image source="bg_common_inner_2_png" width="500" height="40" scale9Grid="2,2,6,6" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="img_personal_location_png" scaleX="1" scaleY="1" verticalCenter="0" left="5"/>
+			<e:Label id="Text_location" text="无法获取定位无法获取定位无法获取定位无法获取定位无法获取定位无法获取定位" width="460" height="36" textColor="0x6f2c23" size="17" fontFamily="fzzy" scaleX="1" scaleY="1" verticalCenter="0" right="0" verticalAlign="middle"/>
+		</e:Group>
+	</e:Group>
+	<e:Group y="279" horizontalCenter="0" height="300">
+		<e:Image width="700" scaleX="1" scaleY="1" horizontalCenter="0" top="0" bottom="0" source="club_json.img_club_base_2_png" scale9Grid="14,18,36,9" height="300"/>
+		<e:Label text="使用道具" textColor="0xb65a00" size="20" fontFamily="fzzy" horizontalCenter="0.5" width="83" height="22" x="274" scaleX="1" scaleY="1" top="4"/>
+		<e:Group id="emotionGroup" left="10" right="10" top="30" bottom="8">
+		</e:Group>
+	</e:Group>
+	<ns1:EButton id="btnClose" label="" x="986.06" y="58.4" width="95" height="92">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled" xmlns:game="game.*">
+			<e:Image width="100%" height="100%" source="btn_jlb_common_close_1_png" source.down="btn_jlb_common_close_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+</e:Skin>

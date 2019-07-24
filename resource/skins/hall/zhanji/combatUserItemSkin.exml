@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mySkin.combatUserItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="158" height="156">
+	<w:Config id="16348aab940"/>
+	<e:Label id="labelNickName" text="昵称" x="30" y="22.83" fontFamily="fzzy" size="22" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="123" height="22" textColor="0x9d4d0a"/>
+	<e:Label id="lab1" text="分数：" x="30" y="56.79" fontFamily="fzzy" size="19" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="91.21" anchorOffsetY="0" height="33.09" textColor="0x9d4d0a"/>
+	<e:Label id="lab2" text="外包：" x="30" y="95.7" fontFamily="fzzy" size="19" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="91.21" anchorOffsetY="0" height="33.09" textColor="0x9d4d0a"/>
+	<e:Label id="labelScore" text="+9999" x="80.89" y="55.54" fontFamily="fzzy" size="28" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="76.21" anchorOffsetY="0" height="33.09" borderColor="0x85561e" border="false" stroke="2" strokeColor="0x85561e" textColor="0xfff44c"/>
+	<e:Label id="labelWaiBaoScore" text="+9999" x="80.89" y="96.2" fontFamily="fzzy" size="28" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="72.21" anchorOffsetY="0" height="33.09" borderColor="0x85561e" border="false" strokeColor="0x5a60ab" stroke="2" textColor="0xe0eaf3"/>
+	<e:Image id="imgMaster" x="5" y="19" source="btn_nj_record_homericon_png" scaleX="0.8" scaleY="0.8"/>
+</e:Skin>

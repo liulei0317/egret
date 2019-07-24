@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DownHandCard_3dSkin" width="90" height="122" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="back" source="3d_card_json.3d_me_hand_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="face" source="cardFace_new_json.2dmj_cardnum_mahjong_29_png" horizontalCenter="0" verticalCenter="10"/>
+	<e:Image id="tingFlag" source="gameTingTint_json.img_gameui_ting_arrow_png" y="-19.6" horizontalCenter="0.5"/>
+</e:Skin>

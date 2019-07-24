@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mySkin.ClubRuleEditDialogSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="1280" height="720">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image scale9Grid="252,170,48,35" source="frame_2_png" width="860" height="670" x="0" y="0"/>
+		<e:Image width="294" x="233.67" y="53.68" source="img_club_base_2_png" scale9Grid="23,17,14,10"/>
+		<e:Image x="120.5" y="153.03" source="img_set_color_room_1_png"/>
+		<e:Label text="标题内容：" x="77" y="60" fontFamily="fzch" textColor="0x805d31" size="29"/>
+		<e:Label text="必填" x="536" y="61.35" fontFamily="fzzy" size="26" textColor="0xc69455"/>
+		<e:Label text="标题颜色：" x="77" y="109.34" fontFamily="fzch" textColor="0x805D31" size="29"/>
+		<e:Label text="记分：" x="77" y="265.69" fontFamily="fzch" textColor="0x805D31" size="29"/>
+		<e:Label text="/100分" x="305.67" y="263.69" fontFamily="fzch" textColor="0x805D31" size="29"/>
+		<ns1:EButton id="btnOK" label="" y="560" horizontalCenter="0">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_jlb_tips_ok_1_png" source.down="btn_jlb_tips_ok_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<ns1:EButton id="btnClose" label="" y="0" right="0">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_jlb_common_close_1_png" source.down="btn_jlb_common_close_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<e:Image width="131.33" x="161.35" y="255.69" source="img_club_base_2_png" scale9Grid="23,17,14,10" anchorOffsetX="0"/>
+		<e:Image x="515.5" y="153.03" source="img_set_color_room_3_png"/>
+		<e:Image x="318" y="153.03" source="img_set_color_room_2_png"/>
+		<e:EditableText id="editName" width="270" height="40" text="" x="240" y="58.34" textColor="0x805d31" size="26" verticalAlign="middle" fontFamily="fzzy"/>
+		<e:EditableText id="editCalNum" width="119.33" height="40" text="" x="167" y="259.36" textColor="0x805D31" size="26" verticalAlign="middle" anchorOffsetX="0" fontFamily="fzzy"/>
+		<ns1:ERadioButton id="radio1" x="187.7" y="148.03" skinName="mySkin.radioButton_2_Skin"/>
+		<ns1:ERadioButton id="radio2" x="383.64" y="148.03" skinName="mySkin.radioButton_2_Skin"/>
+		<ns1:ERadioButton id="radio3" x="580.65" y="148.03" skinName="mySkin.radioButton_2_Skin"/>
+		<e:Rect id="rectColor1" width="122.67" height="102" x="111" y="139.03" fillAlpha="0" anchorOffsetX="0"/>
+		<e:Rect id="rectColor2" width="122.67" height="102" x="313.66" y="140.03" fillAlpha="0" anchorOffsetX="0"/>
+		<e:Rect id="rectColor3" width="122.67" height="102" x="510.98" y="139.03" fillAlpha="0" anchorOffsetX="0"/>
+		<e:Image source="clubEditTemplate_json.img_fangchenm_bg_png" y="317" width="770" height="230" scale9Grid="9,9,59,59" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		<e:Image source="clubEditTemplate_json.img_fangchenm_line_png" y="432" width="720" height="2" horizontalCenter="0"/>
+		<e:Image source="clubEditTemplate_json.img_fangchenm_line_png" y="374.5" width="720" height="2" horizontalCenter="0"/>
+		<e:Image source="clubEditTemplate_json.img_fangchenm_line_png" y="489.5" width="720" height="2" horizontalCenter="0"/>
+		<e:Label text="防沉迷设置：" x="61" y="332" textColor="0x805d31" size="29" fontFamily="fzch"/>
+		<e:Label text="设置门槛：" x="279" y="388" textColor="0x805D31" size="29" fontFamily="fzch"/>
+		<e:Label text="最大局数：" x="304" y="445" textColor="0x805D31" size="29" fontFamily="fzch"/>
+		<e:Label text="响应国家政策，倡导绿色将康游戏。设置后玩家进入防沉迷状态。" x="278" y="338" size="18" fontFamily="fzzy" textColor="0xe42600"/>
+		<ns1:ERadioButton id="TLMK" x="61" y="388" skinName="mySkin.radioButton_2_Skin"/>
+		<ns1:ERadioButton id="XZJS" x="61" y="445" skinName="mySkin.radioButton_2_Skin"/>
+		<ns1:ERadioButton id="FCMTX" x="61" y="502" skinName="mySkin.radioButton_2_Skin"/>
+		<e:Image width="131.33" x="414.35" y="380.69" source="img_club_base_2_png" scale9Grid="23,17,14,10" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+		<e:EditableText id="editSZMK" width="119.33" height="40" text="1" x="420" y="384.36" textColor="0x805D31" size="26" verticalAlign="middle" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="fzzy"/>
+		<e:Image width="131.33" x="436.35" y="437.69" source="img_club_base_2_png" scale9Grid="23,17,14,10" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+		<e:EditableText id="editZDJS" width="119" height="40" text="20" x="442.5" y="442" textColor="0x805D31" size="26" verticalAlign="middle" anchorOffsetX="0" scaleX="1" scaleY="1" fontFamily="fzzy"/>
+
+	</e:Group>
+	<ns1:EButton id="tips" label="" x="460" y="522">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="clubEditTemplate_json.img_fangchenm_wenhao1_png" source.down="clubEditTemplate_json.img_fangchenm_wenhao2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+</e:Skin>

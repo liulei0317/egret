@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mySkin.shopSceneSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:game="game.*" width="1280" height="720">
+	<e:Image y="0" scale9Grid="252,149,74,60" horizontalCenter="0" anchorOffsetY="0" source="bg_store_png"/>
+	<e:Image y="0" width="1560" horizontalCenter="0" anchorOffsetY="0" source="img_mask_alphaHalf_png" scale9Grid="46,17,23,17" height="74"/>
+	<e:Image x="347.37" y="77.52" scale9Grid="20,15,18,14" source="img_club_line_png"/>
+	<e:Group x="150.51" y="117.41">
+		<ns1:EToggleButton id="tab1" label="" x="0" y="0" enabled="true">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="label_shop_2_png" source.down="label_shop_1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:EToggleButton>
+		<ns1:EToggleButton id="tab2" label="" x="0" y="102.56" enabled="true">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="label_shop_2_png" source.down="label_shop_1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:EToggleButton>
+		<e:Label id="labelTab1" text="钻石" x="46.21" y="26.73" fontFamily="fzch" size="38" stroke="2" strokeColor="0xb19143" touchEnabled="false" textColor="0xfdedc1"/>
+		<e:Label id="labelTab2" text="金币" x="46.21" y="128.6" fontFamily="fzch" size="38" stroke="2" strokeColor="0xb19143" touchEnabled="false" textColor="0xfdedc1"/>
+		<e:Image id="imgRed1" x="188" y="-1.69" source="img_red_point_png" visible="false"/>
+		<e:Image id="imgRed2" x="188" y="83.23" source="img_red_point_png" visible="false"/>
+	</e:Group>
+	<ns1:EButton id="btnClose" label="" y="4" x="100">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_nj_common_goback_n_png" source.down="common_json.btn_nj_common_goback_p_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<e:Group x="382.29" y="91.52">
+		<e:Image x="0" y="0" width="772.57" height="602.34" scale9Grid="25,16,11,13" anchorOffsetX="0" anchorOffsetY="0" source="shop_bg_mask_png"/>
+		<e:Group x="22" y="23">
+			<ns1:EButton id="btnDiamond1" label="" horizontalCenter="0" verticalCenter="0">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="item_diamond_1_png" source.down="item_diamond_1_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:EButton>
+			<ns1:EButton id="btnGold1" label="" horizontalCenter="0" verticalCenter="0" x="10" y="10">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="item_gold_1_png" source.down="item_gold_1_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:EButton>
+			<game:ShopItem id="item1" skinName="mySkin.shopItemSkin" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+		</e:Group>
+		<e:Group x="273" y="23">
+			<ns1:EButton id="btnDiamond2" label="" horizontalCenter="0" verticalCenter="0">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="item_diamond_2_png" source.down="item_diamond_2_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:EButton>
+			<ns1:EButton id="btnGold2" label="" horizontalCenter="0" verticalCenter="0" x="10" y="10">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="item_gold_2_png" source.down="item_gold_2_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:EButton>
+			<game:ShopItem id="item2" skinName="mySkin.shopItemSkin" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+		</e:Group>
+		<e:Group x="523" y="23">
+			<ns1:EButton id="btnDiamond3" label="" horizontalCenter="0" verticalCenter="0">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="item_diamond_3_png" source.down="item_diamond_3_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:EButton>
+			<ns1:EButton id="btnGold3" label="" horizontalCenter="0" verticalCenter="0" x="10" y="10">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="item_gold_3_png" source.down="item_gold_3_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:EButton>
+			<game:ShopItem id="item3" skinName="mySkin.shopItemSkin" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+		</e:Group>
+		<e:Group x="22" y="311">
+			<ns1:EButton id="btnDiamond4" label="" horizontalCenter="0" verticalCenter="0">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="item_diamond_4_png" source.down="item_diamond_4_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:EButton>
+			<ns1:EButton id="btnGold4" label="" horizontalCenter="0" verticalCenter="0" x="10" y="10">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="item_gold_4_png" source.down="item_gold_4_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:EButton>
+			<game:ShopItem id="item4" skinName="mySkin.shopItemSkin" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+		</e:Group>
+		<e:Group x="273" y="311">
+			<ns1:EButton id="btnDiamond5" label="" horizontalCenter="0" verticalCenter="0">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="item_diamond_5_png" source.down="item_diamond_5_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:EButton>
+			<ns1:EButton id="btnGold5" label="" horizontalCenter="0" verticalCenter="0" x="10" y="10">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="item_gold_5_png" source.down="item_gold_5_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:EButton>
+			<game:ShopItem id="item5" skinName="mySkin.shopItemSkin" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+		</e:Group>
+		<e:Group x="523" y="311">
+			<ns1:EButton id="btnDiamond6" label="" horizontalCenter="0" verticalCenter="0">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="item_diamond_6_png" source.down="item_diamond_6_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:EButton>
+			<ns1:EButton id="btnGold6" label="" horizontalCenter="0" verticalCenter="0" x="10" y="10">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="item_gold_6_png" source.down="item_gold_6_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:EButton>
+			<game:ShopItem id="item6" skinName="mySkin.shopItemSkin" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="groupDiamond" x="720" y="15">
+		<e:Image x="27" y="8" source="text_frame_png"/>
+		<e:Label id="labelDiamond" text="00000" x="54" y="17" textAlign="center" verticalAlign="middle" width="130" fontFamily="fzzy" size="30" textColor="0xFFE0B5"/>
+		<e:Image source="common_json.icon_card_png" x="-7" y="-15"/>
+	</e:Group>
+	<e:Group id="groupGold" x="945" y="15">
+		<e:Image x="27" y="10" source="text_frame_png"/>
+		<e:Label id="labelGold" text="00000" x="54" y="17" textAlign="center" verticalAlign="middle" width="130" size="30" textColor="0xFFE0B5" fontFamily="fzzy"/>
+		<e:Image source="common_json.icon_gold_png" x="-7" y="-15"/>
+	</e:Group>
+</e:Skin>

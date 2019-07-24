@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameSettingBox" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="1280" height="720">
+	<e:Image y="63.08" width="1120" height="660" horizontalCenter="0" source="frame_1_png" scale9Grid="276,154,39,44"/>
+	<ns1:EButton id="Button_close" label="" x="1120.16" y="47.12">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="common2_json.btn_jlb_common_close_1_png" source.down="common2_json.btn_jlb_common_close_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<e:Group id="Group_left" x="109" y="84">
+		<e:Group y="7" right="0" width="277">
+			<e:Label text="单击出牌" size="29" fontFamily="fzzy" verticalCenter="0" textColor="0x874208" left="0"/>
+			<ns1:EToggleButton id="Button_clickType_status" label="" verticalCenter="0" right="0">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="button_tableSet_close_png" source.down="button_tableSet_open_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:EToggleButton>
+		</e:Group>
+		<e:Group y="81.33" right="0" width="277">
+			<e:Label text="花牌显示" size="29" fontFamily="fzzy" verticalCenter="0" textColor="0x874208" left="0"/>
+			<ns1:EToggleButton id="Button_flower_status" label="" verticalCenter="0" right="0">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="button_tableSet_close_png" source.down="button_tableSet_open_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:EToggleButton>
+		</e:Group>
+		<e:Image x="0" y="157.15" width="300" source="common2_json.common2_img_line_2_png" scaleX="1" scaleY="1"/>
+		<e:Group y="165.56" right="0" width="218">
+			<e:Label text="音乐" size="29" fontFamily="fzzy" verticalCenter="0" textColor="0x874208" left="0"/>
+			<ns1:EToggleButton id="Button_music_status" label="" verticalCenter="0" right="0">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="button_tableSet_close_png" source.down="button_tableSet_open_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:EToggleButton>
+		</e:Group>
+		<e:Group y="239.89" right="0" width="218">
+			<e:Label text="音效" size="29" fontFamily="fzzy" verticalCenter="0" textColor="0x874208" left="0"/>
+			<ns1:EToggleButton id="Button_sound_status" label="" enabled="true" selected="true" verticalCenter="0" right="0">
+				<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="button_tableSet_close_png" source.down="button_tableSet_open_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</ns1:skinName>
+			</ns1:EToggleButton>
+		</e:Group>
+		<e:Image x="0" y="318.47" width="300" source="common2_json.common2_img_line_2_png" scaleX="1" scaleY="1"/>
+		<e:Image x="0" y="459.5" width="300" source="common2_json.common2_img_line_2_png" scaleX="1" scaleY="1"/>
+		<e:Group y="327" height="118" scaleX="1" scaleY="1" horizontalCenter="0">
+			<e:Group id="Group_local" width="174" horizontalCenter="0">
+			<e:Label text="本地话" size="29" fontFamily="fzzy" scaleX="1" scaleY="1" y="11" textColor="0x874208" left="0"/>
+			<e:Group scaleX="1" scaleY="1" y="0" right="0">
+				<e:Image source="check_tableSet_box_png" x="0" y="0"/>
+				<e:CheckBox id="CheckBox_local" label="" x="0" y="0" width="47" height="47" enabled="true" selected="true">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="check_tableSet_box_png" source.down="check_tableSet_selected_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:CheckBox>
+			</e:Group>
+			</e:Group>
+			<e:Group id="Group_standrad" width="174" y="71" horizontalCenter="0">
+			<e:Label text="普通话" size="29" fontFamily="fzzy" scaleX="1" scaleY="1" y="11" textColor="0x874208" left="0"/>
+			<e:Group scaleX="1" scaleY="1" y="0" right="0">
+				<e:Image source="check_tableSet_box_png" x="0" y="0"/>
+				<e:CheckBox id="CheckBox_standrad" label="" x="0" y="0" width="47" height="47">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="check_tableSet_box_png" source.down="check_tableSet_selected_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:CheckBox>
+			</e:Group>
+			</e:Group>
+			<e:Group id="Group_forbid_emotion" width="175" y="145.02" horizontalCenter="0">
+				<e:Label text="屏蔽道具" size="29" fontFamily="fzzy" scaleX="1" scaleY="1" y="11" textColor="0x874208" left="-30"/>
+				<e:Group scaleX="1" scaleY="1" y="0" right="0">
+				<e:Image source="check_tableSet_box_png" x="0" y="0"/>
+				<e:CheckBox id="CheckBox_forbid_emotion" label="" x="0" y="0" width="47" height="47" enabled="true" selected="true">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="check_tableSet_box_png" source.down="check_tableSet_selected_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:CheckBox>
+				</e:Group>
+			</e:Group>
+			<e:Group id="Group_forbid_voice" width="175" y="209.37" horizontalCenter="0">
+				<e:Label text="屏蔽语音" size="29" fontFamily="fzzy" scaleX="1" scaleY="1" y="11" textColor="0x874208" left="-30"/>
+				<e:Group scaleX="1" scaleY="1" y="0" right="0">
+				<e:Image source="check_tableSet_box_png" x="0" y="0"/>
+				<e:CheckBox id="CheckBox_forbid_voice" label="" x="0" y="0" width="47" height="47">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="check_tableSet_box_png" source.down="check_tableSet_selected_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:CheckBox>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:Image x="454" y="275.62" width="666" source="common2_json.common2_img_line_2_png"/>
+	<e:Image x="454" y="472.59" width="666" source="common2_json.common2_img_line_2_png"/>
+	<e:Group id="Group_right_top" x="460" y="119.45">
+		<e:Label text="桌面选择" x="0" y="0" size="22" fontFamily="fzzy" textColor="0x874208"/>
+		<e:Group id="Group_deskBg1" x="0" y="16.28">
+		<e:Image source="img_tableSet_tableColor_png" x="0" y="21.31"/>
+		<e:Group x="105.44" y="13.68">
+			<e:Image source="check_tableSet_box_png" x="0" y="0"/>
+			<e:CheckBox id="CheckBox_deskBg1" label="" x="0" y="0" width="47" height="47">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="check_tableSet_box_png" source.down="check_tableSet_selected_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:CheckBox>
+		</e:Group>
+		</e:Group>
+		<e:Group id="Group_deskBg2" x="179" y="16.28">
+		<e:Image source="img_tableSet_tableColor_1_png" x="0" y="21.31"/>
+		<e:Group x="105.44" y="13.68">
+			<e:Image source="check_tableSet_box_png" x="0" y="0"/>
+			<e:CheckBox id="CheckBox_deskBg2" label="" x="0" y="0" width="47" height="47">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="check_tableSet_box_png" source.down="check_tableSet_selected_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:CheckBox>
+		</e:Group>
+		</e:Group>
+		<e:Group id="Group_deskBg3" x="358" y="16.28">
+		<e:Image source="img_tableSet_tableColor_2_png" x="0" y="23"/>
+		<e:Group x="105.44" y="13.68">
+			<e:Image source="check_tableSet_box_png" x="0" y="0"/>
+			<e:CheckBox id="CheckBox_deskBg3" label="" x="0" y="0" width="47" height="47">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="check_tableSet_box_png" source.down="check_tableSet_selected_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:CheckBox>
+		</e:Group>
+		</e:Group>
+		<e:Group id="Group_deskBg4" x="537" y="16.28" visible="false">
+			<e:Image source="img_tableSet_tableColor_2_png" x="0" y="23"/>
+			<e:Group x="105.44" y="13.68">
+			<e:Image source="check_tableSet_box_png" x="0" y="0"/>
+			<e:CheckBox id="CheckBox_deskBg4" label="" x="0" y="0" width="47" height="47">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="check_tableSet_box_png" source.down="check_tableSet_selected_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:CheckBox>
+			</e:Group>
+		</e:Group>
+		<e:Group id="Group_deskFrame" x="537.35" y="16.28" scaleX="1" scaleY="1">
+		<e:Image source="img_tableSet_frame_png" x="0" y="24.05"/>
+		<e:Group x="84.3" y="13.68">
+			<e:Image source="check_tableSet_box_png" x="0" y="0"/>
+			<e:CheckBox id="CheckBox_deskFrame" label="" x="0" y="0" width="47" height="47">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="check_tableSet_box_png" source.down="check_tableSet_selected_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:CheckBox>
+		</e:Group>
+			<e:Label text="牌桌边框" x="0" y="-16.280000000000015" size="22" fontFamily="fzzy" scaleX="1" scaleY="1" textColor="0x874208"/>
+		</e:Group>
+
+	</e:Group>
+	<e:Group id="Group_right_center" x="460" y="288.31">
+		<e:Label text="牌背选择" x="0" y="0" size="22" fontFamily="fzzy" textColor="0x874208"/>
+		<e:Label text="牌背选择" x="405.03" y="1" textColor="0x874208" size="22" fontFamily="fzzy"/>
+		<e:Group id="Group_CardBg1" x="0" y="22">
+			<e:Image source="img_tableSet_cardBack_png" x="0" y="22.88"/>
+			<e:Group x="75.66" y="11.59">
+				<e:Image source="check_tableSet_box_png" x="0" y="0"/>
+				<e:CheckBox id="CheckBox_cardBg_1" label="" x="0" y="0" width="47" height="47">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="check_tableSet_box_png" source.down="check_tableSet_selected_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:CheckBox>
+			</e:Group>
+		</e:Group>
+		<e:Group id="Group_CardBg2" x="136" y="22">
+			<e:Image source="img_tableSet_cardBack_1_png" x="0" y="20.55"/>
+			<e:Group x="74" y="11.59">
+				<e:Image source="check_tableSet_box_png" x="0" y="0"/>
+				<e:CheckBox id="CheckBox_cardBg_2" label="" x="0" y="0" width="47" height="47">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="check_tableSet_box_png" source.down="check_tableSet_selected_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:CheckBox>
+			</e:Group>
+		</e:Group>
+		<e:Group id="Group_CardBg3" x="272" y="22">
+			<e:Image source="img_tableSet_cardBack_2_png" x="0" y="20.55"/>
+			<e:Group x="77.21" y="11.59">
+				<e:Image source="check_tableSet_box_png" x="0" y="0"/>
+				<e:CheckBox id="CheckBox_cardBg_3" label="" x="0" y="0" width="47" height="47">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="check_tableSet_box_png" source.down="check_tableSet_selected_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:CheckBox>
+			</e:Group>
+		</e:Group>
+		<e:Group id="Group_CardFace0" x="408" y="22">
+			<e:Image x="0" y="20.55" source="gameSetting_json.img_tableSet_cardFace_1_png"/>
+			<e:Group x="74" y="11.59">
+			<e:Image source="check_tableSet_box_png" x="0" y="0"/>
+			<e:CheckBox id="CheckBox_cardFace_0" label="" x="0" y="0" width="47" height="47">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="check_tableSet_box_png" source.down="check_tableSet_selected_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:CheckBox>
+			</e:Group>
+		</e:Group>
+		<e:Group id="Group_CardFace1" x="543.82" y="22">
+			<e:Image x="0" y="20.55" source="gameSetting_json.img_tableSet_cardFace_2_png"/>
+			<e:Group x="77.21" y="11.59">
+			<e:Image source="check_tableSet_box_png" x="0" y="0"/>
+			<e:CheckBox id="CheckBox_cardFace_1" label="" x="0" y="0" width="47" height="47">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="check_tableSet_box_png" source.down="check_tableSet_selected_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:CheckBox>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:Image source="img_club_line_png" x="416" y="72"/>
+	<e:Group id="Group_right_botom" x="460" y="477.9" width="557">
+		<e:Group id="Group_Card_mode_0" scaleX="1" scaleY="1" y="15" x="0">
+			<e:Image x="0" y="20.55" source="gameSetting_json.img_setting_2dtable_png"/>
+			<e:Group x="205.8" y="10.07">
+			<e:Image source="check_tableSet_box_png" x="0" y="0"/>
+			<e:CheckBox id="CheckBox_cardMode_0" label="" x="0" y="0" width="47" height="47">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="check_tableSet_box_png" source.down="check_tableSet_selected_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:CheckBox>
+			</e:Group>
+		</e:Group>
+		<e:Group id="Group_Card_mode_1" scaleX="1" scaleY="1" width="243" y="15" x="314">
+			<e:Image x="0" y="20.55" source="gameSetting_json.img_setting_3dtable_png"/>
+			<e:Group x="209.01" y="10.07">
+			<e:Image source="check_tableSet_box_png" x="0" y="0"/>
+			<e:CheckBox id="CheckBox_cardMode_1" label="" x="0" y="0" width="47" height="47">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="check_tableSet_box_png" source.down="check_tableSet_selected_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:CheckBox>
+			</e:Group>
+		</e:Group>
+		<e:Label text="2D" x="113" y="6.08" textColor="0x874208" size="22" fontFamily="fzzy" scaleX="1" scaleY="1"/>
+		<e:Label text="3D" x="422" y="6.08" textColor="0x874208" size="22" fontFamily="fzzy" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

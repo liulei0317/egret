@@ -1,0 +1,80 @@
+{
+  "16348aab940": {
+    "guideLines": [
+      {
+        "type": "v",
+        "pos": -64
+      }
+    ]
+  },
+  "global": {
+    "globalAdsorbEnable": true,
+    "globalRulerEnable": true,
+    "globalAutoLayerMarkEnable": true,
+    "gridColor": 8421504,
+    "gridEnabled": false,
+    "gridSize": 20,
+    "globalBindingDataTestObj": []
+  },
+  "163b6458d93": {
+    "backgroundType": "user",
+    "backgroundColor": "#43768c",
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "useBgImage": true,
+    "useBgColor": true,
+    "backgroundAlpha": 100
+  },
+  "16b79398868": {
+    "guideLinesEnabled": false
+  },
+  "16b8da4fbf5": {
+    "path": "..\\resource\\skins\\club\\luckyScore\\clubLuckyScore.ts",
+    "class": "clubLuckyScore",
+    "parentPath": ""
+  },
+  "16b8da9d0e9": {
+    "path": "game\\club\\luckyScore\\ClubLuckyScore.ts",
+    "class": "ClubLuckyScore",
+    "parentPath": "resource/eui_skins/clubLuckyScore.exml"
+  },
+  "16b97079ffe": {
+    "guideLinesEnabled": false
+  },
+  "16c00558391": {
+    "guideLinesEnabled": false,
+    "guideLines": [
+      {
+        "type": "h",
+        "pos": -235.333
+      },
+      {
+        "type": "h",
+        "pos": -16.667
+      },
+      {
+        "type": "h",
+        "pos": -238.667
+      }
+    ],
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "useBgImage": true,
+    "useBgColor": true,
+    "backgroundAlpha": 100,
+    "bindingDataTestObj": []
+  },
+  "16c032fc87e": {
+    "guideLinesEnabled": false,
+    "guideLines": [
+      {
+        "type": "h",
+        "pos": 639.394
+      }
+    ]
+  }
+}

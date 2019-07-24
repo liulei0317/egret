@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubAddDivideMemberBox" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="frame_1_png" scale9Grid="152,112,210,117" horizontalCenter="0" verticalCenter="0" width="870" height="640"/>
+	<ns1:EButton id="btnSearch" label="" verticalCenter="218.5" x="887">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_json.club_btn_find_one_1_png" source.down="club_json.club_btn_find_one_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*" xmlns:w="http://ns.egret.com/wing"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<e:Image source="img_club_base_2_png" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="19,19,21,17" width="358" verticalCenter="217" x="518" height="48"/>
+	<e:EditableText id="editSearch" width="350" text="" anchorOffsetX="0" anchorOffsetY="0" height="48" textColor="0x874208" size="28" verticalCenter="217" x="522" fontFamily="fzzy" prompt="点击输入玩家的ID或昵称" promptColor="0x828282" verticalAlign="middle" textAlign="center"/>
+	<e:Label text="通过昵称或ID搜索" x="272" y="562" textColor="0x805d31" verticalAlign="middle" textAlign="center" width="240" size="29" fontFamily="fzch"/>
+	<e:Label text="（注：当前最多显示50条记录）" y="611" verticalAlign="middle" textAlign="center" width="309" size="20" fontFamily="fzzy" textColor="0x805d31" horizontalCenter="0"/>
+	<e:Label id="lbInfo" text="添加成员至" x="274" y="82.33" textColor="0x805D31" verticalAlign="middle" textAlign="left" width="400" size="30" fontFamily="fzch"/>
+	<ns1:EButton id="btn_close" label="" top="40" right="214">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:game="game.*">
+			<e:Image width="100%" height="100%" source="common2_json.btn_jlb_common_close_1_png" source.down="common2_json.btn_jlb_common_close_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<ns1:EScroller id="myScroller" width="740" height="400" horizontalCenter="0" verticalCenter="-25">
+		<e:Group width="740" height="400"/>
+	</ns1:EScroller>
+</e:Skin>

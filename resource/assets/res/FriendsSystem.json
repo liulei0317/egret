@@ -1,0 +1,16 @@
+{"file":"FriendsSystem.png","frames":{
+"feedback_btSub_1_png":{"x":507,"y":342,"w":243,"h":105,"offX":0,"offY":0,"sourceW":243,"sourceH":105},
+"feedback_btSub_2_png":{"x":752,"y":1,"w":232,"h":100,"offX":6,"offY":3,"sourceW":243,"sourceH":105},
+"feedback_confirm_1_png":{"x":262,"y":342,"w":243,"h":105,"offX":0,"offY":0,"sourceW":243,"sourceH":105},
+"feedback_confirm_2_png":{"x":218,"y":103,"w":232,"h":100,"offX":6,"offY":3,"sourceW":243,"sourceH":105},
+"invite_copy_nickname_1_png":{"x":452,"y":103,"w":180,"h":98,"offX":0,"offY":0,"sourceW":180,"sourceH":98},
+"invite_copy_nickname_2_png":{"x":634,"y":103,"w":171,"h":93,"offX":5,"offY":3,"sourceW":180,"sourceH":98},
+"invite_goWechat_1_png":{"x":1,"y":226,"w":272,"h":114,"offX":0,"offY":0,"sourceW":272,"sourceH":114},
+"invite_goWechat_2_png":{"x":1,"y":342,"w":259,"h":109,"offX":7,"offY":3,"sourceW":272,"sourceH":114},
+"invite_invitePlayer_1_png":{"x":275,"y":205,"w":180,"h":98,"offX":0,"offY":0,"sourceW":180,"sourceH":98},
+"invite_invitePlayer_2_png":{"x":807,"y":103,"w":171,"h":93,"offX":5,"offY":3,"sourceW":180,"sourceH":98},
+"invite_invitePlayer_3_png":{"x":457,"y":203,"w":180,"h":98,"offX":0,"offY":0,"sourceW":180,"sourceH":98},
+"invite_joinRoom_1_png":{"x":275,"y":1,"w":227,"h":98,"offX":0,"offY":0,"sourceW":227,"sourceH":98},
+"invite_joinRoom_2_png":{"x":504,"y":1,"w":216,"h":93,"offX":6,"offY":3,"sourceW":227,"sourceH":98},
+"invite_playerBg_png":{"x":1,"y":453,"w":67,"h":55,"offX":0,"offY":0,"sourceW":67,"sourceH":55},
+"invite_playerBg_2_png":{"x":1,"y":1,"w":215,"h":223,"offX":0,"offY":0,"sourceW":215,"sourceH":223}}}

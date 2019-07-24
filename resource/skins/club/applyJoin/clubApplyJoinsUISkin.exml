@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mySkin.clubApplyJoinsUISkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="906" height="434">
+	<ns1:EScroller id="scrollerTables" anchorOffsetX="0" anchorOffsetY="0" width="906" height="434" x="0" y="0">
+		<e:Group width="906"/>
+	</ns1:EScroller>
+</e:Skin>

@@ -1,0 +1,17 @@
+{
+    "projectName": "clubEditTemplate",
+    "files": [
+        "./TP/qhmahjong/clubEditTemplate/img_fangchenm_wenhao2.png",
+        "./TP/qhmahjong/clubEditTemplate/img_fangchenm_wenhao1.png",
+        "./TP/qhmahjong/clubEditTemplate/img_fangchenm_line.png",
+        "./TP/qhmahjong/clubEditTemplate/img_fangchenm_bg.png"
+    ],
+    "options": {
+        "sizeMode": "2n",
+        "useExtension": 1,
+        "layoutGap": 1,
+        "extend": 0,
+        "layoutMath": "3"
+    },
+    "version": 5
+}

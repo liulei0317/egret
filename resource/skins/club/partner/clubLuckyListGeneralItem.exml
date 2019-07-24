@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="clubPartnerAdminAndUnsetItem" width="936" height="94" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16c00558391"/>
+	<e:Image source="club_json.img_club_border_2_png" width="926" height="94" horizontalCenter="0" scale9Grid="27,17,14,19" verticalCenter="0"/>
+	<e:Image source="club_json.img_club_border_1_png" scale9Grid="17,25,9,9" width="236" height="94" verticalCenter="0" x="2.5"/>
+	<e:Image id="headImage" source="common_json.headshot_example_png" x="10.5" verticalCenter="0" width="82" height="82"/>
+	<e:Image source="club2_json.img_club_headshot_top_png" x="5.5" verticalCenter="0"/>
+	<e:Label id="Text_ID" text="ID:123456" x="104" textColor="0x9d4d0a" fontFamily="fzzy" size="19" textAlign="left" verticalAlign="middle" verticalCenter="20.5" width="90"/>
+	<e:Label id="Text_name" text="张莉娅张莉娅" x="104" textColor="0x9D4D0A" fontFamily="fzzy" size="19" textAlign="left" verticalAlign="middle" verticalCenter="-19.5" width="228"/>
+	<e:Label id="Text_bless_num" text="999999" x="369" textColor="0x9D4D0A" fontFamily="fzzy" size="26" textAlign="center" verticalAlign="middle" verticalCenter="0" anchorOffsetX="39" anchorOffsetY="13" width="84"/>
+	<e:Label id="Text_group_name" text="张莉娅张莉娅" x="575" textColor="0x9D4D0A" fontFamily="fzzy" size="26" textAlign="center" verticalAlign="middle" width="156" verticalCenter="0" anchorOffsetX="78" anchorOffsetY="13"/>
+	<e:Image id="Image_admin_icon" source="clubPartner_json.img_icon_admin_png" x="200" y="58"/>
+	<ns1:EButton id="Button_send" label="" x="744" y="20">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="clubPartner_json.btn_fangchenm_revise1_png" source.down="clubPartner_json.btn_fangchenm_revise2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+</e:Skin>

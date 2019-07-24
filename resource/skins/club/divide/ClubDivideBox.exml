@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubDivideBox" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" xmlns:game="game.*">
+	<w:Config id="16b97079ffe"/>
+	<e:Image source="frame_2_png" scale9Grid="150,103,226,177" width="1320" height="680" horizontalCenter="0" y="44"/>
+	<e:Image source="frame_title_2_png" horizontalCenter="0" scaleX="1" width="1270" height="65" top="24"/>
+	<e:Image source="img_frame_title_1_png" scaleX="0.7" scaleY="0.7" horizontalCenter="-0.5" top="32"/>
+	<e:Label text="隔离组" size="36" textColor="0x874208" fontFamily="fzch" horizontalCenter="1" top="42"/>
+	<ns1:EButton id="btn_close" label="" right="0" top="0">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:game="game.*">
+			<e:Image width="100%" height="100%" source="common2_json.btn_jlb_common_close_1_png" source.down="common2_json.btn_jlb_common_close_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<e:Image source="img_club_base_2_png" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="19,19,21,17" width="340" verticalCenter="284" x="580" height="50"/>
+	<e:Group width="200" height="200" y="270" x="654">
+		<e:Image source="club_json.img_club_base_png" y="-133.67000000000002" width="960" height="49" scale9Grid="7,6,48,37" horizontalCenter="0" x="-380" scaleX="1" scaleY="1"/>
+		<e:Label text="个人信息" x="-308.12" y="-124" textColor="0xEEECC5" fontFamily="fzch" scaleX="1" scaleY="1"/>
+		<e:Label text="添加人" x="-2.87" y="-124" textColor="0xEEECC5" fontFamily="fzch" scaleX="1" scaleY="1"/>
+		<e:Label text="添加时间" x="200" y="-124" textColor="0xEEECC5" fontFamily="fzch" scaleX="1" scaleY="1"/>
+		<e:Image source="club_json.img_club_base_2_png" scale9Grid="7,6,46,36" width="960" height="370" horizontalCenter="0" verticalCenter="1" x="-380" y="-61" scaleX="1" scaleY="1"/>
+		<e:Image source="img_club_border_3_png" width="964" scale9Grid="117,35,705,43" horizontalCenter="0" y="284"/>
+		<ns1:EScroller id="scrollerRight" anchorOffsetX="0" anchorOffsetY="0" width="960" height="370" horizontalCenter="0" verticalCenter="1" x="-380" y="-61" scaleX="1" scaleY="1">
+			<e:Group height="370" width="960">
+			</e:Group>
+		</ns1:EScroller>
+		<ns1:EScroller id="scrollerLeft" anchorOffsetX="0" anchorOffsetY="0" width="252" height="410" x="-626" y="-132" scaleX="1" scaleY="1">
+			<e:Group height="410" width="252" y="3.03" x="1.52">
+			</e:Group>
+		</ns1:EScroller>
+	</e:Group>
+	<ns1:EButton id="btnAddGroup" label="" x="20" y="578">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="clubAutoMatch_json.btn_isolation_add1_png" source.down="clubAutoMatch_json.btn_isolation_add2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<ns1:EButton id="btnDelGroup" label="" x="284" alpha="1" y="578">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="clubAutoMatch_json.btn_isolation_delete1_png" source.down="clubAutoMatch_json.btn_isolation_delete_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<ns1:EButton id="btnModifyName" label="" x="538" y="578">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="clubAutoMatch_json.btn_isolation_changename1_png" source.down="clubAutoMatch_json.btn_isolation_changename2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<ns1:EButton id="btnAddMember" label="" x="974" y="578">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="clubAutoMatch_json.btn_isolationmber_add1_png" source.down="clubAutoMatch_json.btn_isolationmber_add2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+</e:Skin>

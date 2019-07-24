@@ -1,0 +1,20 @@
+{
+    "projectName": "changePlayerNum",
+    "version": 5,
+    "files": [
+        "./TP/qhmahjong/changePlayerNum/img_sanren_ok.png",
+        "./TP/qhmahjong/changePlayerNum/img_sanren_check.png",
+        "./TP/qhmahjong/changePlayerNum/img_sanren_btnBG.png",
+        "./TP/qhmahjong/changePlayerNum/btn_sanren_play_2.png",
+        "./TP/qhmahjong/changePlayerNum/btn_sanren_play_1.png",
+        "./TP/qhmahjong/changePlayerNum/btn_erren_play_2.png",
+        "./TP/qhmahjong/changePlayerNum/btn_erren_play_1.png"
+    ],
+    "options": {
+        "sizeMode": "2n",
+        "useExtension": 1,
+        "layoutGap": 1,
+        "extend": 0,
+        "layoutMath": "3"
+    }
+}

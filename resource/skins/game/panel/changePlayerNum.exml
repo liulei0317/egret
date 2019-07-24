@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="changePlayerNum" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:game="game.*" width="1280" height="720">
+	<e:Image y="112.59" horizontalCenter="0" width="680" height="474" source="frame_1_png" scale9Grid="228,142,87,64" anchorOffsetY="0"/>
+	<e:Image x="440" y="138" source="img_frame_title_1_png" scaleX="0.7" scaleY="0.7"/>
+	<e:Label id="Text_info0" text="申请3人开局" y="148.64" textColor="0x9A5A34" size="32" fontFamily="fzch" horizontalCenter="0"/>
+	<ns1:EButton id="Button_reject" label="" x="397.38" y="463.87" scaleX="0.9" scaleY="0.9" width="232">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_disagree_1_png" source.down="btn_disagree_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</ns1:EButton>
+	<ns1:EButton id="Button_agree" label="" x="676.18" y="463.87" scaleX="0.9" scaleY="0.9" width="232" touchEnabled="true" touchChildren="true">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_agree_1_png" source.down="btn_agree_2_png" source.disabled="btn_agree_3_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<e:Label id="Text_info" text="(按实际人数消耗钻石，多余钻石在开局后自动退还)" y="211.59" height="27" textColor="0x9a5a34" size="24" fontFamily="fzzy" horizontalCenter="0"/>
+	<e:Group id="Group_head" width="540" height="155" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" y="272">
+	</e:Group>
+</e:Skin>

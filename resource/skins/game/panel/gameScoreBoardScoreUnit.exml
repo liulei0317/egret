@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gameScoreBoardScoreUnit" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="143" height="73">
+	<e:Label id="Text_score" text="0" size="32" fontFamily="fzzy" textColor="0xFF5E00" scaleX="1" scaleY="1" verticalCenter="0" textAlign="center" width="67" height="32" x="0"/>
+	<e:Group id="Group_wb" verticalCenter="0" left="70">
+		<e:Image source="img_nj_gameUI_scoreBoard_waibao_png" x="0" y="0" scaleX="1" scaleY="1" visible="false"/>
+		<e:Label id="Text_score_wb" text="-100" x="0" size="28" fontFamily="fzzy" scaleX="1" scaleY="1" textColor="0x800080" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>

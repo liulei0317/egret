@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mySkin.BatteryBarSkin" minWidth="30" minHeight="18" xmlns:e="http://ns.egret.com/eui" width="28" height="12">
+	<e:Image id="thumb" source="gameUI_json.system_power_bar_png"/>
+</e:Skin>

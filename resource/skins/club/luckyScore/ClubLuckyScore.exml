@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubLuckyScoreSkin" width="936" height="500" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:game="game.*" >
+	<w:Config id="16b8da9d0e9" ></w:Config>
+	<ns1:EScroller id="scrollerTables" anchorOffsetX="0" anchorOffsetY="0" width="922" height="436" horizontalCenter="0" y="60">
+		<e:Group height="436" width="922">
+		</e:Group>
+	</ns1:EScroller>
+	<e:Group scaleX="1" scaleY="1" horizontalCenter="0" top="0">
+		<e:Image source="club_json.img_club_base_png" width="936" height="49" scale9Grid="7,6,48,37" verticalCenter="0" horizontalCenter="0"/>
+		<e:Label text="时间" x="99" textColor="0xEEECC5" fontFamily="fzch" y="12"/>
+		<e:Label text="类型" x="306" textColor="0xEEECC5" fontFamily="fzch" y="12"/>
+		<e:Label text="变化值" x="452" textColor="0xEEECC5" fontFamily="fzch" y="12"/>
+		<e:Label text="剩余体力" x="586" textColor="0xEEECC5" fontFamily="fzch" y="12"/>
+		<e:Label text="变动来源" x="764" textColor="0xEEECC5" fontFamily="fzch" y="12"/>
+	</e:Group>
+</e:Skin>

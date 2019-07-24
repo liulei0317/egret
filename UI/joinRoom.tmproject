@@ -1,0 +1,30 @@
+{
+    "projectName": "joinRoom",
+    "version": 5,
+    "files": [
+        "./TP/qhmahjong/joinRoom/bg_number.png",
+        "./TP/qhmahjong/joinRoom/button_clear_1.png",
+        "./TP/qhmahjong/joinRoom/button_clear_2.png",
+        "./TP/qhmahjong/joinRoom/button_delete_1.png",
+        "./TP/qhmahjong/joinRoom/button_delete_2.png",
+        "./TP/qhmahjong/joinRoom/button_number_1.png",
+        "./TP/qhmahjong/joinRoom/button_number_2.png",
+        "./TP/qhmahjong/joinRoom/number_0.png",
+        "./TP/qhmahjong/joinRoom/number_1.png",
+        "./TP/qhmahjong/joinRoom/number_2.png",
+        "./TP/qhmahjong/joinRoom/number_3.png",
+        "./TP/qhmahjong/joinRoom/number_4.png",
+        "./TP/qhmahjong/joinRoom/number_5.png",
+        "./TP/qhmahjong/joinRoom/number_6.png",
+        "./TP/qhmahjong/joinRoom/number_7.png",
+        "./TP/qhmahjong/joinRoom/number_8.png",
+        "./TP/qhmahjong/joinRoom/number_9.png"
+    ],
+    "options": {
+        "sizeMode": "2n",
+        "useExtension": 1,
+        "layoutGap": 1,
+        "extend": 0,
+        "layoutMath": "3"
+    }
+}

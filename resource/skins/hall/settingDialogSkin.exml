@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="myskin.settingDialogSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="1280" height="720">
+	<e:Image y="124.66" width="944.67" height="507.99" source="frame_1_png" scale9Grid="255,139,67,59" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5"/>
+	<e:Group x="237" y="181.65">
+		<e:Image x="0" y="0" width="270" height="376.67" scale9Grid="14,16,1,1" source="img_club_base_2_png" anchorOffsetY="0"/>
+		<e:Image y="11.5" width="136" height="136" anchorOffsetX="0" anchorOffsetY="0" source="img_set_head_bg_png" scale9Grid="58,46,30,23" x="67"/>
+		<e:Image id="imgPerson" width="120" height="120" y="19.5" x="75"/>
+		<e:Label id="labelNickName" text="微信名称" y="154.99" anchorOffsetX="0" size="30" fontFamily="fzzy" textColor="0x874208" horizontalCenter="-1.5" width="220" textAlign="center"/>
+		<ns1:EButton id="btnChangeAccount" label="" y="199" horizontalCenter="0.5">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="button_change_1_png" source.down="button_change_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<ns1:EButton id="btnFeedback" label="" y="287" horizontalCenter="0.5">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="bt_giveFeedback_1_png" source.down="bt_giveFeedback_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+	</e:Group>
+	<e:Group y="95.65" anchorOffsetX="0" width="898.33" horizontalCenter="0">
+		<e:Image y="0" source="frame_title_2_png" scale9Grid="408,8,36,48" anchorOffsetX="0" left="0" right="0"/>
+		<e:Image y="6.08" source="img_frame_title_1_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0"/>
+		<e:Label text="设置" y="17" textColor="0x874208" size="36" fontFamily="fzch" horizontalCenter="0"/>
+	</e:Group>
+	<ns1:EButton id="btnClose" label="" x="1016" y="86.3">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_jlb_common_close_1_png" source.down="btn_jlb_common_close_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<ns1:EToggleButton id="toggleMusic" label="" x="773.17" y="255.98">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_close_png" source.down="button_open_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EToggleButton>
+	<ns1:EToggleButton id="toggleSound" label="" x="773.17" y="342.65">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_close_png" source.down="button_open_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:EToggleButton>
+	<e:Label text="音乐" x="669" y="276.31" textColor="0x874208" fontFamily="fzch" size="39"/>
+	<e:Label text="音效" x="669" y="361.96" textColor="0x874208" fontFamily="fzch" size="39"/>
+	<e:Label text="当前版本号：1.0" y="454.65" textColor="0x874208" fontFamily="fzzy" horizontalCenter="150" visible="false"/>
+	<e:Label id="versionCode" text="当前版本：1.0.0" x="632" y="470" fontFamily="fzzy" size="32" textColor="0x874208" textAlign="center" verticalAlign="middle" width="300"/>
+</e:Skin>

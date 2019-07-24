@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AboutBoxSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bg_common_png" width="540" height="270" scale9Grid="17,16,106,98" verticalCenter="0" horizontalCenter="0"/>
+
+	<e:Image source="bg_common_title_png" y="170" horizontalCenter="0"/>
+	<e:Image source="title_about_png" y="180" horizontalCenter="0"/>
+	<ns1:EButton id="Button_close" label="" x="873.34" y="183.39" width="38" height="39">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="button_close_1_png" source.down="button_close_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<e:Image source="bg_common_inner_png" y="243" width="520" height="250" horizontalCenter="0" scale9Grid="14,15,1,2"/>
+	<e:Label text="本游戏由新华网出品\n 游戏仅用作休闲娱乐，拒绝任何赌博行为。" size="18" fontFamily="fzzy" textAlign="center" horizontalCenter="0" textColor="0x7b5646" bottom="237"/>
+	<e:Label id="Text_info" text="当前版本：1.1.27" size="28" fontFamily="fzzy" textAlign="center" horizontalCenter="0" textColor="0x7b5646" verticalCenter="-20"/>
+</e:Skin>

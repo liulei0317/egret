@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="skins.createRoomMahjongSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupPayMode" x="9.33" y="0">
+		<ns1:ERadioButton id="payModeAA" x="140" y="0" skinName="mySkin.radioButton_1_Skin"/>
+		<e:Label text="付费方式：" x="0" y="4" fontFamily="fzzy" size="28" textColor="0x7b5646"/>
+		<ns1:ERadioButton id="payModeMaster" x="493" y="0" skinName="mySkin.radioButton_1_Skin"/>
+		<ns1:ERadioButton id="payModeDaiKai" x="493" y="0" skinName="mySkin.radioButton_1_Skin"/>
+		<e:Image x="0" y="41.27" source="img_line_png" width="768"/>
+	</e:Group>
+	<e:Group id="groupWanFa" x="9.33" y="70">
+		<e:Label text="玩法类型：" x="0" y="6" fontFamily="fzzy" size="28" textColor="0x7B5646"/>
+		<ns1:ERadioButton id="roomTypeJYZ" x="140" y="0" skinName="mySkin.radioButton_1_Skin"/>
+		<ns1:ERadioButton id="roomTypeCKT" x="462" y="0" skinName="mySkin.radioButton_1_Skin"/>
+		<e:Image x="0" y="42.27" source="img_line_png" width="768"/>
+		<e:Group id="jinyuanzi_club" width="175" height="57" x="292" y="-8">
+			<e:Image source="club3_json.img_club_set_score_bg_png" scaleX="0.8" scaleY="0.8" width="92" touchEnabled="false" x="79" y="11"/>
+			<e:EditableText id="jinyuanziScoreInput" text="100" x="79" y="11" size="28" fontFamily="fzzy" textColor="0x7B5646" width="92" height="44" textAlign="center" verticalAlign="middle" scaleX="0.8" scaleY="0.8" restrict="0-9"/>
+			<e:Label text="初始分:\n(90~100)" x="4" fontFamily="fzzy" size="18" textColor="0x684A2F" touchEnabled="false" textAlign="center" y="11"/>
+		</e:Group>
+		<e:Group id="changkaitou_club" width="136" height="57" x="611" y="-8">
+			<e:Image source="club3_json.img_club_set_score_bg_png" scaleX="0.8" scaleY="0.8" width="92" touchEnabled="false" x="79" y="11"/>
+			<e:EditableText id="changkaitouScoreInput" text="0" x="79" y="11" size="28" fontFamily="fzzy" textColor="0x7B5646" width="92" height="44" textAlign="center" verticalAlign="middle" scaleX="0.8" scaleY="0.8" restrict="0-9 -"/>
+			<e:Label text="初始分:\n(-10~0)" x="4" fontFamily="fzzy" size="18" textColor="0x684A2F" touchEnabled="false" textAlign="center" y="11"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="groupJieSuan" x="9.33" y="140">
+		<e:Label id="labelJieSuanScore" text="结算上限：" x="0" y="6" fontFamily="fzzy" size="28" textColor="0x7B5646"/>
+		<ns1:ERadioButton id="jieSuan300" x="140" y="2" skinName="mySkin.radioButton_1_Skin"/>
+		<ns1:ERadioButton id="jieSuanNoLimit" x="493" y="2" skinName="mySkin.radioButton_1_Skin"/>
+		<e:Image x="0" y="45.27" source="img_line_png" width="768"/>
+		<e:Image source="club3_json.img_club_set_score_bg_png" scaleX="0.8" scaleY="0.8" width="92" horizontalCenter="-143" verticalCenter="-9.5" touchEnabled="false"/>
+		<e:EditableText id="scoreInput" text="300" x="204" y="5" size="28" fontFamily="fzzy" textColor="0x7b5646" width="92" height="44" textAlign="center" verticalAlign="middle" scaleX="0.8" scaleY="0.8" restrict="0-9"/>
+		<e:Label text="(200~500)" x="288" fontFamily="fzzy" size="20" textColor="0x684a2f" verticalCenter="-10" touchEnabled="false"/>
+	</e:Group>
+	<e:Group id="groupTurnNum" x="9.33" y="210">
+		<ns1:ERadioButton id="turnModeQuan" x="493" y="2" skinName="mySkin.radioButton_1_Skin"/>
+		<ns1:ERadioButton id="turnModeBa" x="140" y="2" skinName="mySkin.radioButton_1_Skin"/>
+		<e:Image x="0" y="153.27" source="img_line_png" width="768"/>
+		<e:Image x="0" y="40.04" source="img_line_png" width="768"/>
+		<e:Label text="局数选择：" x="0" y="6" fontFamily="fzzy" size="28" textColor="0x7B5646"/>
+		<ns1:TurnNumberRadioButton id="turn2" x="140" y="57" skinName="skins.turnModeRadioSkin"/>
+		<ns1:TurnNumberRadioButton id="turn4" x="140" y="108" skinName="skins.turnModeRadioSkin"/>
+		<ns1:TurnNumberRadioButton id="turn3" x="493" y="57" skinName="skins.turnModeRadioSkin"/>
+		<ns1:TurnNumberRadioButton id="turn1" x="493" y="108" skinName="skins.turnModeRadioSkin"/>
+	</e:Group>
+
+	<e:Group id="groupMainMode" x="9.33" y="380">
+		<e:Group id="groupMainMode_JYZ" x="0" y="11">
+			<e:Label text="主流模式：" x="0" y="4" fontFamily="fzzy" size="28" textColor="0x7B5646"/>
+			<ns1:ERadioButton id="modeFaZa2" x="140" y="7" skinName="mySkin.radioButton_2_Skin"/>
+			<ns1:ERadioButton id="modeSiFeng" x="280.4" y="7" skinName="mySkin.radioButton_2_Skin"/>
+			<ns1:ERadioButton id="modeJieZhuang" x="498.84" y="7" skinName="mySkin.radioButton_2_Skin"/>
+
+			<ns1:ERadioButton id="modeBaoMi" x="644.36" y="7" skinName="mySkin.radioButton_2_Skin"/>
+		</e:Group>
+		<e:Label id="labelMainMode_CKT" text="主流模式：花砸2、接庄比、东南西北罚分" x="-0.64" y="15.88" fontFamily="fzzy" size="28" textColor="0x7B5646" locked="true"/>
+		<ns1:ERadioButton id="modeAutoHost" x="140" y="80" skinName="mySkin.radioButton_2_Skin"/>
+	</e:Group>
+</e:Skin>

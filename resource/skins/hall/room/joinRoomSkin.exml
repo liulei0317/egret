@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="myskin.joinRoomSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:game="game.*" width="1280" height="720">
+	<w:Config id="163abe2b494"/>
+	<e:Image y="38.3" width="746" height="644" horizontalCenter="0" source="frame_1_png" scale9Grid="252,166,82,68" anchorOffsetY="0"/>
+	<ns1:EButton id="btnClose" label="" scaleX="1" scaleY="1" horizontalCenter="319.5" verticalCenter="-280">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_jlb_common_close_1_png" source.down="btn_jlb_common_close_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<game:InputNumberUI id="inputNumberUI" x="302" y="123.3" skinName="mySkin.InputNumberSkin"/>
+	<e:Label text="请输入房间号" y="75.04" textColor="0x874208" size="36" fontFamily="fzch" horizontalCenter="0"/>
+</e:Skin>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubLuckMemeberBox" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:game="game.*" xmlns:w="http://ns.egret.com/wing">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Group horizontalCenter="0" y="20">
+		<e:Image source="frame_2_png" scale9Grid="150,103,226,177" width="1270" height="700" x="0" y="12" locked="true"/>
+		<e:Image source="frame_title_2_png" scaleX="1" width="1220" height="65" x="23" y="0"/>
+		<e:Image source="img_frame_title_1_png" scaleX="0.7" scaleY="0.7" y="6.48" horizontalCenter="-0.5"/>
+		<e:Label text="修改体力" size="36" textColor="0x874208" fontFamily="fzch" y="19" horizontalCenter="0"/>
+		<ns1:EButton id="btn_close" label="" right="0" y="-12">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common2_json.btn_jlb_common_close_1_png" source.down="common2_json.btn_jlb_common_close_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<e:Image source="img_club_line_png" x="259" verticalCenter="12"/>
+		<e:Image source="club_json.img_club_base_2_png" scale9Grid="7,6,46,36" width="936" height="420" x="279.38" y="142.66"/>
+
+
+
+
+
+		<e:Group id="Group_memberTitle_unSet" x="279.38" y="95" visible="false">
+			<e:Image source="club_json.img_club_base_png" y="0" width="936" height="49" scale9Grid="7,6,48,37" x="0"/>
+			<e:Label text="个人信息" x="84.33" y="9.67" textColor="0xeeecc5" fontFamily="fzch"/>
+
+			<e:Group id="Group_unset_luckyTitle" x="372.67" y="1.67">
+				<e:Label text="当前体力" x="0" y="8" textColor="0xEEECC5" fontFamily="fzch"/>
+				<e:Image id="imgArrow" source="club3_json.img_club_fufen_pulldown_png" x="138.74" rotation="0" anchorOffsetX="8.5" anchorOffsetY="5" verticalCenter="0"/>
+				<ns1:EButton id="btnSort" label="" x="0" y="0" width="154" height="46" alpha="0">
+					<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="club_json.img_club_member_flag_looker_png" source.down="club_json.img_club_member_flag_looker_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</ns1:skinName>
+				</ns1:EButton>
+			</e:Group>
+		</e:Group>
+		<e:Group id="Group_memberTitle_admin" x="279.38" y="95">
+			<e:Image source="club_json.img_club_base_png" y="0" width="936" height="49" scale9Grid="7,6,48,37" x="0"/>
+			<e:Label text="个人信息" x="67" y="11" textColor="0xEEECC5" fontFamily="fzch"/>
+			<e:Label text="归属合伙组" x="508" y="11" textColor="0xEEECC5" fontFamily="fzch"/>
+			<e:Group id="Group_unset_luckyTitle0" x="312" y="4">
+			<e:Label text="当前体力" x="0" y="8" textColor="0xEEECC5" fontFamily="fzch"/>
+			<e:Image id="imgArrow0" source="club3_json.img_club_fufen_pulldown_png" x="138.74" rotation="0" anchorOffsetX="8.5" anchorOffsetY="5" verticalCenter="0"/>
+			<ns1:EButton id="btnSort0" label="" x="0" y="0" width="154" height="46" alpha="0">
+				<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="club_json.img_club_member_flag_looker_png" source.down="club_json.img_club_member_flag_looker_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</ns1:skinName>
+			</ns1:EButton>
+			</e:Group>
+		</e:Group>
+		<ns1:EScroller id="scrollerTables" anchorOffsetX="0" anchorOffsetY="0" width="936" height="410" x="279.38" y="149">
+			<e:Group height="410" width="936"/>
+		</ns1:EScroller>
+		<ns1:EScroller id="leftScroller" width="217" height="460" x="39" y="95">
+			<e:Group width="217" height="460"/>
+		</ns1:EScroller>
+
+		<ns1:EButton id="btnSearch" label="" x="1099.21" y="587.62">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_btn_select_1_png" source.down="club_btn_select_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<e:Image source="img_club_base_2_png" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="19,19,21,17" width="340" x="758.8" height="50" y="592.62"/>
+		<e:EditableText id="editSearch" width="340" text="" anchorOffsetX="0" anchorOffsetY="0" height="50" textColor="0x874208" size="28" x="758.8" fontFamily="fzzy" prompt="请输入玩家昵称或ID搜索" promptColor="0x828282" verticalAlign="middle" textAlign="center" y="592.62"/>
+		<e:Label id="Text_desc" text="" x="41" y="70.96" scaleX="1" scaleY="1" fontFamily="fzch" verticalAlign="middle" textAlign="left" textColor="0x805d31" size="24"/>
+		<ns1:EButton id="btnModifyRecord" label="" x="273" y="598.61">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="clubPartner_json.btn_club_fatiguevalue_record1_png" source.down="clubPartner_json.btn_club_fatiguevalue_record2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<ns1:EButton id="Button_batch_of_belonging" label="" x="473" y="598.61" visible="false">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="clubPartner_json.btn_club_batchgroup1_png" source.down="clubPartner_json.btn_club_batchgroup2_png" source.disabled="clubPartner_json.btn_club_batchgroup3_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<ns1:EButton id="Button_add_partnerGroup" label="" x="49" y="598.61" visible="false">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="clubPartner_json.btn_club_group_add1_png" source.down="clubPartner_json.btn_club_group_add2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<ns1:EButton id="Button_delete_partnerGroup" label="" x="49" y="598.61" visible="false">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="clubPartner_json.btn_club_group_delete1_png" source.down="clubPartner_json.btn_club_group_delete2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+
+	</e:Group>
+</e:Skin>

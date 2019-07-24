@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gameTingTintCardSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="109" height="105">
+	<e:Image source="club_json.img_club_base_2_png" left="0" right="0" top="0" bottom="0"/>
+	<e:Label text="剩\n\n\n张" size="20" fontFamily="fzzy" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="34.5" verticalCenter="0" textColor="0x6d2603"/>
+	<e:Label id="Text_num" text="0" size="20" fontFamily="fzzy" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="34.5" verticalCenter="0" textColor="0xd90000"/>
+	<e:Group scaleX="0.7" scaleY="0.7" verticalCenter="5" horizontalCenter="-15">
+		<e:Image id="back" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="card_new_json.2dmj_card_me_stand_1_png"/>
+		<e:Image id="face" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="10" source="cardFace_new_1_json.1_2dmj_cardnum_mahjong_09_png"/>
+	</e:Group>
+</e:Skin>

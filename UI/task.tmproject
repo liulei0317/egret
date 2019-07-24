@@ -1,0 +1,29 @@
+{
+    "projectName": "task",
+    "version": 5,
+    "files": [
+        "./TP/qhmahjong/task/btn_task_help_2.png",
+        "./TP/qhmahjong/task/btn_task_help_1.png",
+        "./TP/qhmahjong/task/btn_task_grow_2.png",
+        "./TP/qhmahjong/task/btn_task_grow_1.png",
+        "./TP/qhmahjong/task/btn_task_go_2.png",
+        "./TP/qhmahjong/task/btn_task_go_1.png",
+        "./TP/qhmahjong/task/btn_task_geted.png",
+        "./TP/qhmahjong/task/btn_task_get_2.png",
+        "./TP/qhmahjong/task/btn_task_get_1.png",
+        "./TP/qhmahjong/task/btn_task_do.png",
+        "./TP/qhmahjong/task/btn_task_day_2.png",
+        "./TP/qhmahjong/task/btn_task_day_1.png",
+        "./TP/qhmahjong/task/btn_get_onkey_2.png",
+        "./TP/qhmahjong/task/btn_get_onkey_1.png",
+        "./TP/qhmahjong/task/bg_task_2.png",
+        "./TP/qhmahjong/task/bg_task_1.png"
+    ],
+    "options": {
+        "sizeMode": "2n",
+        "useExtension": 1,
+        "layoutGap": 1,
+        "extend": 0,
+        "layoutMath": "3"
+    }
+}

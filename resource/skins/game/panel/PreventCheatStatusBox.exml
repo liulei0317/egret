@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PreventCheatStatusBox" xmlns:e="http://ns.egret.com/eui" width="1280" height="720">
+	<e:Image source="text_status-Cheating_png" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

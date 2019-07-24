@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.ProgressBarSkin" minWidth="30" minHeight="18" xmlns:e="http://ns.egret.com/eui">
+	<e:Image scale9Grid="1,1,4,4" source="bar_bg_2_png" top="0"/>
+	<e:Image id="thumb" source="bar_top_green_png"/>
+	<e:Label id="labelDisplay" textAlign="center" verticalAlign="middle"
+			 size="30" fontFamily="fzzy" text="加载中1/10" textColor="0xffffff" top="24" height="30" horizontalCenter="0"/>
+</e:Skin>

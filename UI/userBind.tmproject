@@ -1,0 +1,25 @@
+{
+    "options": {
+        "useExtension": 1,
+        "layoutGap": 1,
+        "extend": 0,
+        "layoutMath": "0",
+        "sizeMode": "2n"
+    },
+    "files": [
+        "./TP/qhmahjong/userBind/userbind_btn_record1.png",
+        "./TP/qhmahjong/userBind/userbind_btn_realname2.png",
+        "./TP/qhmahjong/userBind/userbind_btn_realname1.png",
+        "./TP/qhmahjong/userBind/userbind_btn_personal_charge_record_2.png",
+        "./TP/qhmahjong/userBind/userbind_btn_personal_charge_record_1.png",
+        "./TP/qhmahjong/userBind/userbind_btn_obtain2.png",
+        "./TP/qhmahjong/userBind/userbind_btn_obtain1.png",
+        "./TP/qhmahjong/userBind/userbind_btn_changebinding2.png",
+        "./TP/qhmahjong/userBind/userbind_btn_changebinding1.png",
+        "./TP/qhmahjong/userBind/userbind_btn_binding2.png",
+        "./TP/qhmahjong/userBind/userbind_btn_binding1.png",
+        "./TP/qhmahjong/userBind/userbind_btn_regain1.png"
+    ],
+    "version": 5,
+    "projectName": "userBind"
+}

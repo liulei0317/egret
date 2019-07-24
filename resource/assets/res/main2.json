@@ -1,0 +1,13 @@
+{"file":"main2.png","frames":{
+"main_button_club_1_night_png":{"x":517,"y":1,"w":170,"h":259,"offX":0,"offY":0,"sourceW":170,"sourceH":259},
+"main_button_club_1_png":{"x":345,"y":1,"w":170,"h":259,"offX":0,"offY":0,"sourceW":170,"sourceH":259},
+"main_button_club_2_night_png":{"x":173,"y":1,"w":170,"h":259,"offX":0,"offY":0,"sourceW":170,"sourceH":259},
+"main_button_club_2_png":{"x":1,"y":1,"w":170,"h":259,"offX":0,"offY":0,"sourceW":170,"sourceH":259},
+"main_button_roomcreate_1_night_png":{"x":451,"y":262,"w":148,"h":207,"offX":0,"offY":0,"sourceW":148,"sourceH":207},
+"main_button_roomcreate_1_png":{"x":301,"y":262,"w":148,"h":207,"offX":0,"offY":0,"sourceW":148,"sourceH":207},
+"main_button_roomcreate_2_night_png":{"x":151,"y":262,"w":148,"h":207,"offX":0,"offY":0,"sourceW":148,"sourceH":207},
+"main_button_roomcreate_2_png":{"x":1,"y":262,"w":148,"h":207,"offX":0,"offY":0,"sourceW":148,"sourceH":207},
+"main_button_roomjoin_1_night_png":{"x":839,"y":214,"w":146,"h":211,"offX":1,"offY":0,"sourceW":148,"sourceH":211},
+"main_button_roomjoin_1_png":{"x":839,"y":1,"w":148,"h":211,"offX":0,"offY":0,"sourceW":148,"sourceH":211},
+"main_button_roomjoin_2_night_png":{"x":689,"y":1,"w":148,"h":211,"offX":0,"offY":0,"sourceW":148,"sourceH":211},
+"main_button_roomjoin_2_png":{"x":689,"y":214,"w":148,"h":211,"offX":0,"offY":0,"sourceW":148,"sourceH":211}}}

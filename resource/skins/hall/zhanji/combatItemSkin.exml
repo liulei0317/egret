@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mySkin.combatItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16348aab940"/>
+	<e:Image x="0" y="0" anchorOffsetY="0" width="906" height="148" source="img_club_border_2_png" scale9Grid="27,24,12,7"/>
+	<e:Image source="club_json.img_club_border_1_png" x="-1.8" scale9Grid="13,14,21,30" width="200" height="148" verticalCenter="-3"/>
+	<e:Label id="labelTime" text="2018/01/01" x="8" y="113.4" fontFamily="fzzy" size="22" verticalAlign="middle" textAlign="left" textColor="0x9D4D0A"/>
+	<e:Label id="labelTurnInfo" text="把数:8把" x="8" y="87" fontFamily="fzzy" size="22" verticalAlign="middle" textAlign="left" textColor="0x9D4D0A"/>
+	<e:Image id="imgTemplateColor" x="0" y="0" anchorOffsetY="0" scale9Grid="27,24,12,7" source="img_color_room_1_png" width="205"/>
+	<e:Image id="imgRoomRules" x="18" y="56.5" source="btn_club_roomRules_1_png" visible="false"/>
+	<e:Label id="labelRoomNumber" text="房号：123456" x="8" y="60" fontFamily="fzzy" size="22" verticalAlign="middle" textAlign="left" textColor="0x9d4d0a"/>
+	<e:Label id="labelRoomType" text="进园子" x="1.38" y="9.56" fontFamily="fzzy" size="26" verticalAlign="middle" textAlign="center" anchorOffsetX="0" width="194.21" anchorOffsetY="0" height="33.09" textColor="0xfefefe" locked="true"/>
+	<ns1:EButton id="btnInvite" label="" x="728.6" y="16.99" visible="false">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_club_invite_1_png" source.down="btn_club_invite_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<ns1:EButton id="btnCancel" label="" x="728.6" y="84.12" visible="false">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_club_dissolve_1_png" source.down="btn_club_dissolve_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<ns1:CombatUserItem id="userItem1" x="200.92" y="0" skinName="mySkin.combatUserItemSkin"/>
+	<ns1:CombatUserItem id="userItem2" x="345" y="0" skinName="mySkin.combatUserItemSkin"/>
+	<ns1:CombatUserItem id="userItem3" x="489" y="0" skinName="mySkin.combatUserItemSkin"/>
+	<ns1:CombatUserItem id="userItem4" x="632.56" y="0" skinName="mySkin.combatUserItemSkin"/>
+	<e:Rect id="rectCombatData" width="573.39" height="116.4" x="202.59" y="14.6" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0" locked="true"/>
+	<ns1:EButton id="btnInfo" label="" x="786.6" verticalCenter="-2.5" width="114" height="59">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_club_record_details_1_png" source.down="btn_club_record_details_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<ns1:EButton id="btnView" label="" x="786.6" verticalCenter="-2.5" width="114" height="59">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_club_record_settle_1_png" source.down="btn_club_record_settle_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+</e:Skin>

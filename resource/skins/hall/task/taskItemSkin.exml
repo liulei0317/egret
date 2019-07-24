@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mySkin.taskItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="806" height="114">
+	<e:Image source="img_club_border_2_png" scale9Grid="30,24,8,6" left="0" right="0" top="0" bottom="0" width="806" height="148"/>
+	<e:Image id="imgTitleBg" x="12" y="11" scale9Grid="18,24,8,9" source="bg_mail_item_png"/>
+	<e:Image id="itemIcon" x="26" y="25" scale9Grid="18,24,8,9" anchorOffsetX="0" source="icon_gold_png" width="64" height="64"/>
+	<ns1:EButton id="btnDelete" label="" x="885.08" scaleX="1" scaleY="1" verticalCenter="0.5">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_template_rules_delete_1_png" source.down="club_template_rules_delete_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<e:Label id="labelTaskTitle" text="玩家昵称六个字" x="159" y="26" size="26" fontFamily="fzzy" textColor="0x9d4d0a" anchorOffsetY="0" verticalAlign="middle"/>
+	<ns1:EButton id="btnInfo" label="" x="117" y="22">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_task_help_1_png" source.down="btn_task_help_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<e:Group x="598" y="28">
+		<ns1:EButton id="btnProgressing" label="" x="0" y="0" enabled="false">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_task_do_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<ns1:EButton id="btnGoDo" label="" x="0" y="0">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_task_go_1_png" source.down="btn_task_go_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<ns1:EButton id="btnGet" label="" x="14" y="-3">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_task_get_1_png" source.down="btn_task_get_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<ns1:EButton id="btnGeted" label="" x="0" y="0" enabled="false">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_task_geted_png" source.down="btn_task_geted_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+	</e:Group>
+	<e:Image x="118" y="64" source="bg_task_2_png" width="419" height="23" scale9Grid="30,8,6,6"/>
+	<e:Image id="imgProgress" x="118" y="64" source="bg_task_1_png" width="419" height="23"/>
+	<e:Label id="labelProgress" text="0/5" y="63" size="25" fontFamily="fzzy" anchorOffsetY="0" verticalAlign="middle" textColor="0xfbefd3" strokeColor="0x874208" stroke="2" horizontalCenter="-78"/>
+	<e:Label id="labelItemNum" text="10" size="28" fontFamily="fzzy" anchorOffsetY="0" verticalAlign="middle" textColor="0xFBEFD3" strokeColor="0x874208" stroke="2" right="712" bottom="18" textAlign="right"/>
+</e:Skin>

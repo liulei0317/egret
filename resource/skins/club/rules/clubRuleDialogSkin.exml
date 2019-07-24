@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mySkin.clubRuleDialogSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="1280" height="720">
+	<e:Image left="65" right="63" top="46" bottom="-6" scale9Grid="252,170,48,35" source="frame_2_png"/>
+	<e:Group x="88.08" y="22.65">
+		<e:Image y="0" source="frame_title_2_png" scale9Grid="408,8,36,48" anchorOffsetX="0" width="1104" horizontalCenter="0"/>
+		<e:Image y="6.08" source="img_frame_title_1_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0"/>
+		<e:Label text="房间规则管理" y="17" textColor="0x874208" size="36" fontFamily="fzch" horizontalCenter="0"/>
+	</e:Group>
+	<e:Image width="1073.03" height="391.22" x="103.49" y="105.64" source="img_club_base_2_png" scale9Grid="25,17,13,10" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label id="labelNoRuleTip" text="暂无任何规则，赽快去增加一个规则吧" y="284.09" textColor="0x7B5646" size="36" fontFamily="fzzy" horizontalCenter="0"/>
+	<ns1:EScroller id="scrollerTables" width="1051" height="368" x="114.56" y="117.65">
+		<e:Group/>
+	</ns1:EScroller>
+	<e:Label text="1.一个俱乐部，建议统一房间规则，不同规则可能让玩家感觉房间列表混乱 \n2.规则差异较大时，建议建多个俱乐部" y="516.64" textColor="0x9d4d0a" size="24" fontFamily="fzzy" x="124"/>
+	<ns1:EButton id="btnAdd" label="" y="587.02" horizontalCenter="0">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_template_rules_add_1_png" source.down="club_template_rules_add_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<ns1:EButton id="btnClose" label="" y="12.05" x="1123.56">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_jlb_common_close_1_png" source.down="btn_jlb_common_close_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+</e:Skin>

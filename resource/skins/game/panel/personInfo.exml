@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="personInfo" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:game="game.*" width="1280" height="720">
+	<e:Image width="970" height="640" source="frame_1_png" scale9Grid="256,156,91,38" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="0" verticalCenter="10"/>
+
+	<e:Group y="100.3" x="208">
+		<e:Image width="150" height="150" scaleX="1" scaleY="1" source="frame_headshot_png" x="0" y="-4" scale9Grid="48,50,55,51"/>
+		<e:Image id="Image_head" width="138" height="138" scaleX="1" scaleY="1" x="6" y="2" source="common_json.headshot_example_png"/>
+		<e:Label id="Text_userName" text="哈哈哈哈哈哈" x="157" y="0" width="195" height="36" size="32" fontFamily="fzzy" scaleX="1" scaleY="1" textColor="0x874208"/>
+		<e:Image id="Image_gender" source="item_male_png" x="376.16" y="8.689999999999998" scaleX="1" scaleY="1"/>
+		<e:Label id="Text_userId" text="ID:123456" x="157" y="38.34" height="22" size="23" fontFamily="fzzy" scaleX="1" scaleY="1" textColor="0x874208"/>
+		<e:Label id="Text_ip" text="IP:192.168.118.118" x="157" y="71.67" width="183" height="27" size="22" fontFamily="fzzy" scaleX="1" scaleY="1" textColor="0x874208"/>
+		<e:Group x="154.9" y="95.31">
+			<e:Image x="24" y="6" scaleX="1" scaleY="1" source="text_frame_png" anchorOffsetX="0" width="186" height="48" scale9Grid="7,8,163,30"/>
+			<e:Image source="icon_card_png" x="-2.01" y="-2.64" width="80" height="80" scaleX="0.8" scaleY="0.8"/>
+			<e:Label id="Text_diamond" text="123456" y="16.33" width="93" height="31" fontFamily="fzzy" size="25" scaleX="1" scaleY="1" textAlign="center" horizontalCenter="21.5" textColor="0xf8f2d6"/>
+		</e:Group>
+		<e:Group x="366.9" y="95.31">
+			<e:Image x="24" y="6" scaleX="1" scaleY="1" source="text_frame_png" anchorOffsetX="0" width="186" height="48" scale9Grid="8,10,165,24"/>
+			<e:Label id="Text_gold" text="123456" y="14.33" width="93" height="31" fontFamily="fzzy" size="25" scaleX="1" scaleY="1" horizontalCenter="20.5" textAlign="center" textColor="0xf8f2d6"/>
+			<e:Image source="icon_gold_png" x="0" y="-2.68" scaleX="0.8" scaleY="0.8"/>
+		</e:Group>
+		<e:Image source="personInfo_json.icon_personal_phone_png" x="437.97" y="67.31"/>
+		<e:Label id="Text_phone" text="Windows PC" y="69.31" size="22" fontFamily="fzzy" scaleX="1" scaleY="1" textColor="0x874208" left="461"/>
+	</e:Group>
+	<e:Group y="133" x="854">
+		<e:Group x="10" y="224">
+			<e:Image scaleX="1" scaleY="1" x="0" y="0" source="bg_personal_text_bg_png" scale9Grid="9,7,211,27"/>
+			<e:Label text="昨日战绩" x="11" y="10.66" size="31" fontFamily="fzch" scaleX="1" scaleY="1" textColor="0x874208"/>
+			<e:Label text="对局数" x="11" y="65.37" size="22" fontFamily="fzzy" scaleX="1" scaleY="1" textColor="0x874208"/>
+			<e:Label text="胜率" x="11" y="102.07" size="22" fontFamily="fzzy" scaleX="1" scaleY="1" textColor="0x874208"/>
+			<e:Label id="Text_yestodayNum" text="0" x="150" y="65.37" size="22" fontFamily="fzzy" scaleX="1" scaleY="1" textColor="0x874208"/>
+			<e:Label id="Text_yestoday_ratio" text="0.0%" x="150" y="102.07" size="22" fontFamily="fzzy" scaleX="1" scaleY="1" textColor="0x874208"/>
+		</e:Group>
+		<e:Group x="10" y="15">
+			<e:Image scaleX="1" scaleY="1" x="0" y="0" source="bg_personal_text_bg_png" scale9Grid="41,7,190,26"/>
+			<e:Label text="今日战绩" x="11" y="9.35" size="31" fontFamily="fzch" scaleX="1" scaleY="1" textColor="0x874208"/>
+			<e:Label text="对局数" x="11" y="65.38" size="22" fontFamily="fzzy" scaleX="1" scaleY="1" textColor="0x874208"/>
+			<e:Label text="胜率" x="11" y="106.05" size="22" fontFamily="fzzy" scaleX="1" scaleY="1" textColor="0x874208"/>
+			<e:Label id="Text_today_ratio" text="0.0%" x="150" y="106.05" size="22" fontFamily="fzzy" scaleX="1" scaleY="1" textColor="0x874208"/>
+			<e:Label id="Text_todayNum" text="0" x="150" y="65.38" size="22" fontFamily="fzzy" scaleX="1" scaleY="1" textColor="0x874208"/>
+		</e:Group>
+	</e:Group>
+
+
+	<e:Group x="208" y="269.97">
+		<e:Image width="643" height="270" x="0" y="0" source="img_club_base_2_png" scale9Grid="15,13,31,21" anchorOffsetX="0" anchorOffsetY="0" scaleX="0.95" scaleY="0.95"/>
+		<e:Label id="Text_ip0" text="个人风采" height="27" size="24" fontFamily="fzzy" scaleX="1" scaleY="1" verticalCenter="-104" horizontalCenter="0" textColor="0x874208"/>
+		<ns1:UploadImg id="socialImg1" x="61.9" y="45.42" skinName="myskins.uploadImgSkin"/>
+		<ns1:UploadImg id="socialImg2" x="352" y="45.42" skinName="myskins.uploadImgSkin"/>
+	</e:Group>
+	<ns1:EButton id="btnChargeRecord" label="" x="854" y="555.45" width="229" height="98">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_personal_charge_record_1_png" source.down="btn_personal_charge_record_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<ns1:EButton id="Button_history" label="" x="831.03" y="560.97" visible="false">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_personal_history_1_png" source.down="btn_personal_history_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<ns1:EButton id="btnClose" label="" x="1030" y="49.3" width="95" height="92">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_jlb_common_close_1_png" source.down="btn_jlb_common_close_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<ns1:EButton id="btn_bind_phone" label="" x="241" y="559.37">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="userBind_json.userbind_btn_binding1_png" source.down="userBind_json.userbind_btn_binding2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<ns1:EButton id="btn_bind_identity" label="" x="548" y="559.37">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="userBind_json.userbind_btn_realname1_png" source.down="userBind_json.userbind_btn_realname2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<e:Image x="839" y="47" source="img_club_line_png"/>
+</e:Skin>

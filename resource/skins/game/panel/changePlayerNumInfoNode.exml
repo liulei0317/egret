@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="changePlayerNumInfoNode" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="133" height="134">
+	<e:Image id="Image_head" source="headshot_example_png" y="8.9" horizontalCenter="0.5" width="82" height="82"/>
+	<e:Image y="3.5" horizontalCenter="0.5" source="img_club_headshot_top_png"/>
+	<e:Image id="Image_selected" source="img_sanren_check_png" x="65" y="42.5"/>
+	<e:Label id="Text_userName" text="玩家名字六字" y="106" width="146" height="27" size="20" fontFamily="fzzy" horizontalCenter="0.5" textAlign="center" textColor="0x9a5a34"/>
+</e:Skin>

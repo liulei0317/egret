@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TopPongKongCard_2_3dSkin" width="270" height="140" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="Node6" width="106" height="88" horizontalCenter="-83" verticalCenter="9">
+		<e:Image id="back6" horizontalCenter="0" verticalCenter="0" source="3d_card_json.3d_me_pair_7_dao_png"/>
+		<e:Image id="face6" source="cardFace_new_1_json.1_2dmj_cardnum_mahjong_27_png" scaleX="0.8" scaleY="0.85" horizontalCenter="-1.5" verticalCenter="-17" rotation="-90" skewY="0"/>
+	</e:Group>
+	<e:Group id="Node3" width="101" height="101" horizontalCenter="-74.5" verticalCenter="15.5">
+		<e:Image id="back3" horizontalCenter="0" verticalCenter="0" source="3d_card_json.3d_me_pair_7_png"/>
+		<e:Image id="face3" source="cardFace_new_1_json.1_2dmj_cardnum_mahjong_27_png" scaleX="0.85" scaleY="0.75" skewX="0" horizontalCenter="-1.5" verticalCenter="-16"/>
+		<e:Image id="anGangFace3" horizontalCenter="0" verticalCenter="0" source="3d_card_json.3d_me_pair_reverseside_7_png"/>
+	</e:Group>
+	<e:Group id="Node1" width="97" height="101" verticalCenter="15.5" horizontalCenter="0.5">
+		<e:Image id="back1" horizontalCenter="0" verticalCenter="0" source="3d_card_json.3d_me_pair_7_png"/>
+		<e:Image id="face1" source="cardFace_new_1_json.1_2dmj_cardnum_mahjong_27_png" scaleX="0.85" scaleY="0.75" skewX="0" horizontalCenter="-1.5" verticalCenter="-16"/>
+		<e:Image id="anGangFace1" horizontalCenter="0" verticalCenter="0" source="3d_card_json.3d_me_pair_reverseside_7_png"/>
+	</e:Group>
+	<e:Group id="Node2" width="92" height="101" horizontalCenter="77" verticalCenter="15.5">
+		<e:Image id="back2" horizontalCenter="0" verticalCenter="0" source="3d_card_json.3d_me_pair_6_png" scaleX="-1"/>
+		<e:Image id="face2" source="cardFace_new_1_json.1_2dmj_cardnum_mahjong_27_png" scaleX="0.85" scaleY="0.75" skewX="-2" horizontalCenter="-1.5" verticalCenter="-16"/>
+		<e:Image id="anGangFace2" horizontalCenter="0" verticalCenter="0" source="3d_card_json.3d_me_pair_reverseside_6_png" scaleX="-1"/>
+	</e:Group>
+	<e:Group id="Node5" width="106" height="88" horizontalCenter="84" verticalCenter="8">
+		<e:Image id="back5" horizontalCenter="0" verticalCenter="0" source="3d_card_json.3d_me_pair_6_dao_png" scaleX="-1"/>
+		<e:Image id="face5" source="cardFace_new_1_json.1_2dmj_cardnum_mahjong_27_png" scaleX="0.8" scaleY="0.85" horizontalCenter="0" verticalCenter="-16" rotation="90"/>
+	</e:Group>
+	<e:Group id="Node4" width="97" height="101" horizontalCenter="0.5" verticalCenter="-16.5">
+		<e:Image id="back4" horizontalCenter="0" verticalCenter="0" source="3d_card_json.3d_me_pair_7_png"/>
+		<e:Image id="face4" source="cardFace_new_1_json.1_2dmj_cardnum_mahjong_27_png" scaleX="0.85" scaleY="0.75" skewX="0" horizontalCenter="-1.5" verticalCenter="-16" rotation="0"/>
+		<e:Image id="anGangFace4" horizontalCenter="0" verticalCenter="0" source="3d_card_json.3d_me_pair_reverseside_7_png"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameSette_UserInfoSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="1114" height="95">
+	<e:Image source="bg_nj_settle_loser_png" x="63.5" y="0.52" locked="true"/>
+	<e:Group x="64" scaleX="0.8" scaleY="0.8" verticalCenter="0">
+		<e:Image id="Image_head" source="headshot_example_png" x="6" y="6.5" width="83" height="82"/>
+		<e:Image source="club2_json.img_club_headshot_top_png" y="0" x="0"/>
+	</e:Group>
+	<e:Image id="Image_myself" source="img_nj_settle_benjia_png" x="63" y="1"/>
+	<e:Image id="Image_homer" x="63.5" y="1.52" source="common2_json.btn_nj_record_homericon_png"/>
+	<e:Image id="Image_banker" source="img_club_history_dealer_png" x="109.5" y="3.02"/>
+	<e:Image source="bg_name_png" y="62" scaleX="1" scaleY="1" x="64"/>
+	<e:Label id="Text_userName" text="名字四字" y="66.25" width="67" height="18" size="16" fontFamily="fzzy" horizontalCenter="-456.5" textAlign="center"/>
+	<e:Image id="Image_yipaoduoxiang" source="img_nj_settle_yipaoduoxiang_png" x="0" y="0"/>
+	<e:Image id="Image_sanbao" source="img_nj_settle_sanbao_png" x="24" y="32.83"/>
+	<e:Image id="Image_genhu" x="24" y="15" source="img_nj_settle_genghu_png"/>
+	<e:Label id="Text_score" text="+999" y="38" textColor="0xFFC500" size="35" fontFamily="fzzy" textAlign="center" horizontalCenter="317.5"/>
+	<e:Label id="Text_fafen" text="-999" y="38" size="35" fontFamily="fzzy" textColor="0x88B4F3" textAlign="center" horizontalCenter="408.5"/>
+	<e:Label id="Text_wb" text="-999" y="38" textColor="0x88B4F3" size="35" fontFamily="fzzy" textAlign="center" horizontalCenter="491.5"/>
+	<e:Group id="cardGroup" width="599" height="75" x="151" y="13"/>
+	<e:Label text="分数" x="856" y="7" size="25" fontFamily="fzch" textColor="0xc0b097"/>
+	<e:Label text="罚分" x="943.16" y="7" textColor="0xC0B097" size="25" fontFamily="fzch"/>
+	<e:Label text="外包" x="1024.31" y="7" textColor="0xC0B097" size="25" fontFamily="fzch"/>
+</e:Skin>

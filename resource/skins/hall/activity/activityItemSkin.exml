@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mySkin.activityItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="192" height="59.2">
+	<ns1:EToggleButton id="tab1" label="" enabled="true" scaleX="1" scaleY="1" width="192" height="59.2">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="lable_club_myClub_2_png" source.down="lable_club_myClub_1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EToggleButton>
+	<e:Label id="labelTab1" text="进园子进园子" fontFamily="fzzy" size="28" stroke="2" strokeColor="0xbb5d41" touchEnabled="false" textAlign="center" verticalAlign="middle" horizontalCenter="-7" verticalCenter="2" textColor="0xffffff"/>
+</e:Skin>

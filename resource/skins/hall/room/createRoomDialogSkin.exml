@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="skins.createRoomDialogSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="1280" height="720">
+	<e:Group x="75.33" y="21">
+		<e:Image y="39" width="1150" height="640" source="frame_2_png" scale9Grid="256,141,71,79" horizontalCenter="0" locked="true"/>
+		<e:Image y="1" width="1104" height="64" source="frame_title_2_png" horizontalCenter="0"/>
+		<e:Image source="club_json.img_club_base_2_png" width="800" height="455" x="299" scale9Grid="7,6,46,36" y="84"/>
+		<e:Image y="10.64" horizontalCenter="-0.5" source="img_frame_title_1_png" scaleX="0.7" scaleY="0.7"/>
+		<e:Label text="创建房间" y="20.08" textColor="0x874208" size="36" fontFamily="fzch" horizontalCenter="0"/>
+
+		<ns1:EButton id="btnClose" label="" x="1081" y="0">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_jlb_common_close_1_png" source.down="btn_jlb_common_close_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+
+		<ns1:CreateRoomMahjong id="panelMahjong" x="304.12" y="92.56" skinName="skins.createRoomMahjongSkin"/>
+		<e:BitmapLabel width="20" height="20" x="90" y="596"/>
+	</e:Group>
+	<e:Image x="359.48" y="89" height="590" source="img_club_line_png"/>
+	<ns1:EButton label="" x="138.14" y="103.81" height="74" width="226">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="lable_club_myClub_1_png" source.down="lable_club_myClub_1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<e:Label id="labelMahjong" text="南京麻将" x="154.09" fontFamily="fzch" size="32" width="185" textAlign="center" strokeColor="0x904216" stroke="2" verticalAlign="middle" verticalCenter="-218"/>
+	<ns1:EButton id="btnCreate" label="" x="950.33" y="576.37">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_create_1_png" source.down="button_create_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<e:Group id="groupDiamond" x="372" y="588.3">
+		<e:Image source="img_club_base_2_png" x="135.12" verticalCenter="0" width="147" scale9Grid="22,20,13,10"/>
+		<e:Label id="labelDiamond" text="000" fontFamily="fzzy" size="29" width="144" verticalAlign="middle" textAlign="center" textColor="0x874208" x="135.11" verticalCenter="0.5"/>
+		<e:Label text="拥有钻石：" textColor="0x874208" fontFamily="fzch" size="29" verticalAlign="middle" textAlign="left" x="0" anchorOffsetX="0" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>

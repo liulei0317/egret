@@ -1,0 +1,14 @@
+{"file":"gameSettle.png","frames":{
+"frame_nj_settle_shareReviewCode_png":{"x":1,"y":214,"w":202,"h":52,"offX":1,"offY":1,"sourceW":204,"sourceH":54},
+"img_nj_settle_baomi_png":{"x":1,"y":373,"w":75,"h":57,"offX":0,"offY":0,"sourceW":76,"sourceH":58},
+"img_nj_settle_benjia_png":{"x":195,"y":291,"w":59,"h":29,"offX":0,"offY":0,"sourceW":59,"sourceH":29},
+"img_nj_settle_dissolve_agree_png":{"x":155,"y":397,"w":46,"h":75,"offX":0,"offY":0,"sourceW":46,"sourceH":75},
+"img_nj_settle_dissolver_png":{"x":205,"y":214,"w":46,"h":75,"offX":0,"offY":0,"sourceW":46,"sourceH":75},
+"img_nj_settle_genghu_png":{"x":169,"y":338,"w":75,"h":57,"offX":0,"offY":0,"sourceW":75,"sourceH":57},
+"img_nj_settle_hutypeframebg_png":{"x":1,"y":338,"w":166,"h":33,"offX":0,"offY":0,"sourceW":166,"sourceH":33},
+"img_nj_settle_penaltypoint_png":{"x":118,"y":97,"w":115,"h":115,"offX":0,"offY":0,"sourceW":115,"sourceH":115},
+"img_nj_settle_sanbao_png":{"x":78,"y":373,"w":75,"h":57,"offX":0,"offY":0,"sourceW":75,"sourceH":57},
+"img_nj_settle_scoresgou_png":{"x":1,"y":1,"w":221,"h":94,"offX":0,"offY":0,"sourceW":221,"sourceH":94},
+"img_nj_settle_waibao_png":{"x":1,"y":97,"w":115,"h":115,"offX":0,"offY":0,"sourceW":115,"sourceH":115},
+"img_nj_settle_yipaoduoxiang_png":{"x":1,"y":268,"w":99,"h":65,"offX":0,"offY":0,"sourceW":99,"sourceH":65},
+"img_nj_settle_zimo_png":{"x":102,"y":268,"w":91,"h":68,"offX":0,"offY":0,"sourceW":91,"sourceH":68}}}

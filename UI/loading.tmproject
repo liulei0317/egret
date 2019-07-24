@@ -1,0 +1,22 @@
+{
+    "projectName": "loading",
+    "version": 5,
+    "files": [
+        "./TP/qhmahjong/loading/item_middle.png",
+        "./TP/qhmahjong/loading/item_8ju.png",
+        "./TP/qhmahjong/loading/item_7zhu.png",
+        "./TP/qhmahjong/loading/item_6lan.png",
+        "./TP/qhmahjong/loading/item_5mei.png",
+        "./TP/qhmahjong/loading/item_4dong.png",
+        "./TP/qhmahjong/loading/item_3qiu.png",
+        "./TP/qhmahjong/loading/item_2xia.png",
+        "./TP/qhmahjong/loading/item_1chun.png"
+    ],
+    "options": {
+        "sizeMode": "2n",
+        "useExtension": 1,
+        "layoutGap": 1,
+        "extend": 0,
+        "layoutMath": "0"
+    }
+}

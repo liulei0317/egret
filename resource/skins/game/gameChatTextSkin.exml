@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gameChatTextSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="Image_bg" source="bg_text_pop-up_png" verticalCenter="0" scale9Grid="77,19,254,26" left="0" right="0"/>
+	<e:Label id="Text_info" text="手气不错，今天又是发财的日子噢" size="28" fontFamily="fzzy" verticalCenter="0" left="10" right="10"/>
+</e:Skin>

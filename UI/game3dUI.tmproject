@@ -1,0 +1,27 @@
+{
+    "projectName": "game3dUI",
+    "version": 5,
+    "files": [
+        "./TP/qhmahjong/game3dUI/3d_nowFeng4.png",
+        "./TP/qhmahjong/game3dUI/3d_nowFeng3.png",
+        "./TP/qhmahjong/game3dUI/3d_nowFeng2.png",
+        "./TP/qhmahjong/game3dUI/3d_nowFeng1.png",
+        "./TP/qhmahjong/game3dUI/3d_img_element_gamecenterbg.png",
+        "./TP/qhmahjong/game3dUI/3d_img_dir_3.png",
+        "./TP/qhmahjong/game3dUI/3d_img_dir_2.png",
+        "./TP/qhmahjong/game3dUI/3d_img_dir_1.png",
+        "./TP/qhmahjong/game3dUI/3d_img_dir_0.png",
+        "./TP/qhmahjong/game3dUI/3d_feng4.png",
+        "./TP/qhmahjong/game3dUI/3d_feng3.png",
+        "./TP/qhmahjong/game3dUI/3d_feng2.png",
+        "./TP/qhmahjong/game3dUI/3d_feng1.png",
+        "./TP/qhmahjong/game3dUI/3d_center_clock_node.png"
+    ],
+    "options": {
+        "sizeMode": "2n",
+        "useExtension": 1,
+        "layoutGap": 1,
+        "extend": 0,
+        "layoutMath": "3"
+    }
+}

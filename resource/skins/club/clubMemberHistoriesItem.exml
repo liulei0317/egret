@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubLuckyRecordItem" width="1014" height="76" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="club_json.img_club_border_2_png" horizontalCenter="0" verticalCenter="0" scale9Grid="18,16,32,24" width="1014" height="76"/>
+	<e:Label id="info" text="2019/04/19 00:00:00" x="15" size="29" fontFamily="fzzy" textColor="0x874208" verticalCenter="0"/>
+
+</e:Skin>

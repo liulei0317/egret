@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShareOverResultViewSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bg_share_flag_png" horizontalCenter="0" width="738" height="574" verticalCenter="0"/>
+	<e:Image source="mode_login_logo_png" x="337" y="121.32" scaleX="0.4" scaleY="0.4"/>
+	<e:Label id="Text_roomNumber" text="房间号 888888" y="146.31" fontFamily="fzzy" size="30" textColor="0x4f3719" x="557"/>
+	<e:Label id="Text_roomType" text="进园子" x="778.55" y="132.32" fontFamily="fzzy" size="50" textColor="0x4f3719"/>
+	<ns1:EScroller id="userList" width="572" height="348" horizontalCenter="0" verticalCenter="12">
+		<e:Group/>
+	</ns1:EScroller>
+</e:Skin>

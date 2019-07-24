@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.todayRecordsItem" states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="1050" height="60">
+	<e:Group x="0" y="0" width="1050" height="60">
+		<e:Image scale9Grid="7,6,47,39" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="0" bottom="0" source="bg_personal_listTtext_2_png"/>
+		<e:Label id="Text_time" text="2018-12-12" x="35.35" size="24" textColor="0x7B5646" fontFamily="fzzy" verticalCenter="0"/>
+		<e:Label id="Text_today_num" text="999" size="24" textColor="0x7B5646" fontFamily="fzzy" verticalCenter="0" horizontalCenter="-261"/>
+		<e:Label id="Text_winNum" text="999" size="24" fontFamily="fzzy" textColor="0xff5e00" y="18" horizontalCenter="-89"/>
+		<e:Label id="Text_lose" text="999" size="24" fontFamily="fzzy" textColor="0x3366ae" y="18" horizontalCenter="83"/>
+		<e:Label id="Text_draw" text="999" size="24" textColor="0x7B5646" fontFamily="fzzy" y="18" horizontalCenter="255"/>
+		<e:Label id="Text_winner" text="999" size="24" textColor="0x7B5646" fontFamily="fzzy" verticalCenter="0" horizontalCenter="428"/>
+	</e:Group>
+</e:Skin>

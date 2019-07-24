@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mySkin.mailItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="322" height="104">
+	<e:Image id="imgBg" left="0" right="0" top="0" bottom="0" width="322" height="104" source="bg_mail_png" scale9Grid="148,40,32,19"/>
+	<e:Image x="8" anchorOffsetX="0" source="item_1_png" verticalCenter="0.5"/>
+	<e:Label id="labelTitle" text="玩家昵称六个字" x="82" y="26" size="24" fontFamily="fzzy" anchorOffsetY="0" verticalAlign="middle" textColor="0x8c5031"/>
+	<e:Label id="labelTime" text="玩家昵称六个字" x="82" y="62" size="19" fontFamily="fzzy" textColor="0x8C5031" anchorOffsetY="0" verticalAlign="middle"/>
+	<e:Image id="imgStatus" x="231" source="img_not-read_png" verticalCenter="0.5"/>
+	<e:Rect id="rect" left="0" right="0" top="0" bottom="0" fillAlpha="0"/>
+</e:Skin>

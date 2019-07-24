@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="clubAddGroupBox" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="frame_1_png" width="750" height="510" horizontalCenter="0" verticalCenter="0" scale9Grid="235,181,84,35"/>
+	<ns1:EButton id="btnClose" label="" y="104" x="917">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="btn_jlb_common_close_1_png" source.down="btn_jlb_common_close_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<ns1:EButton id="btn" label="" y="450" horizontalCenter="0">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="clubAutoMatch_json.btn_isolationgroup_add1_png" source.down="clubAutoMatch_json.btn_isolationgroup_add2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:w="http://ns.egret.com/wing"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<e:Label text="合伙组名称：" size="30" fontFamily="fzch" textColor="0x805D31" textAlign="center" verticalAlign="middle" x="320.64" y="294"/>
+	<e:Image source="img_club_base_2_png" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="19,19,21,17" width="458" x="487.75" y="283" height="50"/>
+	<e:EditableText id="editSearch" width="428" text="" anchorOffsetX="0" anchorOffsetY="0" height="50" textColor="0x874208" size="30" fontFamily="fzzy" prompt="请输入名称" promptColor="0x828282" verticalAlign="middle" textAlign="left" x="502.75" y="283"/>
+</e:Skin>

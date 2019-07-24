@@ -1,0 +1,25 @@
+{
+    "projectName": "main2",
+    "version": 5,
+    "files": [
+        "./TP/qhmahjong/main/main2/main_button_roomjoin_2.png",
+        "./TP/qhmahjong/main/main2/main_button_roomjoin_2_night.png",
+        "./TP/qhmahjong/main/main2/main_button_roomjoin_1.png",
+        "./TP/qhmahjong/main/main2/main_button_roomjoin_1_night.png",
+        "./TP/qhmahjong/main/main2/main_button_roomcreate_2.png",
+        "./TP/qhmahjong/main/main2/main_button_roomcreate_2_night.png",
+        "./TP/qhmahjong/main/main2/main_button_roomcreate_1.png",
+        "./TP/qhmahjong/main/main2/main_button_roomcreate_1_night.png",
+        "./TP/qhmahjong/main/main2/main_button_club_2.png",
+        "./TP/qhmahjong/main/main2/main_button_club_2_night.png",
+        "./TP/qhmahjong/main/main2/main_button_club_1.png",
+        "./TP/qhmahjong/main/main2/main_button_club_1_night.png"
+    ],
+    "options": {
+        "sizeMode": "2n",
+        "useExtension": 1,
+        "layoutGap": 1,
+        "extend": 0,
+        "layoutMath": "3"
+    }
+}

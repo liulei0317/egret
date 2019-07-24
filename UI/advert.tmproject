@@ -1,0 +1,18 @@
+{
+    "projectName": "advert",
+    "version": 5,
+    "files": [
+        "./TP/qhmahjong/advert/frame_advert_text.png",
+        "./TP/qhmahjong/advert/btn_copy-weixin_2.png",
+        "./TP/qhmahjong/advert/btn_copy-weixin_1.png",
+        "./TP/qhmahjong/advert/btn_copy-public_2.png",
+        "./TP/qhmahjong/advert/btn_copy-public_1.png"
+    ],
+    "options": {
+        "sizeMode": "2n",
+        "useExtension": 1,
+        "layoutGap": 1,
+        "extend": 0,
+        "layoutMath": "3"
+    }
+}

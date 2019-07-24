@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="taskDialogSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="1280" height="720">
+	<e:Image y="90.92" width="1200" height="608.31" source="frame_1_png" scale9Grid="252,149,74,60" horizontalCenter="0" anchorOffsetY="0"/>
+
+	<e:Image x="361.25" y="140.78" width="830.33" height="506.34" source="img_club_base_2_png" scale9Grid="25,16,11,13" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image x="342.29" y="77.52" scale9Grid="20,15,18,14" source="img_club_line_png"/>
+	<e:Group y="56.95" horizontalCenter="0">
+		<e:Image x="0" y="0" source="frame_title_2_png" scale9Grid="408,8,36,48" anchorOffsetX="0" width="1150"/>
+		<e:Image y="6.08" source="img_frame_title_1_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0"/>
+		<e:Label text="任务" y="17" textColor="0x874208" size="36" fontFamily="fzch" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group x="98.51" y="150.41">
+		<ns1:EToggleButton id="tab1" label="" x="0" y="0" enabled="true">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="lable_club_myClub_2_png" source.down="lable_club_myClub_1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:EToggleButton>
+		<ns1:EToggleButton id="tab2" label="" x="0" y="87.36" enabled="true">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="lable_club_myClub_2_png" source.down="lable_club_myClub_1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:EToggleButton>
+		<e:Label id="labelTab1" text="每日任务" x="47.73" y="22.17" fontFamily="fzch" textColor="0xFFFFFF" size="32" stroke="2" strokeColor="0x904216" touchEnabled="false"/>
+		<e:Label id="labelTab2" text="成长任务" x="47.73" y="108.84" fontFamily="fzch" textColor="0xFFFFFF" size="32" stroke="2" strokeColor="0x904216" touchEnabled="false"/>
+		<e:Image id="imgRed1" x="188" y="-1.69" source="img_red_point_png" visible="false"/>
+		<e:Image id="imgRed2" x="188" y="83.23" source="img_red_point_png" visible="false"/>
+	</e:Group>
+	<ns1:EButton id="btnClose" label="" y="47.92" x="1139">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_jlb_common_close_1_png" source.down="btn_jlb_common_close_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<ns1:EScroller id="scrollerTables" width="806" height="480.3" x="374.97" y="152.62" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group/>
+	</ns1:EScroller>
+</e:Skin>

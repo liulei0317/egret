@@ -1,0 +1,18 @@
+{
+    "projectName": "applyQuit",
+    "version": 5,
+    "files": [
+        "./TP/qhmahjong/applyQuit/btn_disagree_2.png",
+        "./TP/qhmahjong/applyQuit/btn_disagree_1.png",
+        "./TP/qhmahjong/applyQuit/btn_agree_3.png",
+        "./TP/qhmahjong/applyQuit/btn_agree_2.png",
+        "./TP/qhmahjong/applyQuit/btn_agree_1.png"
+    ],
+    "options": {
+        "sizeMode": "2n",
+        "useExtension": 1,
+        "layoutGap": 1,
+        "extend": 0,
+        "layoutMath": "3"
+    }
+}

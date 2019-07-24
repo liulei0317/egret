@@ -1,0 +1,22 @@
+{
+    "version": 5,
+    "files": [
+        "./TP/qhmahjong/shop/shop_bg_mask.png",
+        "./TP/qhmahjong/shop/label_shop_2.png",
+        "./TP/qhmahjong/shop/label_shop_1.png",
+        "./TP/qhmahjong/shop/img_text.png",
+        "./TP/qhmahjong/shop/img_sale.png",
+        "./TP/qhmahjong/shop/img_nj_shop_title_2_2.png",
+        "./TP/qhmahjong/shop/img_nj_shop_title_2_1.png",
+        "./TP/qhmahjong/shop/img_nj_shop_title_1_2.png",
+        "./TP/qhmahjong/shop/img_nj_shop_title_1_1.png"
+    ],
+    "projectName": "shop",
+    "options": {
+        "layoutMath": "3",
+        "sizeMode": "2n",
+        "useExtension": 1,
+        "layoutGap": 0,
+        "extend": 0
+    }
+}

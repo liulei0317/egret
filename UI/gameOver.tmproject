@@ -1,0 +1,38 @@
+{
+    "options": {
+        "layoutGap": 1,
+        "extend": 0,
+        "layoutMath": "3",
+        "sizeMode": "2n",
+        "useExtension": 1
+    },
+    "files": [
+        "./TP/qhmahjong/gameOver/btn_h5_bigsettlement_savepic2.png",
+        "./TP/qhmahjong/gameOver/btn_h5_bigsettlement_savepic1.png",
+        "./TP/qhmahjong/gameOver/btn_h5_bigsettlement_link2.png",
+        "./TP/qhmahjong/gameOver/btn_h5_bigsettlement_link1.png",
+        "./TP/qhmahjong/gameOver/btn_h5_bigsettlement_copy2.png",
+        "./TP/qhmahjong/gameOver/btn_h5_bigsettlement_copy1.png",
+        "./TP/qhmahjong/gameOver/bt_add_friends_2.png",
+        "./TP/qhmahjong/gameOver/bt_add_friends_1.png",
+        "./TP/qhmahjong/gameOver/over_img_nj_settle_overtime.png",
+        "./TP/qhmahjong/gameOver/over_img_nj_settle_dissolver.png",
+        "./TP/qhmahjong/gameOver/over_img_nj_settle_dissolve_agree.png",
+        "./TP/qhmahjong/gameOver/over_img_bg_room_type.png",
+        "./TP/qhmahjong/gameOver/over_djs_dismiss_4.png",
+        "./TP/qhmahjong/gameOver/over_djs_dismiss_3.png",
+        "./TP/qhmahjong/gameOver/over_djs_dismiss_2.png",
+        "./TP/qhmahjong/gameOver/over_djs_dismiss_1.png",
+        "./TP/qhmahjong/gameOver/over_btn_sharePic_2.png",
+        "./TP/qhmahjong/gameOver/over_btn_sharePic_1.png",
+        "./TP/qhmahjong/gameOver/over_btn_shareOther_2.png",
+        "./TP/qhmahjong/gameOver/over_btn_shareOther_1.png",
+        "./TP/qhmahjong/gameOver/over_btn_shareLink_2.png",
+        "./TP/qhmahjong/gameOver/over_btn_shareLink_1.png",
+        "./TP/qhmahjong/gameOver/over_btn_copyInfo_2.png",
+        "./TP/qhmahjong/gameOver/over_btn_copyInfo_1.png",
+        "./TP/qhmahjong/gameOver/over_bigsettlement_check.png"
+    ],
+    "projectName": "gameOver",
+    "version": 5
+}

@@ -1,0 +1,25 @@
+{
+    "projectName": "chatEmotion",
+    "version": 5,
+    "files": [
+        "./TP/qhmahjong/chat/emotion/zhuakuang.png",
+        "./TP/qhmahjong/chat/emotion/zan.png",
+        "./TP/qhmahjong/chat/emotion/zaijian.png",
+        "./TP/qhmahjong/chat/emotion/wenhao.png",
+        "./TP/qhmahjong/chat/emotion/tuxue.png",
+        "./TP/qhmahjong/chat/emotion/tuosai.png",
+        "./TP/qhmahjong/chat/emotion/shaoxiang.png",
+        "./TP/qhmahjong/chat/emotion/shanzi.png",
+        "./TP/qhmahjong/chat/emotion/ku.png",
+        "./TP/qhmahjong/chat/emotion/koubi.png",
+        "./TP/qhmahjong/chat/emotion/hongyun.png",
+        "./TP/qhmahjong/chat/emotion/daxiao.png"
+    ],
+    "options": {
+        "sizeMode": "2n",
+        "useExtension": 1,
+        "layoutGap": 1,
+        "extend": 0,
+        "layoutMath": "3"
+    }
+}

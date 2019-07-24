@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameSettle_auto3" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="1560" height="720">
+	<e:Image source="bg_jiesuan_jiatu_jpg" horizontalCenter="0" bottom="0" width="1560"/>
+	<e:Image source="img_nj_settle_gameoverbg3_png" horizontalCenter="0" top="0" width="1560" height="626" scale9Grid="52,131,1160,442"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Group y="19.2" horizontalCenter="0">
+		<e:Label id="Text_clubName" text="俱乐部名称:" x="907.77" y="0" size="25" fontFamily="fzch" textColor="0xFFFFFF" textAlign="right" width="300"/>
+		<e:Group x="0" y="41.8">
+			<e:Image source="img_nj_settle_hutypeframebg_png" x="24" y="211" width="180" height="33"/>
+			<e:Label id="Text_date" text="2017-09-08 18:14" y="217" height="22" size="20" fontFamily="fzzy" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="12"/>
+		</e:Group>
+		<ns1:GameSettleWinerInfo id="winnerInfo" x="230.84" y="388.8" skinName="GameSettleWinerInfoSkin"/>
+		<e:Group id="Group_winner_fafen" x="1129" y="334.8">
+			<e:Image source="img_nj_settle_penaltypoint_png" x="0" y="0"/>
+			<e:Label id="Text_winner_fafen" text="-50" x="28" y="51" width="66" height="40" textColor="0x7eed52" size="36" fontFamily="fzzy"/>
+		</e:Group>
+		<e:Group id="Group_winner_wb" x="1129" y="435.3">
+			<e:Image source="img_nj_settle_waibao_png" x="0" y="0"/>
+			<e:Label id="Text_winner_wb" text="+100" x="20" y="54.5" width="79" height="40" textColor="0x9758af" size="36" fontFamily="fzzy"/>
+		</e:Group>
+		<e:Group x="1136" y="295.8"/>
+
+		<e:Group id="Group_winner_score" x="919" y="409.8">
+			<e:Label id="Text_winner_score" text="300" x="50" y="0" textColor="0xffc500" size="50"/>
+			<e:Image source="img_nj_settle_scoresgou_png" x="0" y="20.98"/>
+		</e:Group>
+		<e:Image id="Image_title" source="img_nj_settle_wordtitle_1_png" y="105.94" horizontalCenter="0"/>
+		<e:Group x="28.78" y="609.79">
+			<ns1:EButton id="Button_copyReplayId" label="" x="0" y="0" width="204" height="54">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="frame_nj_settle_shareReviewCode_png" source.down="frame_nj_settle_shareReviewCode_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:EButton>
+			<e:Label text="点击复制回放码" x="32.35" y="2.65" width="143" height="22" size="20" fontFamily="fzzy" touchEnabled="false"/>
+			<e:Label id="Text_replayId" text="12345678" x="55.64" y="28.65" width="87" height="22" size="20" fontFamily="fzzy" textAlign="center" touchEnabled="false"/>
+		</e:Group>
+		<ns1:EButton id="Button_share" label="" x="883.45" y="584.8" visible="false">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_nj_settle_share_n_png" source.down="btn_nj_settle_share_p_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<e:Group id="Group_winner_card" width="500" height="100" x="251" y="296.8"/>
+		<e:Group id="Group_quick" y="620" horizontalCenter="0.5">
+			<e:Button id="Button_quicklook" label="" x="0" y="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="button_njmj_checkjiesuan_n_png" source.down="button_njmj_checkjiesuan_p_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Label id="Text_quicklook_countdown" text="15" y="18.76" height="34" fontFamily="fzzy" horizontalCenter="93.5" textColor="0xFFFFFF"/>
+		</e:Group>
+		<e:Group id="Group_continue" y="620" horizontalCenter="0.5">
+			<ns1:EButton id="Button_continue" label="" x="0" y="0">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_nj_settle_continue_n_png" source.down="btn_nj_settle_continue_p_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:EButton>
+			<e:Label id="Text_continue_countdown" text="15" y="20.27" height="34" fontFamily="fzzy" touchEnabled="false" horizontalCenter="87.5" textColor="0xFFFFFF"/>
+		</e:Group>
+		<e:Group x="-11" y="377">
+			<e:Image source="img_nj_settle_shareQRcode_bg_png" x="12" y="0"/>
+			<e:Rect id="Image_qrcode" width="180" height="180" x="21" y="6.66" alpha="0"/>
+		</e:Group>
+		<e:Image id="logo" source="logo_png" x="0" y="283.05" scaleX="0.5" scaleY="0.5"/>
+	</e:Group>
+</e:Skin>

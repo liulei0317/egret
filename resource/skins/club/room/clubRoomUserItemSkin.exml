@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mySkin.clubRoomUserItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="112.8" width="92">
+	<e:Group id="groupShow" x="0" y="0" width="92" height="112.8">
+		<e:Image y="5" width="83" height="82" source="img_club_headshot_bottom_png" x="5"/>
+		<e:Image id="imgHeadIcon" source="headshot_example_png" y="5" width="83" height="82" x="5"/>
+		<e:Image id="imgMask" y="5" source="img_club_head_mask_png" x="5"/>
+		<e:Image x="0" y="0" source="img_club_headshot_top_png"/>
+		<e:Label id="labelNickName" text="昵称" y="92.4" textAlign="center" size="19" fontFamily="fzzy" verticalAlign="middle" height="18" textColor="0x9d4d0a" anchorOffsetX="0.5" horizontalCenter="0"/>
+		<e:Label id="labelLeave" text="离开" y="24.2" textAlign="center" size="20" fontFamily="fzzy" verticalAlign="middle" height="18" textColor="0xfef6e4" horizontalCenter="0"/>
+		<e:Label id="labelHost" text="托管中" y="47.6" textAlign="center" size="20" fontFamily="fzzy" verticalAlign="middle" height="18" textColor="0xfef6e4" horizontalCenter="0"/>
+	</e:Group>
+	<e:Label id="labelHide" text="3人开局" horizontalCenter="0" fontFamily="fzzy" size="22" textColor="0x9d4d0a" verticalCenter="0"/>
+</e:Skin>

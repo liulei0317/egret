@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gameScoreBoardItem" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="1050" height="72">
+	<e:Image x="0" y="0" anchorOffsetX="0" width="1050" anchorOffsetY="0" height="72" source="bg_personal_listTtext_2_png" scale9Grid="97,22,172,23"/>
+	<e:Label id="Text_order" text="1" x="60" size="30" textColor="0x7B5646" fontFamily="fzzy" verticalCenter="0"/>
+	<ns1:GameScoreBoardScoreUnit id="score1" x="145.67" skinName="gameScoreBoardScoreUnit" verticalCenter="0.5"/>
+	<ns1:GameScoreBoardScoreUnit id="score2" x="386" skinName="gameScoreBoardScoreUnit"/>
+	<ns1:GameScoreBoardScoreUnit id="score3" x="626" skinName="gameScoreBoardScoreUnit"/>
+	<ns1:GameScoreBoardScoreUnit id="score4" x="865.9" skinName="gameScoreBoardScoreUnit" verticalCenter="0"/>
+</e:Skin>

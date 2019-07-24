@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mySkins.clubMemberManageUISkin" states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" xmlns:e="http://ns.egret.com/eui" width="1280" height="720" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image anchorOffsetY="0" source="frame_2_png" scale9Grid="229,148,103,75" width="1101" height="621" horizontalCenter="0.5" verticalCenter="27.5"/>
+	<e:Image width="962.64" height="456.79" y="163.44" anchorOffsetX="0" anchorOffsetY="0" source="img_club_base_2_png" scale9Grid="26,18,10,13" horizontalCenter="0.5"/>
+
+	<ns1:EButton id="btnClose" label="" x="1088.6" y="70.6">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_jlb_common_close_1_png" source.down="btn_jlb_common_close_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<e:Label id="labelTitle" text="设置【XXXXXX】成员为：" x="214.17" y="216.5" textColor="0x874208" size="36" fontFamily="fzch"/>
+	<e:Group y="176.5" horizontalCenter="0" visible="false">
+		<ns1:EButton id="btnSetMonistor2" label="" x="270.66" y="0">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_club_set_manager2_1_png" source.down="btn_club_set_manager2_2_png" source.disabled="btn_club_set_manager2_3_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<ns1:EButton id="btnSetManager" label="" x="448" y="0">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_club_set_manager3_1_png" source.down="btn_club_set_manager3_2_png" source.disabled="btn_club_set_manager3_3_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<ns1:EButton id="btnSetMember" label="" x="624.78" y="0">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_club_set_member_1_png" source.down="btn_club_set_member_2_png" source.disabled="btn_club_set_member_3_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<e:Label text="当前权限:" x="0" y="19" textColor="0x874208" size="32" fontFamily="fzch" verticalAlign="middle"/>
+		<e:Label id="labelMemberType" text="普通成员" x="142" y="19" textColor="0x874208" size="32" fontFamily="fzch" verticalAlign="middle"/>
+	</e:Group>
+	<e:Group id="group1" y="371.01" anchorOffsetX="0" width="851.48" horizontalCenter="-0.5">
+		<e:Group x="0" y="0">
+			<ns1:EButton id="btnAllowGame" label="" x="328.35" y="0">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_club_allow_game_1_png" source.down="btn_club_allow_game_2_png" source.disabled="btn_club_allow_game_3_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:EButton>
+			<ns1:EButton id="btnForbidGame" label="" x="514.67" y="0">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_club_forbit_game_1_png" source.down="btn_club_forbit_game_2_png" source.disabled="btn_club_forbit_game_3_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+			</ns1:EButton>
+			<e:Label text="当前状态:" x="0" y="19" textColor="0x874208" size="32" fontFamily="fzch"/>
+			<e:Label id="labelGameStatus" text="允许游戏" x="142" y="19" textColor="0x874208" size="32" fontFamily="fzch"/>
+		</e:Group>
+		<ns1:EButton id="btnKickMember" label="" y="132.4" horizontalCenter="0">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="club_json.btn_club_member_kickOut_1_png" source.down="club_json.btn_club_member_kickOut_2_png" source.disabled="club_json.btn_club_member_kickOut_3_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+
+		</ns1:EButton>
+	</e:Group>
+	<e:Group id="group2" x="230.84" y="296.5" anchorOffsetX="0" width="886.94" anchorOffsetY="0" height="319.67" visible="false">
+		<ns1:ERadioButton id="radioRoomRules" x="0" y="0" skinName="mySkin.radioButton_2_Skin"/>
+		<ns1:ERadioButton id="radioCancelRoom" x="318.33" y="0" skinName="mySkin.radioButton_2_Skin"/>
+		<ns1:ERadioButton id="radioEditNotice" x="636.89" y="0" skinName="mySkin.radioButton_2_Skin"/>
+		<ns1:ERadioButton id="radioMemberManager" x="0" y="76.38" skinName="mySkin.radioButton_2_Skin"/>
+		<ns1:ERadioButton id="radioRecordManager" x="318.33" y="76.38" skinName="mySkin.radioButton_2_Skin"/>
+		<ns1:ERadioButton id="radioOperLog" x="636.89" y="76.38" skinName="mySkin.radioButton_2_Skin"/>
+		<ns1:ERadioButton id="radioDivideManager" x="0" y="152.87" skinName="mySkin.radioButton_2_Skin"/>
+		<ns1:ERadioButton id="radioPartnerManager" x="318.33" y="152.87" skinName="mySkin.radioButton_2_Skin"/>
+		<ns1:ERadioButton id="radioBlessManager" x="636.89" y="152.87" skinName="mySkin.radioButton_2_Skin"/>
+		<ns1:EButton id="btnPermissionSave" label="Button" x="330.33" y="253"/>
+		<ns1:EButton id="btnSave" label="" scaleX="1" scaleY="1" x="284" y="208">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="clubAutoMatch_json.btn_isolation_save1_png" source.down="clubAutoMatch_json.btn_isolation_save2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+	</e:Group>
+	<e:Group id="groupTab" width="400" height="110" horizontalCenter="0" y="31.5">
+		<e:Image source="activity_json.img_activity_tab_bg_png" horizontalCenter="0" y="-2.5" x="-97" scaleX="1" scaleY="1"/>
+		<ns1:EButton id="Button_forbid" label="" x="0" y="0.5" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="activity_json.img_activity_tab_select_png" source.down="activity_json.img_activity_tab_select_png" source.disabled="activity_json.img_activity_tab_select_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<ns1:EButton id="Button_permission" label="" x="184" y="0.5" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="activity_json.img_activity_tab_select_png" source.down="activity_json.img_activity_tab_select_png" source.disabled="activity_json.img_activity_tab_select_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<e:Label text="成员管理" x="38" y="26.5" textColor="0xfeeee5" size="35" fontFamily="fzch" stroke="2" strokeColor="0xcd741d" scaleX="1" scaleY="1" touchEnabled="false"/>
+		<e:Label text="权限管理" x="218" y="26.5" textColor="0xFEEEE5" size="35" fontFamily="fzch" stroke="2" strokeColor="0xCD741D" scaleX="1" scaleY="1" touchEnabled="false"/>
+	</e:Group>
+</e:Skin>

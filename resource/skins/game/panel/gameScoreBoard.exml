@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gameScoreBoard" states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="1280" height="720">
+	<w:Config id="1647ce74612"/>
+	<e:Image y="81.9" anchorOffsetX="0" width="1160" anchorOffsetY="0" height="620" source="frame_1_png" scale9Grid="243,154,83,69" horizontalCenter="0"/>
+	<e:Group y="121.24" horizontalCenter="0">
+		<e:Image source="bg_common_inner_png" x="8" y="3" anchorOffsetX="0" width="1080" anchorOffsetY="0" height="530" scaleX="1" scaleY="1" scale9Grid="15,15,1,1"/>
+		<e:Image y="18.00000000000003" anchorOffsetX="0" width="1050" scaleX="1" scaleY="1" anchorOffsetY="0" height="496.36" source="img_club_base_2_png" scale9Grid="24,21,13,8" horizontalCenter="0"/>
+		<e:Label id="PlayerName1" text="玩家名字六字" y="36" size="29" fontFamily="fzch" scaleX="1" scaleY="1" textAlign="center" textColor="0x874208" horizontalCenter="-327" width="200" height="29"/>
+		<e:Label id="PlayerName2" text="玩家名字六字" y="36" size="29" fontFamily="fzch" scaleX="1" scaleY="1" textAlign="center" textColor="0x874208" horizontalCenter="-88" width="200" height="29"/>
+		<e:Label id="PlayerName3" text="玩家名字六字" y="36" size="29" fontFamily="fzch" scaleX="1" scaleY="1" textAlign="center" textColor="0x874208" horizontalCenter="152" width="200" height="29"/>
+		<e:Label id="PlayerName4" text="玩家名字六字" y="36" size="29" fontFamily="fzch" scaleX="1" scaleY="1" textAlign="center" textColor="0x874208" horizontalCenter="391" width="200" height="29"/>
+		<e:Rect height="1" y="76" fillColor="0x874208" width="1050" horizontalCenter="0"/>
+		<e:Label text="总分" x="65" y="475" size="24" textColor="0x7B5646" fontFamily="fzzy" scaleX="1" scaleY="1"/>
+		<ns1:GameScoreBoardScoreUnit id="totalScore1" x="167.11" y="452" skinName="gameScoreBoardScoreUnit"/>
+		<ns1:GameScoreBoardScoreUnit id="totalScore2" x="407" y="452" skinName="gameScoreBoardScoreUnit"/>
+		<ns1:GameScoreBoardScoreUnit id="totalScore3" x="647" y="452" skinName="gameScoreBoardScoreUnit"/>
+		<ns1:GameScoreBoardScoreUnit id="totalScore4" x="885.97" y="452" skinName="gameScoreBoardScoreUnit"/>
+		<e:Rect height="1" y="457" fillColor="0x874208" width="1050" horizontalCenter="0"/>
+		<ns1:EScroller id="itemList" width="1050" height="361" y="86" horizontalCenter="0">
+			<e:Group/>
+		</ns1:EScroller>
+	</e:Group>
+	<e:Group y="50.87" horizontalCenter="0">
+		<e:Image x="0" y="0" source="frame_title_2_png" scale9Grid="408,8,36,48" anchorOffsetX="0" width="1110"/>
+		<e:Image y="6.08" source="img_frame_title_1_png" scaleX="0.7" scaleY="0.7" horizontalCenter="0"/>
+		<e:Label text="计分板" y="17" textColor="0x874208" size="36" fontFamily="fzch" horizontalCenter="0"/>
+	</e:Group>
+	<ns1:EButton id="Button_close" label="" y="41.84" x="1117.15">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_jlb_common_close_1_png" source.down="btn_jlb_common_close_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+</e:Skin>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gameReplayerBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="440" height="283">
+	<e:Group x="0" bottom="0">
+		<e:Image source="bg_btns_8_png" scale9Grid="7,7,4,3" width="440" height="86" horizontalCenter="0" verticalCenter="0"/>
+		<ns1:EButton id="Button_roomInfo" label="" x="15" verticalCenter="0">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_rules_1_png" source.down="btn_rules_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<ns1:EButton id="Button_back" label="" x="102" verticalCenter="0">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_backward_1_png" source.down="btn_backward_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<ns1:EButton id="Button_play" label="" x="188" verticalCenter="0">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_play_1_png" source.down="btn_play_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<ns1:EButton id="Button_pause" label="" x="188" verticalCenter="0">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_pause_1_png" source.down="btn_pause_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<ns1:EButton id="Button_speed" label="" x="275" verticalCenter="0">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_speed_1_png" source.down="btn_speed_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<ns1:EButton id="Button_quit" label="" x="361" verticalCenter="0">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_quit_1_png" source.down="btn_quit_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<e:Label id="Text_speed" text="x1" x="311" y="43" size="30" fontFamily="fzzy" textColor="0xe60012" touchEnabled="false"/>
+	</e:Group>
+	<e:Group id="Group_rules" left="0" bottom="83">
+		<e:Image source="bg_rules_10_png" x="0" y="0" scale9Grid="9,9,4,4" width="150" height="200"/>
+		<e:Label id="Text_roomRulesDesc" text="规则" textAlign="left" verticalAlign="top" fontFamily="fzzy" size="20" textColor="0xb7eee6" width="130" x="10" height="184" y="8"/>
+	</e:Group>
+</e:Skin>

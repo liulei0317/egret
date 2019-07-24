@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mySkin.clubRuleItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="1044" height="148">
+	<e:Image source="img_club_border_2_png" scale9Grid="30,24,8,6" left="0" right="0" top="0" bottom="0" width="1044" height="148"/>
+	<e:Image x="0" y="0" source="img_club_border_1_png" width="350" height="148" scale9Grid="18,24,8,9" anchorOffsetX="0"/>
+	<e:Image id="imgTitleBg" x="-2" y="-2" source="img_color_room_2_png" scale9Grid="18,24,8,9" width="207" height="54"/>
+	<ns1:EButton id="btnDelete" label="" x="885.08" scaleX="1" scaleY="1" verticalCenter="0.5">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="club_template_rules_delete_1_png" source.down="club_template_rules_delete_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<e:Label id="labelCustomInfo" text="无" x="14" y="63" size="19" fontFamily="fzzy" textColor="0x9d4d0a" width="323" anchorOffsetY="0" height="75.88" verticalAlign="middle"/>
+	<ns1:EButton id="btnCustomSet" label="" x="197.96" y="-3">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_club_edit_title_1_png" source.down="btn_club_edit_title_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<e:Label id="labelRuleName" text="进园子" y="15" size="24" fontFamily="fzch" textColor="0xfefefe" horizontalCenter="-422"/>
+	<e:Image width="507.88" height="124.55" x="368.56" y="13" anchorOffsetX="0" anchorOffsetY="0" source="img_club_base_2_png" scale9Grid="25,17,12,11"/>
+	<e:Label id="labelRuleInfo" text="" x="383.39" y="26.5" textColor="0x9d4d0a" size="24" fontFamily="fzzy" anchorOffsetX="0" width="479.24" anchorOffsetY="0" height="102.79"/>
+</e:Skin>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mySkin.gameUISkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="163b6458d93"/>
+	<e:Group id="autoDelayNode" width="1280" height="136" horizontalCenter="0" bottom="0" locked="true" visible="false">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.5"/>
+		<ns1:EButton id="cancelAutoBtn" label="" horizontalCenter="0" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_gameui_quxiao_1_png" source.down="btn_gameui_quxiao_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</ns1:EButton>
+	</e:Group>
+	<e:Group id="inviteNode" y="100" horizontalCenter="0" width="615" height="538">
+		<ns1:EButton id="Button_dismissRoom" label="" y="447.25" scaleX="1" scaleY="1" x="176">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_dissolve_1_png" source.down="button_dissolve_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</ns1:EButton>
+		<ns1:EButton id="Button_weChat" label="" y="447.25" scaleX="1" scaleY="1" x="176">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_weixin_1_png" source.down="button_weixin_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</ns1:EButton>
+		<e:Group id="RoomNumberNode" y="338.00000000000006" horizontalCenter="0" x="144.00000000000006" scaleX="1" scaleY="1">
+			<e:Image id="Image_roomType" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="gameUI_json.text_houseNum_png"/>
+			<e:Label text="房间号:" textColor="0x000000" alpha="0.5" size="24" fontFamily="fzzy" scaleX="1" scaleY="1" verticalCenter="22" horizontalCenter="-58.5"/>
+			<e:Label id="Text_RoomNumber" text="123456" textColor="0x000000" alpha="0.5" size="24" fontFamily="fzzy" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1" verticalCenter="22" horizontalCenter="58"/>
+			<e:Label id="Text_roomType" text="房间类型" textColor="0x000000" alpha="0.5" size="30" fontFamily="fzzy" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1" verticalCenter="-21" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group y="12" horizontalCenter="0" x="30.000000000000057" scaleX="1" scaleY="1">
+			<e:Image source="bg_score_png" verticalCenter="0" scale9Grid="19,8,29,10" height="50" left="0" right="0"/>
+			<e:Label id="Text_rules" text="AA付费，8把，花砸2，接庄比，东南西北罚分" verticalCenter="0" left="10" right="10" size="24" fontFamily="fzzy" textColor="0x65b0ad"/>
+		</e:Group>
+	</e:Group>
+	<ns1:EButton id="Button_chat" label="" x="1196" y="396">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_chat_1_png" source.down="button_chat_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</ns1:EButton>
+	<ns1:EButton id="Button_voice" label="" x="1196" y="479" width="73" height="73">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_voice-_1_png" source.down="button_voice-_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</ns1:EButton>
+	<ns1:EButton id="Button_tint" label="" x="1196" y="562.16">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_gameui_hupaitishi_1_png" source.down="btn_gameui_hupaitishi_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</ns1:EButton>
+	<e:Group id="OperateGroup" x="458" y="502" width="758" height="152" visible="false">
+		<ns1:EButton id="Btn_Ready" label="" x="14" scaleX="1" scaleY="1" verticalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="button_ting_1_png" source.down="button_ting_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</ns1:EButton>
+		<ns1:EButton id="Btn_Kong" label="" x="163" scaleX="1" scaleY="1" verticalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="button_gang_1_png" source.down="button_gang_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</ns1:EButton>
+		<ns1:EButton id="Btn_Pong" label="" x="311" scaleX="1" scaleY="1" verticalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="button_peng_1_png" source.down="button_peng_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</ns1:EButton>
+		<ns1:EButton id="Btn_Pass" label="" x="460" scaleX="1" scaleY="1" verticalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="button_guo_1_png" source.down="button_guo_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</ns1:EButton>
+		<ns1:EButton id="Btn_Win" label="" x="608" scaleX="1" scaleY="1" verticalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="button_hu_1_png" source.down="button_hu_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</ns1:EButton>
+	</e:Group>
+	<ns1:GamePlayerHead id="headLeft" skinName="gamePlayerHeadSkin" x="-75" y="242"/>
+	<ns1:GamePlayerHead id="headRight" skinName="gamePlayerHeadSkin" x="1114" y="242"/>
+	<ns1:GamePlayerHead id="headDown" skinName="gamePlayerHeadSkin" x="-75" y="442"/>
+	<ns1:GamePlayerHead id="headTop" skinName="gamePlayerHeadSkin" x="859" y="5"/>
+	<e:Group id="ChangePlayerNumGroup" x="0" y="84" width="213" height="80">
+		<e:Image source="img_sanren_btnBG_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		<ns1:EButton id="ChangePlayerNumBtn" label="" horizontalCenter="0.5" verticalCenter="4.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_sanren_play_1_png" source.down="btn_sanren_play_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</ns1:EButton>
+	</e:Group>
+	<e:Rect width="220" height="100" x="-360" y="77"/>
+	<e:Label id="Text_autoDiscard" text="托管计时中..." x="134.33" y="5" textColor="0xfcd78d" fontFamily="fzzy" size="18"/>
+	<ns1:EButton id="Button_bxh" label="" y="58.4" x="-12.06">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="img_bixiahu_png" source.down="img_bixiahu_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</ns1:EButton>
+	<e:Group id="systemInfoNode" x="67" y="4" width="70" height="50">
+		<e:Label id="Text_time" text="22:22" fontFamily="fzzy" size="22" textColor="0xfcd78d" horizontalCenter="0" top="0"/>
+		<e:Image id="Image_singnal" source="system_wifi_4_png" bottom="6" left="1"/>
+		<e:Image id="Image_bar_bg" source="gameUI_json.system_power_bg_png" x="31.8" y="25.2"/>
+		<e:ProgressBar id="batteryProgressBar" x="33.8" y="27.8" value="100" width="30" height="16" skinName="mySkin.BatteryBarSkin"/>
+	</e:Group>
+	<ns1:EButton id="Button_scoreBoard" label="" x="17" y="10" width="42" height="39">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_gameUI_scoreBoard_1_png" source.down="btn_gameUI_scoreBoard_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</ns1:EButton>
+	<ns1:EButton id="Button_quit" label="" x="9" y="7.67">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="button_quit_1_png" source.down="button_quit_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</ns1:EButton>
+	<e:Group id="otherTimeGroup" top="0" horizontalCenter="0">
+		<e:Image id="Image_otherTime_bg" source="bg_gameUI_textPopup_png" top="0" horizontalCenter="0" x="-74.00000000000006" y="-71" scaleX="1" scaleY="1"/>
+		<e:Label id="Text_otherTime" text="Label" verticalCenter="3" horizontalCenter="0" fontFamily="fzzy"/>
+	</e:Group>
+	<e:Label id="roomNumberLabel" text="房间号:000000" x="1075.36" y="9.52" size="18" textColor="0x468d8a" fontFamily="fzzy" alpha="0.5"/>
+	<ns1:EButton id="Button_refresh" label="" x="1196" y="94">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="gameUI_json.btn_gameUI_refresh_1_png" source.down="gameUI_json.btn_gameUI_refresh_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<e:Group id="moreInfoNode" y="3.1" x="1195" touchThrough="true">
+		<e:Image id="Image_moreInfo_bg" source="bg_expand_png" horizontalCenter="0" top="0" height="260" scale9Grid="35,36,1,1" width="75"/>
+		<ns1:EButton id="Button_more" label="" x="11" y="11.48">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="button_more_1_png" source.down="button_more_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</ns1:EButton>
+		<ns1:EButton id="Button_setting" label="" x="11" y="74.48">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_gameUI_setting_1_png" source.down="btn_gameUI_setting_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</ns1:EButton>
+		<ns1:EButton id="Button_help" label="" x="11" y="138.48">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_help_1_png" source.down="btn_help_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</ns1:EButton>
+		<ns1:EButton id="Button_applyQuit" label="" horizontalCenter="4" verticalCenter="97">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="button_quit_1_png" source.down="button_quit_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</ns1:EButton>
+	</e:Group>
+	<e:Group id="Node_auto_host" width="716" height="272" verticalCenter="0" horizontalCenter="0">
+		<e:Image source="gameUI_json.bg_gameui_pause_png" left="0" right="0" top="0" bottom="0" scale9Grid="38,32,2,3"/>
+		<e:Label text=" 托管功能已暂停" y="49.1" size="32" fontFamily="fzch" horizontalCenter="0"/>
+		<e:Label text="所有离线玩家回来后游戏自动恢复" size="28" fontFamily="fzzy" top="101" horizontalCenter="0"/>
+		<e:Label text="由于所有玩家同时离线，系统自动开启此保护功能\n请不要解散牌局，尽快联系管理员通知离线玩家回归游戏" size="24" fontFamily="fzzy" top="165" textColor="0xd1d1d1" textAlign="left" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

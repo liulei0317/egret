@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameChatTextItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="254" height="50">
+	<e:Image id="Image_bg" source="text_select_png" top="0" left="0" right="0" bottom="0"/>
+	<e:Label id="Text_info" text="来来，带快点带快点" height="30" fontFamily="fzzy" size="24" verticalCenter="0" left="0" right="0" maxHeight="30" maxWidth="254" textColor="0x874203" verticalAlign="middle" textAlign="left"/>
+</e:Skin>

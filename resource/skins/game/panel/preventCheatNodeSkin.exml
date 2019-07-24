@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="preventCheatNodeSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group y="0" horizontalCenter="0">
+		<e:Image id="Image_head" x="5.2" y="5" width="82" height="82" source="common_json.headshot_example_png"/>
+		<e:Image x="0" y="0" source="img_club_headshot_top_png"/>
+	</e:Group>
+	<e:Label id="Text_userName" text="玩家名字六字" y="94.4" size="19" fontFamily="fzzy" height="24" textColor="0x874208" textAlign="center" horizontalCenter="0" width="116"/>
+</e:Skin>

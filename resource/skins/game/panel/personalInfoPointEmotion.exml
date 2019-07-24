@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="personalInfoPointEmotion" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="120" height="120">
+	<e:Image id="Image_bg" source="bg_personal_item_1_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="Image_emotion" source="img_personal_item_1_png" horizontalCenter="0" verticalCenter="-15"/>
+	<e:Image source="icon_gold_png" x="18.5" y="83.5" scaleX="0.4" scaleY="0.4"/>
+	<e:Label id="Text_gold" text="10" width="50" height="27" textColor="0xb65a00" size="24" fontFamily="fzzy" horizontalCenter="14" verticalCenter="40.5" textAlign="center"/>
+</e:Skin>

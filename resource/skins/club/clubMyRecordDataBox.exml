@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="clubMyRecordDataBox" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="frame_2_png" width="1152" height="700" y="30" scale9Grid="209,138,112,58" horizontalCenter="0"/>
+	<e:Image source="club_json.img_club_base_2_png" scale9Grid="7,6,46,36" width="1020" height="480" y="170" horizontalCenter="0"/>
+	<e:Group x="130" y="122">
+		<e:Image source="club_json.img_club_base_png" y="0" width="1020" scale9Grid="7,6,48,37" x="0"/>
+		<e:Label text="时间" x="97" y="13" fontFamily="fzch" textColor="0x805d31"/>
+		<e:Label text="总局数" y="13" fontFamily="fzch" textColor="0x805D31" x="465"/>
+		<e:Label text="解散局数" y="13" fontFamily="fzch" textColor="0x805D31" x="830"/>
+	</e:Group>
+	<e:Image source="frame_title_2_png" y="24" width="1105" height="65" horizontalCenter="0"/>
+	<ns1:EButton id="btnClose" label="" x="1140" y="13">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="btn_jlb_common_close_1_png" source.down="btn_jlb_common_close_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<e:Image source="img_frame_title_1_png" y="32" scaleX="0.7" scaleY="0.7" horizontalCenter="-0.5"/>
+	<e:Label text="我的记录汇总" y="42" horizontalCenter="0" fontFamily="fzch" size="36" textColor="0x874208"/>
+	<ns1:EScroller id="scroller" width="1000" height="460" horizontalCenter="0" y="180">
+		<e:Group height="460" width="1000">
+		</e:Group>
+	</ns1:EScroller>
+</e:Skin>

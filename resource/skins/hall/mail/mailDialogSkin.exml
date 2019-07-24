@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mySkin.mailDialogSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="1280" height="720">
+	<e:Group y="74.24" x="100">
+		<e:Image y="9.79" width="1006" height="580" source="frame_1_png" scale9Grid="252,149,74,60" anchorOffsetY="0" x="64.36"/>
+		<e:Image y="-74.28" source="bg_mail_left_png" scale9Grid="141,178,182,35" x="0" height="679.39" anchorOffsetY="0"/>
+		<e:Image x="81" y="29" width="342" height="380.91" source="img_club_base_2_png" scale9Grid="25,16,11,13" anchorOffsetX="0" anchorOffsetY="0" alpha="0.5"/>
+		<ns1:EScroller id="scrollerTables" height="360" width="322" x="92" y="39">
+			<e:Group/>
+		</ns1:EScroller>
+		<e:Image x="458" y="113" width="566" height="413.91" source="img_club_base_2_png" scale9Grid="25,16,11,13" anchorOffsetX="0" anchorOffsetY="0"/>
+		<ns1:EButton id="btnClose" label="" y="-11.89" x="973.36">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_jlb_common_close_1_png" source.down="btn_jlb_common_close_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<e:Group id="groupMailDetail" x="458" y="74">
+			<e:Label id="labelMailTitle" text="Label" x="5.44" y="0" textColor="0x874208" fontFamily="fzch" size="24"/>
+			<e:Label id="labelMailTime" text="有效期：15天" y="3.61" fontFamily="fzch" size="19" textColor="0x874208" right="1"/>
+			<e:Group id="groupAttach" x="0" y="349.85">
+				<e:Image x="0" width="566" height="107.15" scale9Grid="25,16,11,13" anchorOffsetX="0" anchorOffsetY="0" source="common2_bg_1_png" y="0"/>
+				<e:Label id="labelHasGeted" text="已领取" textColor="0x874208" fontFamily="fzch" size="32" x="406" y="38"/>
+				<ns1:EButton id="btnGet" label="" y="20" right="10">
+					<ns1:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="button_receive_1_png" source.down="button_receive_2_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</ns1:skinName>
+				</ns1:EButton>
+				<e:Group id="groupAttachItems" left="0" right="220" top="0" bottom="10"/>
+			</e:Group>
+			<e:Scroller width="545.45" height="293.94" x="10.48" y="43.7" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Group>
+				<e:Label id="labelMailContent" text="Label" left="10" right="10" top="10" textColor="0x874208" size="22" fontFamily="fzzy"/>
+				</e:Group>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+	<e:Label id="labelNoSelected" text="请选择一封邮件" horizontalCenter="203" textColor="0x874208" fontFamily="fzch" size="32" verticalCenter="0"/>
+</e:Skin>

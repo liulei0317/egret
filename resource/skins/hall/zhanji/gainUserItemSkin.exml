@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mySkin.gainUserItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="16348aab940"/>
+	<e:Label id="labelNickName" text="昵称" x="30" y="1.58" fontFamily="fzzy" size="22" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="127" height="22" textColor="0x9d4d0a"/>
+	<e:Label id="lab1" text="分数：" x="30" y="30.54" fontFamily="fzzy" size="19" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="91.21" anchorOffsetY="0" height="33.09" textColor="0x9d4d0a"/>
+	<e:Label id="lab2" text="外包：" x="30" y="64.45" fontFamily="fzzy" size="19" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="91.21" anchorOffsetY="0" height="33.09" textColor="0x9d4d0a"/>
+	<e:Label id="labelScore" text="+000" x="84.89" y="29.54" fontFamily="fzzy" size="28" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="69.21" anchorOffsetY="0" height="33.09" borderColor="0x85561e" border="false" stroke="2" strokeColor="0x85561e" textColor="0xfff44c"/>
+	<e:Label id="labelFaScore" text="+00" x="151.89" y="29.54" fontFamily="fzzy" size="22" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="46.21" anchorOffsetY="0" height="33.09" borderColor="0x773F1E" border="false" stroke="0" strokeColor="0x773F1E" textColor="0x960129"/>
+	<e:Label id="labelWaiBaoScore" text="0" x="84.89" y="66.45" fontFamily="fzzy" size="28" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="72.21" anchorOffsetY="0" height="33.09" borderColor="0x85561e" border="false" strokeColor="0x5a60ab" stroke="2" textColor="0xe0eaf3"/>
+	<e:Image id="imgMaster" x="0" y="0" source="common2_json.btn_nj_record_homericon_png" visible="false"/>
+	<e:Image id="icon_banker" x="0" y="0" source="common2_json.img_club_history_dealer_png" visible="false"/>
+</e:Skin>

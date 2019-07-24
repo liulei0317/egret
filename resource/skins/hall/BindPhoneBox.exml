@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="userBind" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="frame_2_png" y="127.26" scale9Grid="150,103,226,177" width="776" height="500" horizontalCenter="0"/>
+	<e:Image source="frame_title_2_png" y="98.16" horizontalCenter="-0.5" scaleX="0.66" width="1111"/>
+	<e:Image source="img_frame_title_1_png" y="106.51" scaleX="0.6" scaleY="0.6" horizontalCenter="0"/>
+	<e:Label text="绑定手机号" y="118" horizontalCenter="1.5" fontFamily="fzch" textColor="0x874208" size="31"/>
+	<e:Label text="为了您的账号安全，请绑定手机号\n关联手机号后，您可以使用手机号在网页版进行游戏登录" y="200.64" size="24" textColor="0x8f531e" fontFamily="fzzy" width="603" textAlign="center" horizontalCenter="0.5"/>
+	<e:Group id="input" width="200" height="200" horizontalCenter="0" verticalCenter="0">
+		<e:Label text="手机号：" y="30" fontFamily="fzzy" size="30" textColor="0x805d31" x="-186" scaleX="1" scaleY="1"/>
+		<e:Label text="验证码：" y="114" fontFamily="fzzy" textColor="0x805D31" size="30" x="-186" scaleX="1" scaleY="1"/>
+		<e:Image source="club_json.img_club_base_2_png" x="-51.670000000000016" y="19.329999999999984" scale9Grid="7,6,46,36" width="390" scaleX="1" scaleY="1"/>
+		<e:Image source="club_json.img_club_base_2_png" x="-51.670000000000016" y="106.58999999999997" scale9Grid="7,6,46,36" width="210" height="48" scaleX="1" scaleY="1"/>
+		<ns1:EButton id="btn_getCode" label="" x="174.30999999999995" y="100.07999999999998" scaleX="1" scaleY="1" enabled="true">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="userBind_json.userbind_btn_obtain1_png" source.down="userBind_json.userbind_btn_obtain2_png" source.disabled="userBind_json.userbind_btn_regain1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<ns1:EButton id="btn_confirm" label="" y="198" horizontalCenter="0" x="-21" scaleX="1" scaleY="1">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="FriendsSystem_json.feedback_confirm_1_png" source.down="FriendsSystem_json.feedback_confirm_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<e:EditableText id="input_phoneNumber" width="371" height="48" text="" x="-42.170000000000016" y="19.329999999999984" textAlign="left" verticalAlign="middle" prompt="请输入您的手机号码" size="28" textColor="0x9d7747" promptColor="0xbab4a9" scaleX="1" scaleY="1"/>
+		<e:EditableText id="input_code" width="174" height="48" text="" x="-42.170000000000016" y="106.56" textAlign="left" verticalAlign="middle" prompt="请输入验证码" size="28" textColor="0x9D7747" promptColor="0xBAB4A9" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="change" width="200" height="200" horizontalCenter="0" verticalCenter="0">
+		<e:Label id="phoneNumber" text="手机号：181*****351（已绑定）" fontFamily="fzch" textColor="0x805D31" size="30" scaleX="1" scaleY="1" horizontalCenter="0.5" verticalCenter="8"/>
+		<ns1:EButton id="btn_changeBind" label="" y="198" horizontalCenter="0">
+			<ns1:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="userBind_json.userbind_btn_changebinding1_png" source.down="userBind_json.userbind_btn_changebinding2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+	</e:Group>
+	<ns1:EButton id="btn_close" label="" x="935.66" y="87.21">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="common2_json.btn_jlb_common_close_1_png" source.down="common2_json.btn_jlb_common_close_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<e:Label id="timer" text="" y="379.67" size="20" fontFamily="fzch" verticalAlign="middle" textAlign="center" horizontalCenter="215.5"/>
+</e:Skin>

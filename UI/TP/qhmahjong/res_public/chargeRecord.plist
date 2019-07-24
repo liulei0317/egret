@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>img_charge_record_frame_bg.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,2},{85,82}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{85,82}}</string>
+                <key>sourceSize</key>
+                <string>{85,82}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>chargeRecord.png</string>
+            <key>size</key>
+            <string>{128,128}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:9aeb8068a7afbec2d3a704762fbde400:1/1$</string>
+            <key>textureFileName</key>
+            <string>chargeRecord.png</string>
+        </dict>
+    </dict>
+</plist>

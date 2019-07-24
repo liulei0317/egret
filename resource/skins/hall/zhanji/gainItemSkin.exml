@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mySkin.gainItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="930" height="120">
+	<w:Config id="16348aab940"/>
+	<e:Image anchorOffsetY="0" source="img_club_border_2_png" scale9Grid="26,24,15,10" left="0" right="0" top="0" bottom="0"/>
+	<e:Image anchorOffsetY="0" source="img_club_border_1_png" x="0" scale9Grid="15,19,9,17" top="0" bottom="0" width="68"/>
+	<e:Label id="labelTurnIndex" text="第1把" x="21" y="11.89" fontFamily="fzch" size="29" verticalAlign="middle" anchorOffsetX="0" width="31.21" anchorOffsetY="0" height="93.09" textAlign="center" textColor="0x874208"/>
+	<e:Group top="0" bottom="0" anchorOffsetX="0" width="177" right="0">
+		<e:Image anchorOffsetY="0" source="img_club_border_1_png" scale9Grid="15,19,9,17" scaleX="-1" anchorOffsetX="0" width="165" top="0" bottom="0" horizontalCenter="0"/>
+		<e:Image anchorOffsetY="0" scale9Grid="15,19,9,17" scaleX="1" anchorOffsetX="0" width="142" source="img_club_base_2_png" height="60" y="5" horizontalCenter="0.5"/>
+		<ns1:EButton id="btnReplay" label="" y="67.99" horizontalCenter="0">
+			<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_record_replay_1_png" source.down="btn_record_replay_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</ns1:skinName>
+		</ns1:EButton>
+		<e:Label text="点击复制回放码" y="12.15" fontFamily="fzzy" size="19" verticalAlign="middle" textAlign="center" textColor="0x773F1E" touchEnabled="false" left="0" right="0"/>
+		<e:Label id="labelReplayId" text="123456782" y="39.15" fontFamily="fzzy" size="22" verticalAlign="middle" textAlign="center" textColor="0x773f1e" touchEnabled="false" left="0" right="0"/>
+		<e:Rect id="btnCopyReplayId" width="143" height="60" x="18" y="5.65" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0"/>
+	</e:Group>
+
+	<ns1:GainUserItem id="gainUserItem1" x="50.71" y="12.67" skinName="mySkin.gainUserItemSkin"/>
+	<ns1:GainUserItem id="gainUserItem2" x="222" y="12.67" skinName="mySkin.gainUserItemSkin"/>
+	<ns1:GainUserItem id="gainUserItem3" x="393" y="12.67" skinName="mySkin.gainUserItemSkin"/>
+	<ns1:GainUserItem id="gainUserItem4" x="563.99" y="12.67" skinName="mySkin.gainUserItemSkin"/>
+	<e:Image id="imgBxh" x="67.98" y="86.99" source="img_club_history_record_bijiahu_png"/>
+</e:Skin>

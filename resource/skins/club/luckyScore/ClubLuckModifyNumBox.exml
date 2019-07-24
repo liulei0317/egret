@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubLuckModifyNumBox" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="frame_1_png" horizontalCenter="0" width="810" height="720" scale9Grid="257,160,28,36" fillMode="scale" y="10" touchEnabled="false"/>
+	<ns1:EButton id="btn_close" label="" x="944" y="10">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="common2_json.btn_jlb_common_close_1_png" source.down="common2_json.btn_jlb_common_close_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<e:Image source="img_frame_title_1_png" y="30" scaleX="0.9" scaleY="0.9" horizontalCenter="0" touchEnabled="false"/>
+	<e:Label text="请输入数字" y="50" textColor="0x805d31" size="32" fontFamily="fzch" horizontalCenter="0"/>
+	<e:Image source="club_json.img_club_base_2_png" y="110" width="438" height="68" horizontalCenter="0" scale9Grid="7,6,46,36" touchEnabled="false"/>
+	<e:Label id="number" text="+000000000" y="110" size="51" fontFamily="fzch" horizontalCenter="0" textColor="0xaf744e" textAlign="center" verticalAlign="middle" width="438" height="68"/>
+	<e:Image source="club_json.img_club_base_2_png" y="192" scale9Grid="7,6,46,36" width="640" height="390" horizontalCenter="0" touchEnabled="false"/>
+	<e:Group id="g1" x="328" y="200">
+		<ns1:EButton id="btn_1" label="" horizontalCenter="0" verticalCenter="0">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="joinRoom_json.button_number_1_png" source.down="joinRoom_json.button_number_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:EButton>
+		<e:Image source="joinRoom_json.number_1_png" horizontalCenter="0" verticalCenter="0" touchEnabled="false"/>
+	</e:Group>
+	<e:Group id="g2" x="544" y="200">
+		<ns1:EButton id="btn_2" label="">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="joinRoom_json.button_number_1_png" source.down="joinRoom_json.button_number_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:EButton>
+		<e:Image horizontalCenter="0" verticalCenter="0" source="joinRoom_json.number_2_png" touchEnabled="false"/>
+	</e:Group>
+	<e:Group id="g3" x="760" y="200">
+		<ns1:EButton id="btn_3" label="">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="joinRoom_json.button_number_1_png" source.down="joinRoom_json.button_number_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:EButton>
+		<e:Image horizontalCenter="0" verticalCenter="0" source="joinRoom_json.number_3_png" touchEnabled="false"/>
+	</e:Group>
+	<e:Group id="g4" x="328" y="295">
+		<ns1:EButton id="btn_4" label="">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="joinRoom_json.button_number_1_png" source.down="joinRoom_json.button_number_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:EButton>
+		<e:Image horizontalCenter="0" verticalCenter="0" source="joinRoom_json.number_4_png" touchEnabled="false"/>
+	</e:Group>
+	<e:Group id="g5" x="544" y="295">
+		<ns1:EButton id="btn_5" label="">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="joinRoom_json.button_number_1_png" source.down="joinRoom_json.button_number_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:EButton>
+		<e:Image horizontalCenter="0" verticalCenter="0" source="joinRoom_json.number_5_png" touchEnabled="false"/>
+	</e:Group>
+	<e:Group id="g6" x="760" y="295">
+		<ns1:EButton id="btn_6" label="">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="joinRoom_json.button_number_1_png" source.down="joinRoom_json.button_number_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:EButton>
+		<e:Image horizontalCenter="0" verticalCenter="0" source="joinRoom_json.number_6_png" touchEnabled="false"/>
+	</e:Group>
+	<e:Group id="g7" x="328" y="391">
+		<ns1:EButton id="btn_7" label="">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="joinRoom_json.button_number_1_png" source.down="joinRoom_json.button_number_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:EButton>
+		<e:Image horizontalCenter="0" verticalCenter="0" source="joinRoom_json.number_7_png" touchEnabled="false"/>
+	</e:Group>
+	<e:Group id="g8" x="544" y="391">
+		<ns1:EButton id="btn_8" label="">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="joinRoom_json.button_number_1_png" source.down="joinRoom_json.button_number_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:EButton>
+		<e:Image horizontalCenter="0" verticalCenter="0" source="joinRoom_json.number_8_png" touchEnabled="false"/>
+	</e:Group>
+	<e:Group id="g9" x="760" y="391">
+		<ns1:EButton id="btn_9" label="">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="joinRoom_json.button_number_1_png" source.down="joinRoom_json.button_number_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:EButton>
+		<e:Image horizontalCenter="0" verticalCenter="0" source="joinRoom_json.number_9_png" touchEnabled="false"/>
+	</e:Group>
+	<e:Group id="g0" x="544" y="486">
+		<ns1:EButton id="btn_0" label="">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="joinRoom_json.button_number_1_png" source.down="joinRoom_json.button_number_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+			</e:Skin>
+		</ns1:skinName>
+		</ns1:EButton>
+		<e:Image horizontalCenter="0" verticalCenter="0" source="joinRoom_json.number_0_png" touchEnabled="false"/>
+	</e:Group>
+	<ns1:EButton id="btn_minus" label="" x="310" y="476" visible="false">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="clubLucky_json.bt_luck_inputBox_minus1_png" source.down="clubLucky_json.bt_luck_inputBox_minus2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<ns1:EButton id="btn_plus" label="" x="310" y="476" visible="false">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="clubLucky_json.bt_luck_inputBox_plus1_png" source.down="clubLucky_json.bt_luck_inputBox_plus2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<ns1:EButton id="btn_point" label="" x="412" y="476">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="clubLucky_json.bt_luck_inputBox_pot1_png" source.down="clubLucky_json.bt_luck_inputBox_pot2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<ns1:EButton id="btn_delete" label="" x="742.33" y="475.33">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="joinRoom_json.button_delete_1_png" source.down="joinRoom_json.button_delete_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<ns1:EButton id="btn_confirm" label="" y="600" horizontalCenter="0">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="clubLucky_json.bt_luck_submit1_png" source.down="clubLucky_json.bt_luck_submit2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:game="game.*"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+</e:Skin>

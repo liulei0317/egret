@@ -1,0 +1,28 @@
+{
+    "projectName": "gameSetting",
+    "version": 5,
+    "files": [
+        "./TP/qhmahjong/gameSetting/img_tableSet_tableColor.png",
+        "./TP/qhmahjong/gameSetting/img_tableSet_tableColor_2.png",
+        "./TP/qhmahjong/gameSetting/img_tableSet_tableColor_1.png",
+        "./TP/qhmahjong/gameSetting/img_tableSet_frame.png",
+        "./TP/qhmahjong/gameSetting/img_tableSet_cardFace_2.png",
+        "./TP/qhmahjong/gameSetting/img_tableSet_cardFace_1.png",
+        "./TP/qhmahjong/gameSetting/img_tableSet_cardBack.png",
+        "./TP/qhmahjong/gameSetting/img_tableSet_cardBack_2.png",
+        "./TP/qhmahjong/gameSetting/img_tableSet_cardBack_1.png",
+        "./TP/qhmahjong/gameSetting/img_setting_3dtable.png",
+        "./TP/qhmahjong/gameSetting/img_setting_2dtable.png",
+        "./TP/qhmahjong/gameSetting/check_tableSet_selected.png",
+        "./TP/qhmahjong/gameSetting/check_tableSet_box.png",
+        "./TP/qhmahjong/gameSetting/button_tableSet_open.png",
+        "./TP/qhmahjong/gameSetting/button_tableSet_close.png"
+    ],
+    "options": {
+        "sizeMode": "2n",
+        "useExtension": 1,
+        "layoutGap": 1,
+        "extend": 0,
+        "layoutMath": "3"
+    }
+}

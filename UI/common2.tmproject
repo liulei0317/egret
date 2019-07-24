@@ -1,0 +1,40 @@
+{
+    "projectName": "common2",
+    "version": 5,
+    "files": [
+        "./TP/qhmahjong/common2/btn_club_history_reviewOthers_1.png",
+        "./TP/qhmahjong/common2/btn_club_history_reviewOthers_2.png",
+        "./TP/qhmahjong/common2/btn_club_history_reviewOthers_ok_1.png",
+        "./TP/qhmahjong/common2/btn_club_history_reviewOthers_ok_2.png",
+        "./TP/qhmahjong/common2/btn_club_table_dissolveCancel_1.png",
+        "./TP/qhmahjong/common2/btn_club_table_dissolveCancel_2.png",
+        "./TP/qhmahjong/common2/btn_discard_win_1.png",
+        "./TP/qhmahjong/common2/btn_discard_win_2.png",
+        "./TP/qhmahjong/common2/btn_game_win_1.png",
+        "./TP/qhmahjong/common2/btn_game_win_2.png",
+        "./TP/qhmahjong/common2/btn_jlb_common_close_1.png",
+        "./TP/qhmahjong/common2/btn_jlb_common_close_2.png",
+        "./TP/qhmahjong/common2/btn_nj_record_homericon.png",
+        "./TP/qhmahjong/common2/checkbox_check_box.png",
+        "./TP/qhmahjong/common2/checkbox_check_selected.png",
+        "./TP/qhmahjong/common2/checkbox_radio_box.png",
+        "./TP/qhmahjong/common2/checkbox_radio_selected.png",
+        "./TP/qhmahjong/common2/common_tab_1.png",
+        "./TP/qhmahjong/common2/common_tab_2.png",
+        "./TP/qhmahjong/common2/common2_bg_1.png",
+        "./TP/qhmahjong/common2/common2_img_line_1.png",
+        "./TP/qhmahjong/common2/common2_img_line_2.png",
+        "./TP/qhmahjong/common2/img_club_history_dealer.png",
+        "./TP/qhmahjong/common2/img_club_history_record_bijiahu.png",
+        "./TP/qhmahjong/common2/img_mask_alphaHalf.png",
+        "./TP/qhmahjong/common2/img_red_point.png",
+        "./TP/qhmahjong/common2/ui_record_img_line.png"
+    ],
+    "options": {
+        "sizeMode": "2n",
+        "useExtension": 1,
+        "layoutGap": 1,
+        "extend": 0,
+        "layoutMath": "3"
+    }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClubAddDivideTabBox" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="frame_1_png" scale9Grid="133,86,245,157" width="781" height="476" horizontalCenter="0" verticalCenter="0"/>
+	<ns1:EButton id="btnClose" label="" y="122" x="936">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="btn_jlb_common_close_1_png" source.down="btn_jlb_common_close_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<ns1:EButton id="btnIAdd" label="" horizontalCenter="0" y="436">
+		<ns1:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="clubAutoMatch_json.btn_isolationgroup_add1_png" source.down="clubAutoMatch_json.btn_isolationgroup_add2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:w="http://ns.egret.com/wing"/>
+			</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<e:Label text="添加隔离组名称：" size="34" fontFamily="fzch" textColor="0x805D31" textAlign="center" verticalAlign="middle" x="336" y="289"/>
+	<e:Image source="img_club_base_2_png" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="19,19,21,17" width="308" x="612" y="283"/>
+	<e:EditableText id="editSearch" width="300" text="" anchorOffsetX="0" anchorOffsetY="0" height="48" textColor="0x874208" size="30" fontFamily="fzzy" prompt="请输入名称" promptColor="0x828282" verticalAlign="middle" textAlign="left" x="612" y="283"/>
+</e:Skin>

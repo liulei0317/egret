@@ -1,0 +1,10 @@
+{"file":"shop.png","frames":{
+"img_nj_shop_title_1_1_png":{"x":307,"y":238,"w":95,"h":43,"offX":0,"offY":0,"sourceW":95,"sourceH":43},
+"img_nj_shop_title_1_2_png":{"x":0,"y":269,"w":90,"h":39,"offX":0,"offY":0,"sourceW":90,"sourceH":39},
+"img_nj_shop_title_2_1_png":{"x":141,"y":162,"w":93,"h":44,"offX":0,"offY":0,"sourceW":93,"sourceH":44},
+"img_nj_shop_title_2_2_png":{"x":402,"y":238,"w":89,"h":40,"offX":0,"offY":0,"sourceW":89,"sourceH":40},
+"img_sale_png":{"x":300,"y":0,"w":181,"h":143,"offX":0,"offY":0,"sourceW":181,"sourceH":143},
+"img_text_png":{"x":0,"y":0,"w":300,"h":162,"offX":0,"offY":0,"sourceW":300,"sourceH":162},
+"label_shop_1_png":{"x":300,"y":143,"w":187,"h":95,"offX":0,"offY":0,"sourceW":187,"sourceH":95},
+"label_shop_2_png":{"x":141,"y":238,"w":166,"h":89,"offX":0,"offY":1,"sourceW":187,"sourceH":95},
+"shop_bg_mask_png":{"x":0,"y":162,"w":141,"h":107,"offX":0,"offY":0,"sourceW":141,"sourceH":107}}}

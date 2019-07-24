@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mySkin.chargeRecordItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="636" height="58">
+	<e:Label id="labelTime" text="2019-01-01 00:00:00" size="26" fontFamily="fzzy" textColor="0x9d4d0a" anchorOffsetY="0" verticalAlign="middle" x="19" verticalCenter="0"/>
+	<e:Label id="labelInfo" text="加入房间" size="26" fontFamily="fzzy" textColor="0x9D4D0A" anchorOffsetY="0" verticalAlign="middle" x="299" verticalCenter="0"/>
+	<e:Label id="labelNum" text="+00000" size="26" fontFamily="fzzy" textColor="0x9D4D0A" anchorOffsetY="0" verticalAlign="middle" verticalCenter="0" left="486"/>
+</e:Skin>

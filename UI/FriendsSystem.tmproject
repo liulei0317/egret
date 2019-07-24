@@ -1,0 +1,28 @@
+{
+    "projectName": "FriendsSystem",
+    "files": [
+        "./../../../mahjong_nanjing_client_new/MaJiong/TP/qhmahjong/inviteFriends/invite_playerBg_2.png",
+        "./../../../mahjong_nanjing_client_new/MaJiong/TP/qhmahjong/inviteFriends/invite_playerBg.png",
+        "./../../../mahjong_nanjing_client_new/MaJiong/TP/qhmahjong/inviteFriends/invite_joinRoom_2.png",
+        "./../../../mahjong_nanjing_client_new/MaJiong/TP/qhmahjong/inviteFriends/invite_joinRoom_1.png",
+        "./../../../mahjong_nanjing_client_new/MaJiong/TP/qhmahjong/inviteFriends/invite_invitePlayer_3.png",
+        "./../../../mahjong_nanjing_client_new/MaJiong/TP/qhmahjong/inviteFriends/invite_invitePlayer_2.png",
+        "./../../../mahjong_nanjing_client_new/MaJiong/TP/qhmahjong/inviteFriends/invite_invitePlayer_1.png",
+        "./../../../mahjong_nanjing_client_new/MaJiong/TP/qhmahjong/inviteFriends/invite_goWechat_2.png",
+        "./../../../mahjong_nanjing_client_new/MaJiong/TP/qhmahjong/inviteFriends/invite_goWechat_1.png",
+        "./../../../mahjong_nanjing_client_new/MaJiong/TP/qhmahjong/inviteFriends/invite_copy_nickname_2.png",
+        "./../../../mahjong_nanjing_client_new/MaJiong/TP/qhmahjong/inviteFriends/invite_copy_nickname_1.png",
+        "./../../../mahjong_nanjing_client_new/MaJiong/TP/qhmahjong/inviteFriends/feedback_confirm_2.png",
+        "./../../../mahjong_nanjing_client_new/MaJiong/TP/qhmahjong/inviteFriends/feedback_confirm_1.png",
+        "./../../../mahjong_nanjing_client_new/MaJiong/TP/qhmahjong/inviteFriends/feedback_btSub_2.png",
+        "./../../../mahjong_nanjing_client_new/MaJiong/TP/qhmahjong/inviteFriends/feedback_btSub_1.png"
+    ],
+    "options": {
+        "sizeMode": "2n",
+        "useExtension": 1,
+        "layoutGap": 1,
+        "extend": 0,
+        "layoutMath": "0"
+    },
+    "version": 5
+}

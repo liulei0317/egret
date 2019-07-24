@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ruleDescSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="1280" height="720">
+	<e:Image y="80.01" anchorOffsetX="0" width="1153.03" anchorOffsetY="0" height="621.21" source="frame_1_png" scale9Grid="238,149,89,47" horizontalCenter="-0.5"/>
+	<e:Scroller width="739.39" height="506.06" x="416.34" y="132.28" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Group anchorOffsetX="0" width="722" x="0" y="28" anchorOffsetY="0" height="470">
+			<e:Label id="ruleLabel" text="sdjjfs夺标夺sdfsf\nfsdjf植树霜夺标城 " x="10.7" y="6.66" anchorOffsetX="0" width="716.39" anchorOffsetY="0" size="30" fontFamily="fzzy" scaleX="1" scaleY="1" lineSpacing="15" textColor="0x6d3d29"/>
+		</e:Group>
+	</e:Scroller>
+	<e:Image x="372.29" y="49.96" scale9Grid="20,15,18,14" source="img_club_line_png"/>
+	<e:Group y="45.46" horizontalCenter="0">
+		<e:Image x="0" y="0" source="frame_title_2_png" scale9Grid="408,8,36,48" anchorOffsetX="0" width="1104"/>
+		<e:Image y="6.08" source="img_frame_title_1_png" scaleX="0.7" scaleY="0.7" x="350.48"/>
+		<e:Label text="玩法说明" y="17" textColor="0x874208" size="36" fontFamily="fzch" horizontalCenter="0"/>
+	</e:Group>
+	<ns1:EButton id="btnClose" label="" x="1119.46" y="33.67" enabled="true">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_jlb_common_close_1_png" source.down="btn_jlb_common_close_2_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:EButton>
+	<ns1:EToggleButton id="tab1" label="" x="142.51" y="133.49" enabled="true">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="lable_club_myClub_2_png" source.down="lable_club_myClub_1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:EToggleButton>
+	<ns1:EToggleButton id="tab2" label="" x="142.51" y="220.85" enabled="true">
+		<ns1:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="lable_club_myClub_2_png" source.down="lable_club_myClub_1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</ns1:skinName>
+	</ns1:EToggleButton>
+	<e:Label id="labelTab1" text="进园子" x="207.56" y="153" fontFamily="fzch" textColor="0xffffff" size="32" stroke="2" strokeColor="0x904216" touchEnabled="false"/>
+	<e:Label id="labelTab2" text="敞开头" x="207.56" y="241" fontFamily="fzch" textColor="0xFFFFFF" size="32" stroke="2" strokeColor="0x904216" touchEnabled="false"/>
+</e:Skin>
