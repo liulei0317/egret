@@ -94,46 +94,46 @@
         }
     </script>
     <script>
-        // var detectOrientOri = function () {
-        //     var width = document.documentElement.clientWidth,
-        //         height = document.documentElement.clientHeight,
-        //         $wrapper = document.getElementById("preloading"),
-        //         $bg = document.getElementById("preloading_bg"),
-        //         styleBg = "",
-        //         style = "";
+        var detectOrientOri = function () {
+            var width = document.documentElement.clientWidth,
+                height = document.documentElement.clientHeight,
+                $wrapper = document.getElementById("preloading"),
+                $bg = document.getElementById("preloading_bg"),
+                styleBg = "",
+                style = "";
 
-        //     if (width >= height) { // 横屏
-        //         style += "width:" + 100 + "vw;"; // 注意旋转后的宽高切换
-        //         style += "height:" + 100 + "vh;";
-        //         style += "-webkit-transform: rotate(0); transform: rotate(0);";
-        //         style += "-webkit-transform-origin: 0 0;";
-        //         style += "transform-origin: 0 0;";
-        //         styleBg += "width:auto;";
-        //         styleBg += "height:" + 100 + "vh;";
-        //         styleBg += "max-width:100%;max-height: 100%;";
+            if (width >= height) { // 横屏
+                style += "width:" + 100 + "vw;"; // 注意旋转后的宽高切换
+                style += "height:" + 100 + "vh;";
+                style += "-webkit-transform: rotate(0); transform: rotate(0);";
+                style += "-webkit-transform-origin: 0 0;";
+                style += "transform-origin: 0 0;";
+                styleBg += "width:auto;";
+                styleBg += "height:" + 100 + "vh;";
+                styleBg += "max-width:100%;max-height: 100%;";
 
-        //     }
-        //     else { // 竖屏
-        //         style += "width:" + 100 + "vh;";
-        //         style += "height:" + 100 + "vw;";
-        //         style += "-webkit-transform: rotate(90deg); transform: rotate(90deg);";
-        //         // 注意旋转中点的处理
-        //         style += "-webkit-transform-origin: " + 50 + "vw " + 50 + "vw;";
-        //         style += "transform-origin: " + 50 + "vw " + 50 + "vw;";
-        //         styleBg += "width:" + 100 + "vh;";
-        //         styleBg += "height:" + 100 + "vw;";
-        //     }
-        //     $wrapper.style.cssText = style;
-        //     $bg.style.cssText = styleBg;
-        // }
-        // var detectOrient = function () {
-        //     setTimeout(function () {
-        //         detectOrientOri()
-        //     }, 300)
-        // }
-        // var evt = "onorientationchange" in window ? "orientationchange" : "resize";
-        // window.addEventListener(evt, detectOrient)
-        // detectOrientOri();
+            }
+            else { // 竖屏
+                style += "width:" + 100 + "vh;";
+                style += "height:" + 100 + "vw;";
+                style += "-webkit-transform: rotate(90deg); transform: rotate(90deg);";
+                // 注意旋转中点的处理
+                style += "-webkit-transform-origin: " + 50 + "vw " + 50 + "vw;";
+                style += "transform-origin: " + 50 + "vw " + 50 + "vw;";
+                styleBg += "width:" + 100 + "vh;";
+                styleBg += "height:" + 100 + "vw;";
+            }
+            $wrapper.style.cssText = style;
+            $bg.style.cssText = styleBg;
+        }
+        var detectOrient = function () {
+            setTimeout(function () {
+                detectOrientOri()
+            }, 300)
+        }
+        var evt = "onorientationchange" in window ? "orientationchange" : "resize";
+        window.addEventListener(evt, detectOrient)
+        detectOrientOri();
         var loadScript = function (list, callback) {
             var loaded = 0;
             var loadNext = function () {
