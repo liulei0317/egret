@@ -181,11 +181,10 @@
                  * "calculateCanvasScaleFactor": //a function return canvas scale factor
                  * }
                  **/
-
+                window.removeEventListener('resize', detectOrient, false);
+                window.removeEventListener('orientationchange', detectOrient, false);
                 document.fonts.ready.then(success, fail);
                 function success() {
-                    // window.removeEventListener('resize', detectOrient, false);
-                    // window.removeEventListener('orientationchange', detectOrient, false);
                     console.info("load font success.");
                     egret.runEgret({
                         renderMode: "webgl", audioType: 0, calculateCanvasScaleFactor: function (context) {
