@@ -58,11 +58,10 @@
         data-orientation="landscape" data-scale-mode="fixedHeight" data-frame-rate="60" data-content-width="1280"
         data-content-height="720" data-multi-fingered="1" data-show-fps="false" data-show-log="false"
         data-show-fps-style="x:0,y:0,size:24,textColor:0xffffff,bgAlpha:0.9">
-        <div id="preloading" style="margin:auto; width:100vw; height:100vh; z-index:1000">
-            <div
-                style="position:relative;top:0;color: #ffffff;display:block;text-align:center;height: 100vh;width: 100vw;">
+        <div id="preloading" style="margin:auto; width:auto; height:100vh; z-index:1000">
+            <div style="position:relative;top:0;display:block;text-align:center;height: 100vh;width: auto;">
                 <img src="resource/preload/bg_loading_nanjing.png" alt="" id="preloading_bg"
-                    style="width: 100vw;height: 100vh;">
+                    style="width: auto;height: 100vh; max-width: 100%; max-height: 100%;">
             </div>
             <div align="center"><img id="preloading_loading" src="resource/preload/loading.gif?v=" +Math.random()
                     style="position: absolute; top: 60%; margin-left: -38px;margin-top: -8px;object-fit: contain;" />
@@ -72,7 +71,7 @@
                 0%</p>
         </div>
     </div>
-    <!-- <div id="divImage"
+    <div id="divImage"
         style="background: #373737;display:none;text-align:center;z-index:99;width:100%;height:100%;position: fixed;">
         <div style="position:relative;top:0;color: #ffffff;display:block;text-align:center;height: 100%;width: auto;">
             <img src="" alt="" id="shareImage" style="width: auto;height: 100%;">
@@ -86,7 +85,7 @@
             style="position:absolute;left:20%;top:1%; width: 50vw; height: auto;pointer-events:none;">
         <img src="./resource/preload/H5share/img_h5_finger.png" alt=""
             style="position:absolute;left:44%;top:30%; width: 12vw; height: auto;pointer-events:none;">
-    </div> -->
+    </div>
     <script>
         ///这里添加点击 X 按钮关闭
         function isHidden(idtext) {
@@ -95,46 +94,46 @@
         }
     </script>
     <script>
-        // let egretCanvas = document.getElementById("egret-canvas")
-        // egretCanvas.style.display = "none"
-        // var detectOrientOri = function () {
-        //     var width = document.documentElement.clientWidth,
-        //         height = document.documentElement.clientHeight,
-        //         $wrapper = document.getElementById("preloading"),
-        //         $bg = document.getElementById("preloading_bg"),
-        //         styleBg = "",
-        //         style = "";
+        var detectOrientOri = function () {
+            var width = document.documentElement.clientWidth,
+                height = document.documentElement.clientHeight,
+                $wrapper = document.getElementById("preloading"),
+                $bg = document.getElementById("preloading_bg"),
+                styleBg = "",
+                style = "";
 
-        //     if (width >= height) { // 横屏
-        //         style += "width:" + 100 + "vw;"; // 注意旋转后的宽高切换
-        //         style += "height:" + 100 + "vh;";
-        //         style += "-webkit-transform: rotate(0); transform: rotate(0);";
-        //         style += "-webkit-transform-origin: 0 0;";
-        //         style += "transform-origin: 0 0;";
-        //         styleBg += "width:" + 100 + "vw;";
-        //         styleBg += "height:" + 100 + "vh;";
-        //     }
-        //     else { // 竖屏
-        //         style += "width:" + 100 + "vh;";
-        //         style += "height:" + 100 + "vw;";
-        //         style += "-webkit-transform: rotate(90deg); transform: rotate(90deg);";
-        //         // 注意旋转中点的处理
-        //         style += "-webkit-transform-origin: " + 50 + "vw " + 50 + "vw;";
-        //         style += "transform-origin: " + 50 + "vw " + 50 + "vw;";
-        //         styleBg += "width:" + 100 + "vh;";
-        //         styleBg += "height:" + 100 + "vw;";
-        //     }
-        //     $wrapper.style.cssText = style;
-        //     $bg.style.cssText = styleBg;
-        // }
-        // var detectOrient = function () {
-        //     setTimeout(function () {
-        //         detectOrientOri()
-        //     }, 300)
-        // }
-        // var evt = "onorientationchange" in window ? "orientationchange" : "resize";
-        // window.addEventListener(evt, detectOrient)
-        // detectOrientOri();
+            if (width >= height) { // 横屏
+                style += "width:" + 100 + "vw;"; // 注意旋转后的宽高切换
+                style += "height:" + 100 + "vh;";
+                style += "-webkit-transform: rotate(0); transform: rotate(0);";
+                style += "-webkit-transform-origin: 0 0;";
+                style += "transform-origin: 0 0;";
+                styleBg += "width:auto;";
+                styleBg += "height:" + 100 + "vh;";
+                styleBg += "max-width:100%;max-height: 100%;";
+
+            }
+            else { // 竖屏
+                style += "width:" + 100 + "vh;";
+                style += "height:" + 100 + "vw;";
+                style += "-webkit-transform: rotate(90deg); transform: rotate(90deg);";
+                // 注意旋转中点的处理
+                style += "-webkit-transform-origin: " + 50 + "vw " + 50 + "vw;";
+                style += "transform-origin: " + 50 + "vw " + 50 + "vw;";
+                styleBg += "width:" + 100 + "vh;";
+                styleBg += "height:" + 100 + "vw;";
+            }
+            $wrapper.style.cssText = style;
+            $bg.style.cssText = styleBg;
+        }
+        var detectOrient = function () {
+            setTimeout(function () {
+                detectOrientOri()
+            }, 300)
+        }
+        var evt = "onorientationchange" in window ? "orientationchange" : "resize";
+        window.addEventListener(evt, detectOrient)
+        detectOrientOri();
         var loadScript = function (list, callback) {
             var loaded = 0;
             var loadNext = function () {
@@ -185,8 +184,8 @@
 
                 document.fonts.ready.then(success, fail);
                 function success() {
-                    // window.removeEventListener('resize', detectOrient, false);
-                    // window.removeEventListener('orientationchange', detectOrient, false);
+                    window.removeEventListener('resize', detectOrient, false);
+                    window.removeEventListener('orientationchange', detectOrient, false);
                     console.info("load font success.");
                     egret.runEgret({
                         renderMode: "webgl", audioType: 0, calculateCanvasScaleFactor: function (context) {
