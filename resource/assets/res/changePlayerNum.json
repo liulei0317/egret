@@ -1,8 +1,0 @@
-{"file":"changePlayerNum.png","frames":{
-"btn_erren_play_1_png":{"x":216,"y":78,"w":172,"h":75,"offX":0,"offY":0,"sourceW":172,"sourceH":75},
-"btn_erren_play_2_png":{"x":1,"y":83,"w":163,"h":72,"offX":5,"offY":2,"sourceW":172,"sourceH":75},
-"btn_sanren_play_1_png":{"x":216,"y":1,"w":172,"h":75,"offX":0,"offY":0,"sourceW":172,"sourceH":75},
-"btn_sanren_play_2_png":{"x":166,"y":155,"w":163,"h":72,"offX":5,"offY":2,"sourceW":172,"sourceH":75},
-"img_sanren_btnBG_png":{"x":1,"y":1,"w":213,"h":80,"offX":0,"offY":0,"sourceW":213,"sourceH":80},
-"img_sanren_check_png":{"x":390,"y":1,"w":55,"h":47,"offX":0,"offY":2,"sourceW":56,"sourceH":50},
-"img_sanren_ok_png":{"x":447,"y":1,"w":55,"h":47,"offX":0,"offY":2,"sourceW":56,"sourceH":50}}}
