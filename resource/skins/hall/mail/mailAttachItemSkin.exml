@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="mySkin.mailAttachItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="64" height="91">
-	<e:Image id="imgIcon" width="60" height="60" scale9Grid="148,40,32,19" y="5" horizontalCenter="0" source=""/>
-	<e:Label id="labelNum" text="1" textColor="0x8c5031" fontFamily="fzzy" size="24" bottom="0" horizontalCenter="0"/>
-</e:Skin>

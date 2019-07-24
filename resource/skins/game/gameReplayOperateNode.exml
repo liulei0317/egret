@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="gameReplayOperateNode" width="204" height="74" xmlns:e="http://ns.egret.com/eui">
-	<e:Image source="img_replay_operate_bg_png" scale9Grid="20,13,36,23" left="0" right="0" top="0" bottom="0"/>
-</e:Skin>

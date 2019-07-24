@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="GameChatBoxEmotionItemSkin" width="352" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
-	<ns1:GameChatEmotion id="emotion1" skinName="GameChatBoxEmotionSkin" top="0" x="12"/>
-	<ns1:GameChatEmotion id="emotion2" skinName="GameChatBoxEmotionSkin" top="0" horizontalCenter="0"/>
-	<ns1:GameChatEmotion id="emotion3" skinName="GameChatBoxEmotionSkin" right="13" top="-1"/>
-</e:Skin>

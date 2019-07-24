@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="GameChatBoxEmotionSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="104" height="104">
-	<e:Image id="Image_bg" source="emotion_select_png" horizontalCenter="0" verticalCenter="0" width="104" height="104"/>
-	<e:Image id="Image_emotion" source="daxiao_png" horizontalCenter="0" verticalCenter="0"/>
-</e:Skin>

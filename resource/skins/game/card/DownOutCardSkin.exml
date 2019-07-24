@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="DownOutCardSkin" width="42" height="60" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
-	<e:Image id="back" horizontalCenter="0" verticalCenter="0" source="card_new_json.2dmj_card_top_face_png"/>
-	<e:Image id="face" horizontalCenter="0" verticalCenter="-8" source="cardFace_new_1_json.1_2dmj_cardnum_mahjong_09_png" scaleX="0.5" scaleY="0.5"/>
-</e:Skin>

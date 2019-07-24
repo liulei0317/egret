@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="clubMyRecordDataItem" width="1000" height="64" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
-	<e:Image source="clubLucky_json.img_club_base_4_png" width="1000" height="64" horizontalCenter="0" verticalCenter="0" scale9Grid="8,10,52,20"/>
-	<e:Label id="Text_time" text="2019-10-10" fontFamily="fzzy" textColor="0x9d4d0a" verticalAlign="middle" textAlign="center" width="160" left="40" verticalCenter="0"/>
-	<e:Label id="Text_total_num" text="0" verticalCenter="0" fontFamily="fzzy" textColor="0x9D4D0A" verticalAlign="middle" textAlign="center" width="160" horizontalCenter="0"/>
-	<e:Label id="Text_other_num" text="0" verticalCenter="0" fontFamily="fzzy" textColor="0x9D4D0A" verticalAlign="middle" textAlign="center" width="160" right="40"/>
-</e:Skin>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="clubLuckySendRecordItem" width="922" height="60" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
-	<e:Image source="clubLucky_json.img_club_base_4_png" horizontalCenter="0" verticalCenter="0" scale9Grid="8,10,52,21" width="922" height="60"/>
-	<e:Label id="Text_time" text="00:00:00" x="10" size="24" fontFamily="fzzy" textColor="0x9d4d0a" verticalCenter="0"/>
-	<e:Label id="Text_type" text="昵称昵称昵称(123456)" x="150" textColor="0x9d4d0a" size="24" fontFamily="fzzy" y="18" width="240" verticalAlign="middle" textAlign="center"/>
-	<e:Label id="Text_changedValue" text="+233333" x="444" size="24" fontFamily="fzzy" textColor="0x3480be" y="18" verticalAlign="middle" textAlign="center" width="90"/>
-	<e:Label id="Text_limitValue" text="233333" x="600" size="24" fontFamily="fzzy" textColor="0x9d4d0a" y="18" width="80" verticalAlign="middle" textAlign="center"/>
-	<e:Label id="Text_operator" text="房间号：123456" x="724" size="24" fontFamily="fzzy" textColor="0x3480be" verticalAlign="middle" textAlign="center" width="200" verticalCenter="0"/>
-</e:Skin>

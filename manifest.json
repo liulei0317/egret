@@ -1,0 +1,19 @@
+{
+	"initial": [
+		"js/egret.min_e70fa1ee.js",
+		"js/egret.web.min_e835c5d0.js",
+		"js/game.min_8c120525.js",
+		"js/tween.min_6c5a88f9.js",
+		"js/assetsmanager.min_77c2fdfe.js",
+		"js/eui.min_e8f47f49.js",
+		"js/socket.min_8b4cb752.js",
+		"js/promise.min_83a6a5d.js",
+		"js/dragonBones.min_6252b9c4.js",
+		"js/uploadLib.min_356e27ef.js",
+		"js/NoSleep.min_dcbd0e59.js"
+	],
+	"game": [
+		"js/default.thm_1fc2bebe.js",
+		"js/main.min_41a12489.js"
+	]
+}

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="checkCheatBox" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
-	<e:Image verticalCenter="0" horizontalCenter="0" source="bentouming_png" scale9Grid="7,3,3,3" width="368" height="280"/>
-	<e:Image source="img_Anti-Cheating_radarBG_png" y="240" horizontalCenter="0" width="186" height="186"/>
-	<e:Image id="Image_rotate" source="img_Anti-Cheating_radarScan_png" horizontalCenter="0" width="186" height="186" anchorOffsetX="93" anchorOffsetY="93" verticalCenter="-26" rotation="90"/>
-	<e:Label id="Text_info" text="防作弊扫描中..." y="441" size="24" fontFamily="fzzy" horizontalCenter="0" textColor="0xa8c2bf"/>
-</e:Skin>

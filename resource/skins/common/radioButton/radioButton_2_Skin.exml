@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="mySkin.radioButton_2_Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="36">
-	<w:Config id="16348aab940"/>
-	<e:Image x="0" y="-7" touchEnabled="false" source="checkbox_check_box_png"/>
-	<e:Label id="labelText" text="关闭" x="49.04" size="28" textColor="0x7b5646" fontFamily="fzzy" touchEnabled="false" verticalCenter="0" verticalAlign="middle" textAlign="left"/>
-	<e:Image id="imgOn" x="0" y="-7" touchEnabled="false" source="checkbox_check_selected_png"/>
-	<e:Rect left="0" right="0" top="0" bottom="0" id="rect" fillAlpha="0"/>
-</e:Skin>

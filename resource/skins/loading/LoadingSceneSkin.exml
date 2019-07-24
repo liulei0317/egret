@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="LoadingSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
-	<e:Image horizontalCenter="0" verticalCenter="0" height="720" source="mode_update_bg_jpg"/>
-	<e:Image y="180" horizontalCenter="0" source="logo_png"/>
-	<e:ProgressBar id="loadingBar" y="556" skinName="skins.ProgressBarSkin" horizontalCenter="0"/>
-	<e:Image id="Image_progress" source="img_point_green_png" x="249" y="501.33"/>
-</e:Skin>

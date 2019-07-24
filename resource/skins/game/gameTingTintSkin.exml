@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="gameTingTint" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="160" height="150">
-	<e:Image id="Image_bg" height="150" verticalCenter="0" width="160" x="0" source="club_json.img_club_base_2_png" scale9Grid="21,18,16,4"/>
-	<e:Image source="img_gameui_hu_png" x="30" y="24"/>
-</e:Skin>

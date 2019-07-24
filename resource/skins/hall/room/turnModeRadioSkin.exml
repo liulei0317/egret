@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<e:Skin class="skins.turnModeRadioSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="227.5">
-	<ns1:ERadioButton id="radioButton" x="0" skinName="mySkin.radioButton_1_Skin" verticalCenter="0" touchEnabled="false"/>
-	<e:Image x="110.5" verticalCenter="0" touchEnabled="false" source=""/>
-	<e:Image x="112.32" verticalCenter="0" source="icon_card_png" scaleX="0.5" scaleY="0.5" touchEnabled="false"/>
-	<e:Label id="labelCostNum" text="x000" size="28" textColor="0x7B5646" fontFamily="fzzy" touchEnabled="false" verticalCenter="0" verticalAlign="middle" textAlign="left" left="165"/>
-	<e:Rect id="rect" fillAlpha="0" left="0" right="0" top="0" bottom="0"/>
-</e:Skin>

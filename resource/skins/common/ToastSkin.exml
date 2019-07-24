@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="ToastSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
-	<e:Image source="frame_tips_png" top="0" scale9Grid="68,19,32,14" left="0" right="0" bottom="0"/>
-	<e:Label id="Text_msg" text="消息提示" horizontalCenter="0" verticalCenter="-2" size="24" textColor="0xfff8ed" fontFamily="fzch" left="20" right="20" textAlign="center"/>
-</e:Skin>

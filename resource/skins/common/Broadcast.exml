@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="Broadcast" width="700" height="40" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
-	<e:Image source="bg_broadcasting_png" horizontalCenter="0" verticalCenter="0"/>
-	<e:Image source="common_json.img_broadcasting_png" horizontalCenter="-328" verticalCenter="0"/>
-	<e:Scroller id="labelScroller" width="560" height="36" horizontalCenter="0" verticalCenter="0">
-	</e:Scroller>
-</e:Skin>

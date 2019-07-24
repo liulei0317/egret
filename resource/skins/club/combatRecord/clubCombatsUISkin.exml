@@ -1,4 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="mySkin.clubCombatsUISkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="906" height="480">
-	<ns1:ZhanJiUI id="zhanjiUI" skinName="mySkin.zhanJiUISkin" left="0" right="0" top="0" bottom="0"/>
-</e:Skin>
