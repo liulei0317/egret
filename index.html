@@ -58,7 +58,7 @@
         data-orientation="landscape" data-scale-mode="fixedHeight" data-frame-rate="60" data-content-width="1280"
         data-content-height="720" data-multi-fingered="1" data-show-fps="false" data-show-log="false"
         data-show-fps-style="x:0,y:0,size:24,textColor:0xffffff,bgAlpha:0.9">
-        <!-- <div id="preloading" style="margin:auto; width:100vw; height:100vh; z-index:1000">
+        <div id="preloading" style="margin:auto; width:100vw; height:100vh; z-index:1000">
             <div
                 style="position:relative;top:0;color: #ffffff;display:block;text-align:center;height: 100vh;width: 100vw;">
                 <img src="resource/preload/bg_loading_nanjing.png" alt="" id="preloading_bg"
@@ -70,7 +70,7 @@
             <p id="progressText"
                 style="font-family:fzch;height: 20px; color: #4d4a4a; position: absolute; left:50%; top: 50%; transform: translateY(-50%);">
                 0%</p>
-        </div> -->
+        </div>
     </div>
     <!-- <div id="divImage"
         style="background: #373737;display:none;text-align:center;z-index:99;width:100%;height:100%;position: fixed;">
@@ -141,9 +141,9 @@
                 loadSingleScript(list[loaded], function () {
                     loaded++;
 
-                    // var lb = document.getElementById("progressText")
-                    // lb.innerHTML = "" + (loaded / list.length * 100).toFixed(0) + "%"
-                    // lb.style.marginLeft = (-(lb.clientWidth / 2)) + "px"
+                    var lb = document.getElementById("progressText")
+                    lb.innerHTML = "" + (loaded / list.length * 100).toFixed(0) + "%"
+                    lb.style.marginLeft = (-(lb.clientWidth / 2)) + "px"
 
                     if (loaded >= list.length) {
                         callback();
