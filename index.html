@@ -181,7 +181,7 @@
                  * "calculateCanvasScaleFactor": //a function return canvas scale factor
                  * }
                  **/
-                window.removeEventListener('resize', detectOrient, false);
+                // window.removeEventListener('resize', detectOrient, false);
                 window.removeEventListener('orientationchange', detectOrient, false);
                 document.fonts.ready.then(success, fail);
                 function success() {
