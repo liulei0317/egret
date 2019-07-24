@@ -16414,7 +16414,7 @@ window.skins=window.skins||{};
 
 	function floatingWindow() {
 		_super.call(this);
-		this.skinParts = ["bgImage","exitFullScreen","enterFullScreen","enterFullScreenGroup","lightingOn","lightingOff","lightingGroup","refreshWeb","refreshWebGroup","popMenuGroup","btn"];
+		this.skinParts = ["bgImage","exitFullScreen","enterFullScreen","enterFullScreenGroup","lightingOn","lightingOff","lightingGroup","refreshWeb","refreshWebGroup","buttonGroup","popMenuGroup","btn"];
 		
 		this.height = 154;
 		this.width = 900;
@@ -16425,120 +16425,159 @@ window.skins=window.skins||{};
 	_proto.popMenuGroup_i = function () {
 		var t = new eui.Group();
 		this.popMenuGroup = t;
-		t.anchorOffsetX = 225;
-		t.anchorOffsetY = 77;
+		t.anchorOffsetX = 0;
+		t.anchorOffsetY = 0;
 		t.scaleX = 1;
 		t.verticalCenter = 0;
 		t.width = 450;
-		t.x = 225;
-		t.elementsContent = [this.bgImage_i(),this.enterFullScreenGroup_i(),this.lightingGroup_i(),this.refreshWebGroup_i()];
+		t.x = 0;
+		t.elementsContent = [this.bgImage_i(),this.buttonGroup_i()];
 		return t;
 	};
 	_proto.bgImage_i = function () {
 		var t = new eui.Image();
 		this.bgImage = t;
-		t.anchorOffsetX = 225;
-		t.anchorOffsetY = 77;
-		t.right = 0;
+		t.anchorOffsetX = 0;
+		t.anchorOffsetY = 0;
 		t.scale9Grid = new egret.Rectangle(61,51,74,47);
 		t.scaleX = 1;
 		t.source = "floatingWindow_json.img_h5_suspend_png";
 		t.width = 450;
-		t.y = 77;
+		t.x = 0;
+		t.y = 0;
+		return t;
+	};
+	_proto.buttonGroup_i = function () {
+		var t = new eui.Group();
+		this.buttonGroup = t;
+		t.verticalCenter = 0.5;
+		t.x = 30;
+		t.layout = this._BasicLayout1_i();
+		t.elementsContent = [this.enterFullScreenGroup_i(),this.lightingGroup_i(),this.refreshWebGroup_i()];
+		return t;
+	};
+	_proto._BasicLayout1_i = function () {
+		var t = new eui.BasicLayout();
 		return t;
 	};
 	_proto.enterFullScreenGroup_i = function () {
 		var t = new eui.Group();
 		this.enterFullScreenGroup = t;
-		t.x = 57.6;
-		t.y = 35;
-		t.elementsContent = [this._Image1_i(),this.exitFullScreen_i(),this.enterFullScreen_i()];
-		return t;
-	};
-	_proto._Image1_i = function () {
-		var t = new eui.Image();
-		t.source = "floatingWindow_json.img_h5_suspend_line_png";
-		t.x = 96;
-		t.y = 0;
+		t.verticalCenter = 0;
+		t.width = 128;
+		t.x = 0;
+		t.elementsContent = [this.exitFullScreen_i(),this.enterFullScreen_i(),this._Image1_i()];
 		return t;
 	};
 	_proto.exitFullScreen_i = function () {
 		var t = new EButton();
 		this.exitFullScreen = t;
+		t.horizontalCenter = 0;
 		t.label = "";
 		t.scaleX = 1;
 		t.scaleY = 1;
 		t.verticalCenter = 0;
-		t.x = 0;
 		t.skinName = floatingWindow$Skin169;
 		return t;
 	};
 	_proto.enterFullScreen_i = function () {
 		var t = new EButton();
 		this.enterFullScreen = t;
+		t.horizontalCenter = 0;
 		t.label = "";
 		t.scaleX = 1;
 		t.scaleY = 1;
 		t.verticalCenter = 0;
-		t.x = 0;
 		t.skinName = floatingWindow$Skin170;
+		return t;
+	};
+	_proto._Image1_i = function () {
+		var t = new eui.Image();
+		t.anchorOffsetX = 5;
+		t.name = "line";
+		t.right = 0;
+		t.scaleX = 1;
+		t.scaleY = 1;
+		t.source = "floatingWindow_json.img_h5_suspend_line_png";
+		t.verticalCenter = 0;
+		t.width = 5;
+		t.y = -4;
 		return t;
 	};
 	_proto.lightingGroup_i = function () {
 		var t = new eui.Group();
 		this.lightingGroup = t;
-		t.x = 175.6;
-		t.y = 35;
-		t.elementsContent = [this._Image2_i(),this.lightingOn_i(),this.lightingOff_i()];
-		return t;
-	};
-	_proto._Image2_i = function () {
-		var t = new eui.Image();
-		t.source = "floatingWindow_json.img_h5_suspend_line_png";
 		t.verticalCenter = 0;
-		t.x = 96;
+		t.width = 128;
+		t.x = 128;
+		t.elementsContent = [this.lightingOn_i(),this.lightingOff_i(),this._Image2_i()];
 		return t;
 	};
 	_proto.lightingOn_i = function () {
 		var t = new EButton();
 		this.lightingOn = t;
+		t.horizontalCenter = 0;
 		t.label = "";
 		t.scaleX = 1;
 		t.scaleY = 1;
 		t.verticalCenter = 0;
-		t.x = 0;
 		t.skinName = floatingWindow$Skin171;
 		return t;
 	};
 	_proto.lightingOff_i = function () {
 		var t = new EButton();
 		this.lightingOff = t;
+		t.horizontalCenter = 0;
 		t.label = "";
 		t.scaleX = 1;
 		t.scaleY = 1;
 		t.verticalCenter = 0;
-		t.x = 0;
 		t.skinName = floatingWindow$Skin172;
+		return t;
+	};
+	_proto._Image2_i = function () {
+		var t = new eui.Image();
+		t.anchorOffsetX = 5;
+		t.name = "line";
+		t.right = 0;
+		t.scaleX = 1;
+		t.scaleY = 1;
+		t.source = "floatingWindow_json.img_h5_suspend_line_png";
+		t.verticalCenter = 0;
+		t.y = -5;
 		return t;
 	};
 	_proto.refreshWebGroup_i = function () {
 		var t = new eui.Group();
 		this.refreshWebGroup = t;
 		t.height = 85;
-		t.x = 291.6;
-		t.y = 35;
-		t.elementsContent = [this.refreshWeb_i()];
+		t.verticalCenter = 0;
+		t.width = 128;
+		t.x = 256;
+		t.elementsContent = [this.refreshWeb_i(),this._Image3_i()];
 		return t;
 	};
 	_proto.refreshWeb_i = function () {
 		var t = new EButton();
 		this.refreshWeb = t;
+		t.horizontalCenter = 0;
 		t.label = "";
 		t.scaleX = 1;
 		t.scaleY = 1;
 		t.verticalCenter = 0;
-		t.x = 0;
 		t.skinName = floatingWindow$Skin173;
+		return t;
+	};
+	_proto._Image3_i = function () {
+		var t = new eui.Image();
+		t.anchorOffsetX = 5;
+		t.name = "line";
+		t.right = 0;
+		t.scaleX = 1;
+		t.scaleY = 1;
+		t.source = "floatingWindow_json.img_h5_suspend_line_png";
+		t.verticalCenter = 0;
+		t.y = -5;
 		return t;
 	};
 	_proto.btn_i = function () {
