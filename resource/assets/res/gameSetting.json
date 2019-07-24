@@ -1,0 +1,16 @@
+{"file":"gameSetting.png","frames":{
+"button_tableSet_close_png":{"x":260,"y":150,"w":150,"h":70,"offX":0,"offY":0,"sourceW":154,"sourceH":70},
+"button_tableSet_open_png":{"x":104,"y":150,"w":154,"h":70,"offX":0,"offY":0,"sourceW":154,"sourceH":70},
+"check_tableSet_box_png":{"x":935,"y":129,"w":47,"h":47,"offX":0,"offY":0,"sourceW":47,"sourceH":47},
+"check_tableSet_selected_png":{"x":412,"y":150,"w":43,"h":45,"offX":0,"offY":2,"sourceW":47,"sourceH":47},
+"img_setting_2dtable_png":{"x":246,"y":1,"w":243,"h":147,"offX":0,"offY":0,"sourceW":243,"sourceH":147},
+"img_setting_3dtable_png":{"x":1,"y":1,"w":243,"h":147,"offX":0,"offY":0,"sourceW":243,"sourceH":147},
+"img_tableSet_cardBack_1_png":{"x":491,"y":107,"w":104,"h":126,"offX":0,"offY":0,"sourceW":104,"sourceH":126},
+"img_tableSet_cardBack_2_png":{"x":917,"y":1,"w":104,"h":126,"offX":0,"offY":0,"sourceW":104,"sourceH":126},
+"img_tableSet_cardBack_png":{"x":725,"y":107,"w":104,"h":126,"offX":0,"offY":0,"sourceW":104,"sourceH":126},
+"img_tableSet_cardFace_1_png":{"x":1,"y":150,"w":101,"h":127,"offX":1,"offY":0,"sourceW":104,"sourceH":127},
+"img_tableSet_cardFace_2_png":{"x":831,"y":129,"w":102,"h":127,"offX":1,"offY":0,"sourceW":104,"sourceH":127},
+"img_tableSet_frame_png":{"x":597,"y":107,"w":126,"h":104,"offX":0,"offY":0,"sourceW":126,"sourceH":104},
+"img_tableSet_tableColor_1_png":{"x":491,"y":1,"w":140,"h":104,"offX":0,"offY":0,"sourceW":140,"sourceH":104},
+"img_tableSet_tableColor_2_png":{"x":775,"y":1,"w":140,"h":104,"offX":0,"offY":0,"sourceW":140,"sourceH":104},
+"img_tableSet_tableColor_png":{"x":633,"y":1,"w":140,"h":104,"offX":0,"offY":0,"sourceW":140,"sourceH":104}}}

@@ -1,0 +1,10 @@
+{"file":"setting.png","frames":{
+"bt_giveFeedback_1_png":{"x":1,"y":199,"w":205,"h":89,"offX":0,"offY":0,"sourceW":205,"sourceH":89},
+"bt_giveFeedback_2_png":{"x":208,"y":255,"w":194,"h":84,"offX":6,"offY":3,"sourceW":205,"sourceH":89},
+"button_change_1_png":{"x":1,"y":108,"w":205,"h":89,"offX":0,"offY":0,"sourceW":205,"sourceH":89},
+"button_change_2_png":{"x":1,"y":290,"w":194,"h":84,"offX":6,"offY":3,"sourceW":205,"sourceH":89},
+"button_close_png":{"x":1,"y":376,"w":169,"h":86,"offX":0,"offY":0,"sourceW":169,"sourceH":86},
+"button_open_png":{"x":197,"y":341,"w":169,"h":86,"offX":0,"offY":0,"sourceW":169,"sourceH":86},
+"button_setting_download_new_version_1_png":{"x":1,"y":1,"w":243,"h":105,"offX":0,"offY":0,"sourceW":243,"sourceH":105},
+"button_setting_download_new_version_2_png":{"x":246,"y":1,"w":232,"h":100,"offX":6,"offY":3,"sourceW":243,"sourceH":105},
+"img_set_head_bg_png":{"x":246,"y":103,"w":150,"h":150,"offX":0,"offY":0,"sourceW":150,"sourceH":150}}}

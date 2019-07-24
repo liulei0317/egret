@@ -1,0 +1,11 @@
+{"file":"login.png","frames":{
+"btn_h5_copypublic1_png":{"x":313,"y":1,"w":126,"h":134,"offX":0,"offY":0,"sourceW":126,"sourceH":134},
+"btn_h5_copypublic2_png":{"x":313,"y":137,"w":126,"h":131,"offX":0,"offY":3,"sourceW":126,"sourceH":134},
+"btn_h5_wechat1_png":{"x":298,"y":270,"w":101,"h":133,"offX":12,"offY":0,"sourceW":126,"sourceH":134},
+"btn_h5_wechat2_png":{"x":401,"y":270,"w":101,"h":130,"offX":12,"offY":3,"sourceW":126,"sourceH":134},
+"button_login_1_png":{"x":1,"y":128,"w":310,"h":124,"offX":0,"offY":0,"sourceW":310,"sourceH":124},
+"button_login_2_png":{"x":1,"y":254,"w":295,"h":118,"offX":8,"offY":4,"sourceW":310,"sourceH":124},
+"button_youke_1_png":{"x":1,"y":1,"w":309,"h":125,"offX":0,"offY":0,"sourceW":309,"sourceH":125},
+"button_youke_2_png":{"x":1,"y":374,"w":294,"h":118,"offX":8,"offY":4,"sourceW":309,"sourceH":125},
+"img_nj_login_check_box_png":{"x":478,"y":1,"w":24,"h":24,"offX":2,"offY":5,"sourceW":36,"sourceH":30},
+"img_nj_login_check_selected_png":{"x":441,"y":1,"w":35,"h":27,"offX":1,"offY":0,"sourceW":36,"sourceH":30}}}

@@ -1,0 +1,6 @@
+{"file":"applyQuit.png","frames":{
+"btn_agree_1_png":{"x":1,"y":101,"w":213,"h":78,"offX":0,"offY":0,"sourceW":213,"sourceH":78},
+"btn_agree_2_png":{"x":216,"y":176,"w":202,"h":75,"offX":6,"offY":2,"sourceW":213,"sourceH":78},
+"btn_agree_3_png":{"x":233,"y":96,"w":213,"h":78,"offX":0,"offY":0,"sourceW":213,"sourceH":78},
+"btn_disagree_1_png":{"x":1,"y":1,"w":230,"h":98,"offX":0,"offY":0,"sourceW":230,"sourceH":98},
+"btn_disagree_2_png":{"x":233,"y":1,"w":219,"h":93,"offX":6,"offY":3,"sourceW":230,"sourceH":98}}}

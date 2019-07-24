@@ -1,0 +1,6 @@
+{"file":"share.png","frames":{
+"btn_quan_1_png":{"x":106,"y":86,"w":88,"h":88,"offX":0,"offY":0,"sourceW":88,"sourceH":88},
+"btn_quan_2_png":{"x":1,"y":89,"w":85,"h":85,"offX":1,"offY":1,"sourceW":88,"sourceH":88},
+"btn_weixin_1_png":{"x":1,"y":1,"w":103,"h":86,"offX":0,"offY":0,"sourceW":104,"sourceH":86},
+"btn_weixin_2_png":{"x":106,"y":1,"w":100,"h":83,"offX":2,"offY":1,"sourceW":104,"sourceH":86},
+"title_share_png":{"x":1,"y":176,"w":122,"h":53,"offX":0,"offY":0,"sourceW":122,"sourceH":53}}}

@@ -1,0 +1,13 @@
+{"file":"gameTingTint.png","frames":{
+"bg_gameui_tingpai_png":{"x":1,"y":1,"w":190,"h":168,"offX":0,"offY":0,"sourceW":190,"sourceH":168},
+"btn_gameui_cancel_1_png":{"x":1,"y":171,"w":126,"h":126,"offX":0,"offY":0,"sourceW":126,"sourceH":126},
+"btn_gameui_cancel_2_png":{"x":378,"y":204,"w":119,"h":119,"offX":4,"offY":4,"sourceW":126,"sourceH":126},
+"btn_gameui_hupaitishi_1_png":{"x":430,"y":105,"w":73,"h":73,"offX":0,"offY":0,"sourceW":73,"sourceH":73},
+"btn_gameui_hupaitishi_2_png":{"x":360,"y":325,"w":70,"h":70,"offX":2,"offY":2,"sourceW":73,"sourceH":73},
+"btn_gameui_quxiao_1_png":{"x":193,"y":1,"w":248,"h":102,"offX":0,"offY":0,"sourceW":248,"sourceH":102},
+"btn_gameui_quxiao_2_png":{"x":193,"y":105,"w":235,"h":97,"offX":7,"offY":3,"sourceW":248,"sourceH":102},
+"btn_gameui_tingpai_more_1_png":{"x":129,"y":204,"w":126,"h":126,"offX":0,"offY":0,"sourceW":126,"sourceH":126},
+"btn_gameui_tingpai_more_2_png":{"x":257,"y":204,"w":119,"h":119,"offX":4,"offY":4,"sourceW":126,"sourceH":126},
+"img_gameui_gang_png":{"x":1,"y":299,"w":102,"h":103,"offX":0,"offY":0,"sourceW":102,"sourceH":103},
+"img_gameui_hu_png":{"x":257,"y":325,"w":101,"h":103,"offX":0,"offY":0,"sourceW":101,"sourceH":103},
+"img_gameui_ting_arrow_png":{"x":443,"y":1,"w":41,"h":41,"offX":0,"offY":0,"sourceW":41,"sourceH":41}}}

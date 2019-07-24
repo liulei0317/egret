@@ -1,0 +1,13 @@
+{"file":"email.png","frames":{
+"bg_mail_item_png":{"x":830,"y":1,"w":92,"h":92,"offX":0,"offY":0,"sourceW":92,"sourceH":92},
+"bg_mail_left_png":{"x":1,"y":1,"w":503,"h":446,"offX":0,"offY":0,"sourceW":503,"sourceH":446},
+"bg_mail_selected_png":{"x":506,"y":1,"w":322,"h":104,"offX":0,"offY":0,"sourceW":322,"sourceH":104},
+"bg_mail_png":{"x":506,"y":107,"w":322,"h":104,"offX":0,"offY":0,"sourceW":322,"sourceH":104},
+"button_receive_1_png":{"x":506,"y":213,"w":203,"h":98,"offX":0,"offY":0,"sourceW":203,"sourceH":98},
+"button_receive_2_png":{"x":711,"y":213,"w":194,"h":93,"offX":5,"offY":3,"sourceW":203,"sourceH":98},
+"img_mail_gold_png":{"x":830,"y":95,"w":76,"h":61,"offX":0,"offY":0,"sourceW":76,"sourceH":61},
+"img_not-read_png":{"x":924,"y":74,"w":87,"h":71,"offX":0,"offY":0,"sourceW":87,"sourceH":71},
+"img_not-receive_png":{"x":924,"y":1,"w":87,"h":71,"offX":0,"offY":0,"sourceW":87,"sourceH":71},
+"item_1_png":{"x":907,"y":214,"w":69,"h":43,"offX":0,"offY":0,"sourceW":69,"sourceH":43},
+"item_2_png":{"x":908,"y":147,"w":69,"h":65,"offX":0,"offY":0,"sourceW":69,"sourceH":65},
+"item_3_png":{"x":830,"y":158,"w":69,"h":46,"offX":0,"offY":0,"sourceW":69,"sourceH":46}}}
