@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "mode_update_bg_jpg,bar_bg_2_png,bar_top_green_png,img_point_green_png,floatingWindow_json",
+			"keys": "mode_update_bg_jpg,bar_bg_2_png,bar_top_green_png,img_point_green_png,floatingWindow_json,mode_splash_jpg,slogen_mp3",
 			"name": "preload"
 		},
 		{
@@ -9,7 +9,7 @@
 			"name": "sound"
 		},
 		{
-			"keys": "activity_json,applyQuit_json,bg_broadcasting_png,bg_club_member_setting_png,bg_club_room_rules_png,img_club_Not-added_png,number_add_png,number_minus_png,zhongkong_t_shuzi_png,bg_jiesuan_jiatu_jpg,bg_guide_1_jpg,bg_guide_2_jpg,img_nj_settle_shareQRcode_bg_png,mode_splash_jpg,mode_update_bg_jpg,bg_turntable_reward_png,bg_turntable_jpg,bg_voice_cancel_png,bg_voice_png,changePlayerNum_json,createRoom_json,common2_json,common_json,club_json,chat_json,gameUI_json,gameTingTint_json,gameSettle2_json,gameSettle_json,gameSetting_json,game_json,preventCheat_json,main2_json,main1_json,login_json,joinRoom_json,shareActivity_json,share_json,rules_json,replayer_json,turntable_json,shopBindProxy_json,shop_json,bg_share_contect_png,bg_share_flag_png,bg_share_time_png,img_share_host_png,bg_nj_settle_loser_png,bg_wechat_jpg,img_bg_club_max_jpg,img_club_border_3_png,img_club_line_png,img_club_title_png,frame_1_png,frame_2_png,frame_tips_png,frame_title_1_png,frame_title_2_png,img_frame_title_1_png,img_line_png,img_nj_settle_gameoverbg4_jpg,img_nj_settle_zhanjiwordtitle_png,btn_nj_settle_rankbg_1_png,btn_nj_settle_rankbg_2_png,btn_nj_settle_rankbg_3_png,btn_nj_settle_rankbg_4_png,img_nj_settle_gameoverbg1_png,img_nj_settle_gameoverbg2_png,img_nj_settle_gameoverbg3_png,img_nj_settle_liujutitle_1_png,img_nj_settle_liujutitle_2_png,img_nj_settle_liujutitle_3_png,img_nj_settle_liujutitle_4_png,img_nj_settle_liujutitle_5_png,img_nj_settle_liujutitle_line_png,img_nj_settle_wordtitle_1_png,img_nj_settle_wordtitle_10_png,img_nj_settle_wordtitle_11_png,img_nj_settle_wordtitle_12_png,img_nj_settle_wordtitle_13_png,img_nj_settle_wordtitle_14_png,img_nj_settle_wordtitle_15_png,img_nj_settle_wordtitle_2_png,img_nj_settle_wordtitle_3_png,img_nj_settle_wordtitle_4_png,img_nj_settle_wordtitle_5_png,img_nj_settle_wordtitle_6_png,img_nj_settle_wordtitle_7_png,img_nj_settle_wordtitle_8_png,img_nj_settle_wordtitle_9_png,bg_gameUI_textPopup_png,img_GameUI_BgNEW_1_png,img_GameUI_BgNEW_2_png,img_GameUI_BgNEW_3d_1_png,img_GameUI_BgNEW_3d_2_png,img_GameUI_BgNEW_3d_png,img_GameUI_BgNEW_frame_png,img_GameUI_BgNEW_png,img_turntabl_icon_png,logo_png,btn_main_qinghuaicard_1_png,btn_main_qinghuaicard_2_png,img_main_bg_mask_botom_1_png,img_main_bg_mask_botom2_png,mode_main_bg_1_jpg,mode_main_bg_jpg,text_status-Cheating_png,bg_hongbao_png,img_hongbao_line_1_png,bg_hongbao_weixinShare_jpg,item_diamond_1_2_png,item_diamond_1_png,item_diamond_2_2_png,item_diamond_2_png,item_diamond_3_2_png,item_diamond_3_png,item_diamond_4_2_png,item_diamond_4_png,item_diamond_5_2_png,item_diamond_5_png,item_diamond_6_2_png,item_diamond_6_png,item_gold_1_2_png,item_gold_1_png,item_gold_2_2_png,item_gold_2_png,item_gold_3_2_png,item_gold_3_png,item_gold_4_2_png,item_gold_4_png,item_gold_5_2_png,item_gold_5_png,item_gold_6_2_png,item_gold_6_png,bg_wx_red_package_1_png,bg_wx_red_package_2_png,bg_wx_red_package_3_png,bg_wx_red_package_5_png,bg_wx_red_package_6_png,btn_wx_red_package_close_1_png,btn_wx_red_package_close_2_png,chatEmotion_json,cardFace_new_1_json,cardFace_new_json,card_new_json,img_GameUI_BgNEW_3d_bixiahu_png,img_GameUI_BgNEW_bixiahu_png,3d_card_b_json,3d_card_y_json,3d_card_json,game3dUI_json,loading_json,userBind_json,FriendsSystem_json,clubLucky_json,club2_json,club3_json,clubAutoMatch_json,loginByCode_json,task_json,newBg_jpg,clubEditTemplate_json,setting_json,game_button_click_mp3,bg_store_png,advertUI_json,bg_agent_png,bg_public_png,clubPartner_json,gameOver_json",
+			"keys": "activity_json,applyQuit_json,bg_broadcasting_png,bg_club_member_setting_png,bg_club_room_rules_png,img_club_Not-added_png,number_add_png,number_minus_png,zhongkong_t_shuzi_png,bg_jiesuan_jiatu_jpg,img_nj_settle_shareQRcode_bg_png,mode_splash_jpg,mode_update_bg_jpg,bg_voice_cancel_png,bg_voice_png,changePlayerNum_json,createRoom_json,common2_json,common_json,club_json,chat_json,gameUI_json,gameTingTint_json,gameSettle2_json,gameSettle_json,gameSetting_json,game_json,preventCheat_json,main2_json,main1_json,login_json,joinRoom_json,share_json,rules_json,replayer_json,turntable_json,shopBindProxy_json,shop_json,bg_nj_settle_loser_png,bg_wechat_jpg,img_bg_club_max_jpg,img_club_border_3_png,img_club_line_png,img_club_title_png,frame_1_png,frame_2_png,frame_tips_png,frame_title_1_png,frame_title_2_png,img_frame_title_1_png,img_line_png,img_nj_settle_gameoverbg4_jpg,img_nj_settle_zhanjiwordtitle_png,btn_nj_settle_rankbg_1_png,btn_nj_settle_rankbg_2_png,btn_nj_settle_rankbg_3_png,btn_nj_settle_rankbg_4_png,img_nj_settle_gameoverbg1_png,img_nj_settle_gameoverbg2_png,img_nj_settle_gameoverbg3_png,img_nj_settle_liujutitle_1_png,img_nj_settle_liujutitle_2_png,img_nj_settle_liujutitle_3_png,img_nj_settle_liujutitle_4_png,img_nj_settle_liujutitle_5_png,img_nj_settle_liujutitle_line_png,bg_gameUI_textPopup_png,img_GameUI_BgNEW_3d_png,img_GameUI_BgNEW_png,img_turntabl_icon_png,logo_png,btn_main_qinghuaicard_1_png,btn_main_qinghuaicard_2_png,img_main_bg_mask_botom_1_png,img_main_bg_mask_botom2_png,mode_main_bg_1_jpg,mode_main_bg_jpg,text_status-Cheating_png,bg_hongbao_weixinShare_jpg,item_diamond_1_2_png,item_diamond_1_png,item_diamond_2_2_png,item_diamond_2_png,item_diamond_3_2_png,item_diamond_3_png,item_diamond_4_2_png,item_diamond_4_png,item_diamond_5_2_png,item_diamond_5_png,item_diamond_6_2_png,item_diamond_6_png,item_gold_1_2_png,item_gold_1_png,item_gold_2_2_png,item_gold_2_png,item_gold_3_2_png,item_gold_3_png,item_gold_4_2_png,item_gold_4_png,item_gold_5_2_png,item_gold_5_png,item_gold_6_2_png,item_gold_6_png,chatEmotion_json,cardFace_new_1_json,cardFace_new_json,card_new_json,img_GameUI_BgNEW_3d_bixiahu_png,img_GameUI_BgNEW_bixiahu_png,3d_card_b_json,3d_card_y_json,3d_card_json,game3dUI_json,loading_json,userBind_json,FriendsSystem_json,clubLucky_json,club2_json,club3_json,clubAutoMatch_json,loginByCode_json,task_json,newBg_jpg,clubEditTemplate_json,setting_json,game_button_click_mp3,bg_store_png,advertUI_json,bg_agent_png,bg_public_png,clubPartner_json,gameOver_json,bg_mp3",
 			"name": "loadingRes"
 		},
 		{
@@ -17,7 +17,7 @@
 			"name": "action"
 		},
 		{
-			"keys": "bg_share_contect_png,bg_share_flag_png,bg_share_time_png,img_share_host_png",
+			"keys": "",
 			"name": "shareResult"
 		}
 	],
@@ -4508,7 +4508,7 @@
 			"url": "assets/res/turntable.json",
 			"type": "sheet",
 			"name": "turntable_json",
-			"subkeys": "bg_turntable_notice_listText_png,bg_turntable_reward_timer_png,bg_turntable_spin_item_png,btn_turntable_record_1_png,btn_turntable_record_2_png,btn_turntable_record_3_png,btn_turntable_rules_1_png,btn_turntable_rules_2_png,btn_turntable_spin_1_png,btn_turntable_spin_2_png,img_turntable_arrow_png,item_turntable_diamond_1_png,item_turntable_diamond_2_png,item_turntable_diamond_3_png,item_turntable_diamond_4_png,item_turntable_gold_1_png,item_turntable_gold_2_png,item_turntable_gold_3_png,item_turntable_hongbao_png,item_turntable_reward_diamond_png,item_turntable_reward_gold_png,labelText_turntable_record_1_png,labelText_turntable_record_2_png,labelText_turntable_rules_1_png,labelText_turntable_rules_2_png,text_hongbao_share_2_png"
+			"subkeys": "bg_turntable_notice_listText_png,bg_turntable_reward_timer_png,bg_turntable_spin_item_png,btn_turntable_record_1_png,btn_turntable_record_2_png,btn_turntable_record_3_png,btn_turntable_rules_1_png,btn_turntable_rules_2_png,btn_turntable_spin_1_png,btn_turntable_spin_2_png,button_turntable_rank_1_png,button_turntable_rank_2_png,img_turntable_arrow_png,labelText_turntable_record_1_png,labelText_turntable_record_2_png,labelText_turntable_rules_1_png,labelText_turntable_rules_2_png,text_hongbao_share_2_png,turntable_item_rank_1st__png,turntable_item_rank_2nd__png,turntable_item_rank_3rd__png,turntable_line_rank_png,unknown_1_png,unknown_2_png,unknown_3_png,unknown_4_png,unknown_5_png"
 		},
 		{
 			"url": "assets/res/gameSettle.json",
@@ -4542,26 +4542,6 @@
 			"url": "assets/res/hotUpdate/img_point_green.png",
 			"type": "image",
 			"name": "img_point_green_png"
-		},
-		{
-			"url": "assets/res/shareResult/bg_share_contect.png",
-			"type": "image",
-			"name": "bg_share_contect_png"
-		},
-		{
-			"url": "assets/res/shareResult/bg_share_flag.png",
-			"type": "image",
-			"name": "bg_share_flag_png"
-		},
-		{
-			"url": "assets/res/shareResult/bg_share_time.png",
-			"type": "image",
-			"name": "bg_share_time_png"
-		},
-		{
-			"url": "assets/res/shareResult/img_share_host.png",
-			"type": "image",
-			"name": "img_share_host_png"
 		},
 		{
 			"url": "assets/res/bg/gameSettle/bg_nj_settle_loser.png",
@@ -4859,16 +4839,6 @@
 			"name": "mode_main_bg_1_jpg"
 		},
 		{
-			"url": "assets/res/bg/redPacket/bg_hongbao.png",
-			"type": "image",
-			"name": "bg_hongbao_png"
-		},
-		{
-			"url": "assets/res/bg/redPacket/img_hongbao_line_1.png",
-			"type": "image",
-			"name": "img_hongbao_line_1_png"
-		},
-		{
 			"url": "assets/res/bg/shareRedPacket/bg_hongbao_weixinShare.jpg",
 			"type": "image",
 			"name": "bg_hongbao_weixinShare_jpg"
@@ -4992,41 +4962,6 @@
 			"url": "assets/res/bg/shop/item_gold_6_2.png",
 			"type": "image",
 			"name": "item_gold_6_2_png"
-		},
-		{
-			"url": "assets/res/bg/wxRedPackage/bg_wx_red_package_1.png",
-			"type": "image",
-			"name": "bg_wx_red_package_1_png"
-		},
-		{
-			"url": "assets/res/bg/wxRedPackage/bg_wx_red_package_2.png",
-			"type": "image",
-			"name": "bg_wx_red_package_2_png"
-		},
-		{
-			"url": "assets/res/bg/wxRedPackage/bg_wx_red_package_3.png",
-			"type": "image",
-			"name": "bg_wx_red_package_3_png"
-		},
-		{
-			"url": "assets/res/bg/wxRedPackage/bg_wx_red_package_5.png",
-			"type": "image",
-			"name": "bg_wx_red_package_5_png"
-		},
-		{
-			"url": "assets/res/bg/wxRedPackage/bg_wx_red_package_6.png",
-			"type": "image",
-			"name": "bg_wx_red_package_6_png"
-		},
-		{
-			"url": "assets/res/bg/wxRedPackage/btn_wx_red_package_close_1.png",
-			"type": "image",
-			"name": "btn_wx_red_package_close_1_png"
-		},
-		{
-			"url": "assets/res/bg/wxRedPackage/btn_wx_red_package_close_2.png",
-			"type": "image",
-			"name": "btn_wx_red_package_close_2_png"
 		},
 		{
 			"url": "assets/res/bg/preventCheat/text_status-Cheating.png",
@@ -5257,6 +5192,11 @@
 			"type": "sheet",
 			"name": "clubPartner_json",
 			"subkeys": "btn_club_admincancel1_png,btn_club_admincancel2_png,btn_club_adminset1_png,btn_club_adminset2_png,btn_club_batchgroup1_png,btn_club_batchgroup2_png,btn_club_batchgroup3_png,btn_club_fatiguevalue1_png,btn_club_fatiguevalue2_png,btn_club_fatiguevalue_record1_png,btn_club_fatiguevalue_record2_png,btn_club_group1_png,btn_club_group2_png,btn_club_group_1_png,btn_club_group_2_png,btn_club_group_add1_png,btn_club_group_add2_png,btn_club_group_batchmodify1_png,btn_club_group_batchmodify2_png,btn_club_group_delete1_png,btn_club_group_delete2_png,btn_club_group_remove1_png,btn_club_group_remove2_png,btn_club_group_revise1_png,btn_club_group_revise2_png,btn_club_set1_png,btn_club_set2_png,btn_club_set_attribution1_png,btn_club_set_attribution2_png,btn_club_set_png,btn_fangchenm_revise1_png,btn_fangchenm_revise2_png,btn_isolationgroup_rev1_png,btn_isolationgroup_rev2_png,club_short_label_1_png,club_short_label_2_png,img_admin1_png,img_admin2_png,img_fangchenm_board_png,img_icon_admin_png,img_set1_png,img_set_png"
+		},
+		{
+			"url": "assets/sound/slogen.mp3",
+			"type": "sound",
+			"name": "slogen_mp3"
 		}
 	]
 }

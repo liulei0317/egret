@@ -170,7 +170,7 @@
 		"resource/skins/hall/mail/mailAttachItemSkin.exml",
 		"resource/skins/hall/mail/mailDialogSkin.exml",
 		"resource/skins/hall/mail/mailItemSkin.exml",
-		"resource/skins/hall/room/createRoomDeclareView.exml",
+		"resource/skins/hall/room/CreateRoomDeclareView.exml",
 		"resource/skins/hall/room/turnModeRadioSkin.exml",
 		"resource/skins/hall/room/createRoomMahjongSkin.exml",
 		"resource/skins/hall/room/createRoomDialogSkin.exml",
@@ -183,6 +183,8 @@
 		"resource/skins/hall/store/storeMainSkin.exml",
 		"resource/skins/hall/task/taskDialogSkin.exml",
 		"resource/skins/hall/task/taskItemSkin.exml",
+		"resource/skins/hall/turntable/turntableUnit.exml",
+		"resource/skins/hall/turntable/turntableBox.exml",
 		"resource/skins/hall/user/chargeRecordDialogSkin.exml",
 		"resource/skins/hall/user/chargeRecordItemSkin.exml",
 		"resource/skins/hall/wanfa/ruleDescSkin.exml",
@@ -196,7 +198,8 @@
 		"resource/skins/loading/ProgressBarSkin.exml",
 		"resource/skins/loading/LoadingSceneSkin.exml",
 		"resource/skins/login/bindWechatBox.exml",
-		"resource/skins/login/loginSceneSkin.exml"
+		"resource/skins/login/loginSceneSkin.exml",
+		"resource/skins/splash/SplashScene.exml"
 	],
 	"path": "resource/default.thm.json",
 	"autoGenerateExmlsList": true

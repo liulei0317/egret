@@ -15671,10 +15671,10 @@ window.skins=window.skins||{};
 	_proto.imgTitleBg_i = function () {
 		var t = new eui.Image();
 		this.imgTitleBg = t;
-		t.height = 54;
+		t.height = 53;
 		t.scale9Grid = new egret.Rectangle(18,24,8,9);
 		t.source = "img_color_room_2_png";
-		t.width = 207;
+		t.width = 205;
 		t.x = -2;
 		t.y = -2;
 		return t;
@@ -15697,19 +15697,19 @@ window.skins=window.skins||{};
 		t.fontFamily = "fzzy";
 		t.height = 75.88;
 		t.size = 19;
-		t.text = "无";
+		t.text = "";
 		t.textColor = 0x9d4d0a;
-		t.verticalAlign = "middle";
+		t.verticalAlign = "top";
 		t.width = 323;
 		t.x = 14;
-		t.y = 63;
+		t.y = 57;
 		return t;
 	};
 	_proto.btnCustomSet_i = function () {
 		var t = new EButton();
 		this.btnCustomSet = t;
 		t.label = "";
-		t.x = 197.96;
+		t.x = 196;
 		t.y = -3;
 		t.skinName = clubRuleItemSkin$Skin164;
 		return t;
@@ -35423,7 +35423,7 @@ window.skins=window.skins||{};
 				,
 				new eui.State ("down",
 					[
-						new eui.SetProperty("_Image1","source","button_record_2_png")
+						new eui.SetProperty("_Image1","source","logo2.pngbutton_record_2_png")
 					])
 				,
 				new eui.State ("disabled",
@@ -35829,13 +35829,139 @@ window.skins=window.skins||{};
 		return hallSceneSkin$Skin294;
 	})(eui.Skin);
 
+	var hallSceneSkin$Skin295 = 	(function (_super) {
+		__extends(hallSceneSkin$Skin295, _super);
+		function hallSceneSkin$Skin295() {
+			_super.call(this);
+			this.skinParts = ["labelDisplay"];
+			
+			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
+			this.states = [
+				new eui.State ("up",
+					[
+					])
+				,
+				new eui.State ("down",
+					[
+						new eui.SetProperty("_Image1","source","button_mail_2_png")
+					])
+				,
+				new eui.State ("disabled",
+					[
+					])
+			];
+		}
+		var _proto = hallSceneSkin$Skin295.prototype;
+
+		_proto._Image1_i = function () {
+			var t = new eui.Image();
+			this._Image1 = t;
+			t.percentHeight = 100;
+			t.source = "button_mail_1_png";
+			t.percentWidth = 100;
+			return t;
+		};
+		_proto.labelDisplay_i = function () {
+			var t = new eui.Label();
+			this.labelDisplay = t;
+			t.horizontalCenter = 0;
+			t.verticalCenter = 0;
+			return t;
+		};
+		return hallSceneSkin$Skin295;
+	})(eui.Skin);
+
+	var hallSceneSkin$Skin296 = 	(function (_super) {
+		__extends(hallSceneSkin$Skin296, _super);
+		function hallSceneSkin$Skin296() {
+			_super.call(this);
+			this.skinParts = ["labelDisplay"];
+			
+			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
+			this.states = [
+				new eui.State ("up",
+					[
+					])
+				,
+				new eui.State ("down",
+					[
+						new eui.SetProperty("_Image1","source","button_mail_2_png")
+					])
+				,
+				new eui.State ("disabled",
+					[
+					])
+			];
+		}
+		var _proto = hallSceneSkin$Skin296.prototype;
+
+		_proto._Image1_i = function () {
+			var t = new eui.Image();
+			this._Image1 = t;
+			t.percentHeight = 100;
+			t.source = "button_mail_1_png";
+			t.percentWidth = 100;
+			return t;
+		};
+		_proto.labelDisplay_i = function () {
+			var t = new eui.Label();
+			this.labelDisplay = t;
+			t.horizontalCenter = 0;
+			t.verticalCenter = 0;
+			return t;
+		};
+		return hallSceneSkin$Skin296;
+	})(eui.Skin);
+
+	var hallSceneSkin$Skin297 = 	(function (_super) {
+		__extends(hallSceneSkin$Skin297, _super);
+		function hallSceneSkin$Skin297() {
+			_super.call(this);
+			this.skinParts = ["labelDisplay"];
+			
+			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
+			this.states = [
+				new eui.State ("up",
+					[
+					])
+				,
+				new eui.State ("down",
+					[
+						new eui.SetProperty("_Image1","source","img_turntabl_icon_png")
+					])
+				,
+				new eui.State ("disabled",
+					[
+					])
+			];
+		}
+		var _proto = hallSceneSkin$Skin297.prototype;
+
+		_proto._Image1_i = function () {
+			var t = new eui.Image();
+			this._Image1 = t;
+			t.percentHeight = 100;
+			t.source = "img_turntabl_icon_png";
+			t.percentWidth = 100;
+			return t;
+		};
+		_proto.labelDisplay_i = function () {
+			var t = new eui.Label();
+			this.labelDisplay = t;
+			t.horizontalCenter = 0;
+			t.verticalCenter = 0;
+			return t;
+		};
+		return hallSceneSkin$Skin297;
+	})(eui.Skin);
+
 	function hallSceneSkin() {
 		_super.call(this);
-		this.skinParts = ["btnClub","btnJoinRoom","btnCreateRoom","Button_agent","Button_public","btnActive","btnStore","btnZhanJi","btnWanFa","btnTask","imgTaskTip","groupBottom","imgPerson","labelNickName","labelUserId","Group_head","btnSetting","btnMail","imgMailTip","Button_share","labelDiamond","btnBuyDiamond","groupDiamond","labelGold","btnBuyGold","groupGold","groupTop"];
+		this.skinParts = ["btnClub","btnJoinRoom","btnCreateRoom","Button_agent","Button_public","btnActive","btnStore","btnZhanJi","btnWanFa","btnTask","imgTaskTip","groupBottom","imgPerson","labelNickName","labelUserId","Group_head","btnSetting","btnMail","imgMailTip","Button_share","labelDiamond","btnBuyDiamond","groupDiamond","labelGold","btnBuyGold","groupGold","groupTop","btnTest0","btnTest1","btnPlay","btnPause","btnResume","btnStop","btTurnTable"];
 		
 		this.height = 720;
 		this.width = 1280;
-		this.elementsContent = [this._Image1_i(),this.btnClub_i(),this.btnJoinRoom_i(),this.btnCreateRoom_i(),this.groupBottom_i(),this.groupTop_i()];
+		this.elementsContent = [this._Image1_i(),this.btnClub_i(),this.btnJoinRoom_i(),this.btnCreateRoom_i(),this.groupBottom_i(),this.groupTop_i(),this.btnTest0_i(),this.btnTest1_i(),this.btnPlay_i(),this.btnPause_i(),this.btnResume_i(),this.btnStop_i(),this.btTurnTable_i()];
 	}
 	var _proto = hallSceneSkin.prototype;
 
@@ -36223,6 +36349,72 @@ window.skins=window.skins||{};
 		t.skinName = hallSceneSkin$Skin294;
 		return t;
 	};
+	_proto.btnTest0_i = function () {
+		var t = new EButton();
+		this.btnTest0 = t;
+		t.label = "";
+		t.visible = false;
+		t.x = 513.58;
+		t.y = 334;
+		t.skinName = hallSceneSkin$Skin295;
+		return t;
+	};
+	_proto.btnTest1_i = function () {
+		var t = new EButton();
+		this.btnTest1 = t;
+		t.label = "";
+		t.visible = false;
+		t.x = 421.76;
+		t.y = 334;
+		t.skinName = hallSceneSkin$Skin296;
+		return t;
+	};
+	_proto.btnPlay_i = function () {
+		var t = new eui.Label();
+		this.btnPlay = t;
+		t.text = "播放";
+		t.visible = false;
+		t.x = 36;
+		t.y = 123;
+		return t;
+	};
+	_proto.btnPause_i = function () {
+		var t = new eui.Label();
+		this.btnPause = t;
+		t.text = "暂停";
+		t.visible = false;
+		t.x = 152;
+		t.y = 123;
+		return t;
+	};
+	_proto.btnResume_i = function () {
+		var t = new eui.Label();
+		this.btnResume = t;
+		t.text = "恢复";
+		t.visible = false;
+		t.x = 267;
+		t.y = 123;
+		return t;
+	};
+	_proto.btnStop_i = function () {
+		var t = new eui.Label();
+		this.btnStop = t;
+		t.text = "停止";
+		t.visible = false;
+		t.x = 383;
+		t.y = 123;
+		return t;
+	};
+	_proto.btTurnTable_i = function () {
+		var t = new EButton();
+		this.btTurnTable = t;
+		t.enabled = true;
+		t.label = "";
+		t.x = 14.5;
+		t.y = 316.34;
+		t.skinName = hallSceneSkin$Skin297;
+		return t;
+	};
 	return hallSceneSkin;
 })(eui.Skin);generateEUI.paths['resource/skins/hall/mail/mailAttachItemSkin.exml'] = window.mySkin.mailAttachItemSkin = (function (_super) {
 	__extends(mailAttachItemSkin, _super);
@@ -36261,9 +36453,9 @@ window.skins=window.skins||{};
 	return mailAttachItemSkin;
 })(eui.Skin);generateEUI.paths['resource/skins/hall/mail/mailDialogSkin.exml'] = window.mySkin.mailDialogSkin = (function (_super) {
 	__extends(mailDialogSkin, _super);
-	var mailDialogSkin$Skin295 = 	(function (_super) {
-		__extends(mailDialogSkin$Skin295, _super);
-		function mailDialogSkin$Skin295() {
+	var mailDialogSkin$Skin298 = 	(function (_super) {
+		__extends(mailDialogSkin$Skin298, _super);
+		function mailDialogSkin$Skin298() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -36283,7 +36475,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = mailDialogSkin$Skin295.prototype;
+		var _proto = mailDialogSkin$Skin298.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -36300,12 +36492,12 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return mailDialogSkin$Skin295;
+		return mailDialogSkin$Skin298;
 	})(eui.Skin);
 
-	var mailDialogSkin$Skin296 = 	(function (_super) {
-		__extends(mailDialogSkin$Skin296, _super);
-		function mailDialogSkin$Skin296() {
+	var mailDialogSkin$Skin299 = 	(function (_super) {
+		__extends(mailDialogSkin$Skin299, _super);
+		function mailDialogSkin$Skin299() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -36325,7 +36517,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = mailDialogSkin$Skin296.prototype;
+		var _proto = mailDialogSkin$Skin299.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -36342,7 +36534,7 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return mailDialogSkin$Skin296;
+		return mailDialogSkin$Skin299;
 	})(eui.Skin);
 
 	function mailDialogSkin() {
@@ -36364,13 +36556,14 @@ window.skins=window.skins||{};
 	};
 	_proto._Image1_i = function () {
 		var t = new eui.Image();
+		t.anchorOffsetX = 0;
 		t.anchorOffsetY = 0;
 		t.height = 580;
 		t.scale9Grid = new egret.Rectangle(252,149,74,60);
 		t.source = "frame_1_png";
 		t.width = 1006;
-		t.x = 64.36;
-		t.y = 9.79;
+		t.x = 65;
+		t.y = 9;
 		return t;
 	};
 	_proto._Image2_i = function () {
@@ -36428,7 +36621,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 973.36;
 		t.y = -11.89;
-		t.skinName = mailDialogSkin$Skin295;
+		t.skinName = mailDialogSkin$Skin298;
 		return t;
 	};
 	_proto.groupMailDetail_i = function () {
@@ -36498,7 +36691,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.right = 10;
 		t.y = 20;
-		t.skinName = mailDialogSkin$Skin296;
+		t.skinName = mailDialogSkin$Skin299;
 		return t;
 	};
 	_proto.groupAttachItems_i = function () {
@@ -36628,11 +36821,11 @@ window.skins=window.skins||{};
 		return t;
 	};
 	return mailItemSkin;
-})(eui.Skin);generateEUI.paths['resource/skins/hall/room/createRoomDeclareView.exml'] = window.createRoomDeclareView = (function (_super) {
+})(eui.Skin);generateEUI.paths['resource/skins/hall/room/CreateRoomDeclareView.exml'] = window.createRoomDeclareView = (function (_super) {
 	__extends(createRoomDeclareView, _super);
-	var createRoomDeclareView$Skin297 = 	(function (_super) {
-		__extends(createRoomDeclareView$Skin297, _super);
-		function createRoomDeclareView$Skin297() {
+	var createRoomDeclareView$Skin300 = 	(function (_super) {
+		__extends(createRoomDeclareView$Skin300, _super);
+		function createRoomDeclareView$Skin300() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -36652,7 +36845,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = createRoomDeclareView$Skin297.prototype;
+		var _proto = createRoomDeclareView$Skin300.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -36669,7 +36862,7 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return createRoomDeclareView$Skin297;
+		return createRoomDeclareView$Skin300;
 	})(eui.Skin);
 
 	function createRoomDeclareView() {
@@ -36745,7 +36938,7 @@ window.skins=window.skins||{};
 		t.horizontalCenter = 0;
 		t.label = "";
 		t.y = 582;
-		t.skinName = createRoomDeclareView$Skin297;
+		t.skinName = createRoomDeclareView$Skin300;
 		return t;
 	};
 	return createRoomDeclareView;
@@ -37291,9 +37484,9 @@ window.skins=window.skins||{};
 	return createRoomMahjongSkin;
 })(eui.Skin);generateEUI.paths['resource/skins/hall/room/createRoomDialogSkin.exml'] = window.skins.createRoomDialogSkin = (function (_super) {
 	__extends(createRoomDialogSkin, _super);
-	var createRoomDialogSkin$Skin298 = 	(function (_super) {
-		__extends(createRoomDialogSkin$Skin298, _super);
-		function createRoomDialogSkin$Skin298() {
+	var createRoomDialogSkin$Skin301 = 	(function (_super) {
+		__extends(createRoomDialogSkin$Skin301, _super);
+		function createRoomDialogSkin$Skin301() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -37313,7 +37506,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = createRoomDialogSkin$Skin298.prototype;
+		var _proto = createRoomDialogSkin$Skin301.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -37330,12 +37523,12 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return createRoomDialogSkin$Skin298;
+		return createRoomDialogSkin$Skin301;
 	})(eui.Skin);
 
-	var createRoomDialogSkin$Skin299 = 	(function (_super) {
-		__extends(createRoomDialogSkin$Skin299, _super);
-		function createRoomDialogSkin$Skin299() {
+	var createRoomDialogSkin$Skin302 = 	(function (_super) {
+		__extends(createRoomDialogSkin$Skin302, _super);
+		function createRoomDialogSkin$Skin302() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -37355,7 +37548,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = createRoomDialogSkin$Skin299.prototype;
+		var _proto = createRoomDialogSkin$Skin302.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -37372,12 +37565,12 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return createRoomDialogSkin$Skin299;
+		return createRoomDialogSkin$Skin302;
 	})(eui.Skin);
 
-	var createRoomDialogSkin$Skin300 = 	(function (_super) {
-		__extends(createRoomDialogSkin$Skin300, _super);
-		function createRoomDialogSkin$Skin300() {
+	var createRoomDialogSkin$Skin303 = 	(function (_super) {
+		__extends(createRoomDialogSkin$Skin303, _super);
+		function createRoomDialogSkin$Skin303() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -37397,7 +37590,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = createRoomDialogSkin$Skin300.prototype;
+		var _proto = createRoomDialogSkin$Skin303.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -37414,7 +37607,7 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return createRoomDialogSkin$Skin300;
+		return createRoomDialogSkin$Skin303;
 	})(eui.Skin);
 
 	function createRoomDialogSkin() {
@@ -37503,7 +37696,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 1081;
 		t.y = 0;
-		t.skinName = createRoomDialogSkin$Skin298;
+		t.skinName = createRoomDialogSkin$Skin301;
 		return t;
 	};
 	_proto.panelMahjong_i = function () {
@@ -37537,7 +37730,7 @@ window.skins=window.skins||{};
 		t.width = 226;
 		t.x = 138.14;
 		t.y = 103.81;
-		t.skinName = createRoomDialogSkin$Skin299;
+		t.skinName = createRoomDialogSkin$Skin302;
 		return t;
 	};
 	_proto.labelMahjong_i = function () {
@@ -37561,7 +37754,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 950.33;
 		t.y = 576.37;
-		t.skinName = createRoomDialogSkin$Skin300;
+		t.skinName = createRoomDialogSkin$Skin303;
 		return t;
 	};
 	_proto.groupDiamond_i = function () {
@@ -37611,9 +37804,9 @@ window.skins=window.skins||{};
 	return createRoomDialogSkin;
 })(eui.Skin);generateEUI.paths['resource/skins/hall/room/joinRoomSkin.exml'] = window.myskin.joinRoomSkin = (function (_super) {
 	__extends(joinRoomSkin, _super);
-	var joinRoomSkin$Skin301 = 	(function (_super) {
-		__extends(joinRoomSkin$Skin301, _super);
-		function joinRoomSkin$Skin301() {
+	var joinRoomSkin$Skin304 = 	(function (_super) {
+		__extends(joinRoomSkin$Skin304, _super);
+		function joinRoomSkin$Skin304() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -37633,7 +37826,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = joinRoomSkin$Skin301.prototype;
+		var _proto = joinRoomSkin$Skin304.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -37650,7 +37843,7 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return joinRoomSkin$Skin301;
+		return joinRoomSkin$Skin304;
 	})(eui.Skin);
 
 	function joinRoomSkin() {
@@ -37682,7 +37875,7 @@ window.skins=window.skins||{};
 		t.scaleX = 1;
 		t.scaleY = 1;
 		t.verticalCenter = -280;
-		t.skinName = joinRoomSkin$Skin301;
+		t.skinName = joinRoomSkin$Skin304;
 		return t;
 	};
 	_proto.inputNumberUI_i = function () {
@@ -37706,9 +37899,9 @@ window.skins=window.skins||{};
 	return joinRoomSkin;
 })(eui.Skin);generateEUI.paths['resource/skins/hall/settingDialogSkin.exml'] = window.myskin.settingDialogSkin = (function (_super) {
 	__extends(settingDialogSkin, _super);
-	var settingDialogSkin$Skin302 = 	(function (_super) {
-		__extends(settingDialogSkin$Skin302, _super);
-		function settingDialogSkin$Skin302() {
+	var settingDialogSkin$Skin305 = 	(function (_super) {
+		__extends(settingDialogSkin$Skin305, _super);
+		function settingDialogSkin$Skin305() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -37728,139 +37921,13 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = settingDialogSkin$Skin302.prototype;
-
-		_proto._Image1_i = function () {
-			var t = new eui.Image();
-			this._Image1 = t;
-			t.percentHeight = 100;
-			t.source = "button_change_1_png";
-			t.percentWidth = 100;
-			return t;
-		};
-		_proto.labelDisplay_i = function () {
-			var t = new eui.Label();
-			this.labelDisplay = t;
-			t.horizontalCenter = 0;
-			t.verticalCenter = 0;
-			return t;
-		};
-		return settingDialogSkin$Skin302;
-	})(eui.Skin);
-
-	var settingDialogSkin$Skin303 = 	(function (_super) {
-		__extends(settingDialogSkin$Skin303, _super);
-		function settingDialogSkin$Skin303() {
-			_super.call(this);
-			this.skinParts = ["labelDisplay"];
-			
-			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
-			this.states = [
-				new eui.State ("up",
-					[
-					])
-				,
-				new eui.State ("down",
-					[
-						new eui.SetProperty("_Image1","source","bt_giveFeedback_2_png")
-					])
-				,
-				new eui.State ("disabled",
-					[
-					])
-			];
-		}
-		var _proto = settingDialogSkin$Skin303.prototype;
-
-		_proto._Image1_i = function () {
-			var t = new eui.Image();
-			this._Image1 = t;
-			t.percentHeight = 100;
-			t.source = "bt_giveFeedback_1_png";
-			t.percentWidth = 100;
-			return t;
-		};
-		_proto.labelDisplay_i = function () {
-			var t = new eui.Label();
-			this.labelDisplay = t;
-			t.horizontalCenter = 0;
-			t.verticalCenter = 0;
-			return t;
-		};
-		return settingDialogSkin$Skin303;
-	})(eui.Skin);
-
-	var settingDialogSkin$Skin304 = 	(function (_super) {
-		__extends(settingDialogSkin$Skin304, _super);
-		function settingDialogSkin$Skin304() {
-			_super.call(this);
-			this.skinParts = ["labelDisplay"];
-			
-			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
-			this.states = [
-				new eui.State ("up",
-					[
-					])
-				,
-				new eui.State ("down",
-					[
-						new eui.SetProperty("_Image1","source","btn_jlb_common_close_2_png")
-					])
-				,
-				new eui.State ("disabled",
-					[
-					])
-			];
-		}
-		var _proto = settingDialogSkin$Skin304.prototype;
-
-		_proto._Image1_i = function () {
-			var t = new eui.Image();
-			this._Image1 = t;
-			t.percentHeight = 100;
-			t.source = "btn_jlb_common_close_1_png";
-			t.percentWidth = 100;
-			return t;
-		};
-		_proto.labelDisplay_i = function () {
-			var t = new eui.Label();
-			this.labelDisplay = t;
-			t.horizontalCenter = 0;
-			t.verticalCenter = 0;
-			return t;
-		};
-		return settingDialogSkin$Skin304;
-	})(eui.Skin);
-
-	var settingDialogSkin$Skin305 = 	(function (_super) {
-		__extends(settingDialogSkin$Skin305, _super);
-		function settingDialogSkin$Skin305() {
-			_super.call(this);
-			this.skinParts = ["labelDisplay"];
-			
-			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
-			this.states = [
-				new eui.State ("up",
-					[
-					])
-				,
-				new eui.State ("down",
-					[
-						new eui.SetProperty("_Image1","source","button_open_png")
-					])
-				,
-				new eui.State ("disabled",
-					[
-					])
-			];
-		}
 		var _proto = settingDialogSkin$Skin305.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
 			this._Image1 = t;
 			t.percentHeight = 100;
-			t.source = "button_close_png";
+			t.source = "button_change_1_png";
 			t.percentWidth = 100;
 			return t;
 		};
@@ -37888,7 +37955,7 @@ window.skins=window.skins||{};
 				,
 				new eui.State ("down",
 					[
-						new eui.SetProperty("_Image1","source","button_open_png")
+						new eui.SetProperty("_Image1","source","bt_giveFeedback_2_png")
 					])
 				,
 				new eui.State ("disabled",
@@ -37897,6 +37964,90 @@ window.skins=window.skins||{};
 			];
 		}
 		var _proto = settingDialogSkin$Skin306.prototype;
+
+		_proto._Image1_i = function () {
+			var t = new eui.Image();
+			this._Image1 = t;
+			t.percentHeight = 100;
+			t.source = "bt_giveFeedback_1_png";
+			t.percentWidth = 100;
+			return t;
+		};
+		_proto.labelDisplay_i = function () {
+			var t = new eui.Label();
+			this.labelDisplay = t;
+			t.horizontalCenter = 0;
+			t.verticalCenter = 0;
+			return t;
+		};
+		return settingDialogSkin$Skin306;
+	})(eui.Skin);
+
+	var settingDialogSkin$Skin307 = 	(function (_super) {
+		__extends(settingDialogSkin$Skin307, _super);
+		function settingDialogSkin$Skin307() {
+			_super.call(this);
+			this.skinParts = ["labelDisplay"];
+			
+			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
+			this.states = [
+				new eui.State ("up",
+					[
+					])
+				,
+				new eui.State ("down",
+					[
+						new eui.SetProperty("_Image1","source","btn_jlb_common_close_2_png")
+					])
+				,
+				new eui.State ("disabled",
+					[
+					])
+			];
+		}
+		var _proto = settingDialogSkin$Skin307.prototype;
+
+		_proto._Image1_i = function () {
+			var t = new eui.Image();
+			this._Image1 = t;
+			t.percentHeight = 100;
+			t.source = "btn_jlb_common_close_1_png";
+			t.percentWidth = 100;
+			return t;
+		};
+		_proto.labelDisplay_i = function () {
+			var t = new eui.Label();
+			this.labelDisplay = t;
+			t.horizontalCenter = 0;
+			t.verticalCenter = 0;
+			return t;
+		};
+		return settingDialogSkin$Skin307;
+	})(eui.Skin);
+
+	var settingDialogSkin$Skin308 = 	(function (_super) {
+		__extends(settingDialogSkin$Skin308, _super);
+		function settingDialogSkin$Skin308() {
+			_super.call(this);
+			this.skinParts = ["labelDisplay"];
+			
+			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
+			this.states = [
+				new eui.State ("up",
+					[
+					])
+				,
+				new eui.State ("down",
+					[
+						new eui.SetProperty("_Image1","source","button_open_png")
+					])
+				,
+				new eui.State ("disabled",
+					[
+					])
+			];
+		}
+		var _proto = settingDialogSkin$Skin308.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -37913,7 +38064,49 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return settingDialogSkin$Skin306;
+		return settingDialogSkin$Skin308;
+	})(eui.Skin);
+
+	var settingDialogSkin$Skin309 = 	(function (_super) {
+		__extends(settingDialogSkin$Skin309, _super);
+		function settingDialogSkin$Skin309() {
+			_super.call(this);
+			this.skinParts = ["labelDisplay"];
+			
+			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
+			this.states = [
+				new eui.State ("up",
+					[
+					])
+				,
+				new eui.State ("down",
+					[
+						new eui.SetProperty("_Image1","source","button_open_png")
+					])
+				,
+				new eui.State ("disabled",
+					[
+					])
+			];
+		}
+		var _proto = settingDialogSkin$Skin309.prototype;
+
+		_proto._Image1_i = function () {
+			var t = new eui.Image();
+			this._Image1 = t;
+			t.percentHeight = 100;
+			t.source = "button_close_png";
+			t.percentWidth = 100;
+			return t;
+		};
+		_proto.labelDisplay_i = function () {
+			var t = new eui.Label();
+			this.labelDisplay = t;
+			t.horizontalCenter = 0;
+			t.verticalCenter = 0;
+			return t;
+		};
+		return settingDialogSkin$Skin309;
 	})(eui.Skin);
 
 	function settingDialogSkin() {
@@ -37997,7 +38190,7 @@ window.skins=window.skins||{};
 		t.horizontalCenter = 0.5;
 		t.label = "";
 		t.y = 199;
-		t.skinName = settingDialogSkin$Skin302;
+		t.skinName = settingDialogSkin$Skin305;
 		return t;
 	};
 	_proto.btnFeedback_i = function () {
@@ -38006,7 +38199,7 @@ window.skins=window.skins||{};
 		t.horizontalCenter = 0.5;
 		t.label = "";
 		t.y = 287;
-		t.skinName = settingDialogSkin$Skin303;
+		t.skinName = settingDialogSkin$Skin306;
 		return t;
 	};
 	_proto._Group2_i = function () {
@@ -38053,7 +38246,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 1016;
 		t.y = 86.3;
-		t.skinName = settingDialogSkin$Skin304;
+		t.skinName = settingDialogSkin$Skin307;
 		return t;
 	};
 	_proto.toggleMusic_i = function () {
@@ -38062,7 +38255,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 773.17;
 		t.y = 255.98;
-		t.skinName = settingDialogSkin$Skin305;
+		t.skinName = settingDialogSkin$Skin308;
 		return t;
 	};
 	_proto.toggleSound_i = function () {
@@ -38071,7 +38264,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 773.17;
 		t.y = 342.65;
-		t.skinName = settingDialogSkin$Skin306;
+		t.skinName = settingDialogSkin$Skin309;
 		return t;
 	};
 	_proto._Label2_i = function () {
@@ -38164,132 +38357,6 @@ window.skins=window.skins||{};
 	return shopItemSkin;
 })(eui.Skin);generateEUI.paths['resource/skins/hall/shop/shopSceneSkin.exml'] = window.mySkin.shopSceneSkin = (function (_super) {
 	__extends(shopSceneSkin, _super);
-	var shopSceneSkin$Skin307 = 	(function (_super) {
-		__extends(shopSceneSkin$Skin307, _super);
-		function shopSceneSkin$Skin307() {
-			_super.call(this);
-			this.skinParts = ["labelDisplay"];
-			
-			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
-			this.states = [
-				new eui.State ("up",
-					[
-					])
-				,
-				new eui.State ("down",
-					[
-						new eui.SetProperty("_Image1","source","label_shop_1_png")
-					])
-				,
-				new eui.State ("disabled",
-					[
-					])
-			];
-		}
-		var _proto = shopSceneSkin$Skin307.prototype;
-
-		_proto._Image1_i = function () {
-			var t = new eui.Image();
-			this._Image1 = t;
-			t.percentHeight = 100;
-			t.source = "label_shop_2_png";
-			t.percentWidth = 100;
-			return t;
-		};
-		_proto.labelDisplay_i = function () {
-			var t = new eui.Label();
-			this.labelDisplay = t;
-			t.horizontalCenter = 0;
-			t.verticalCenter = 0;
-			return t;
-		};
-		return shopSceneSkin$Skin307;
-	})(eui.Skin);
-
-	var shopSceneSkin$Skin308 = 	(function (_super) {
-		__extends(shopSceneSkin$Skin308, _super);
-		function shopSceneSkin$Skin308() {
-			_super.call(this);
-			this.skinParts = ["labelDisplay"];
-			
-			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
-			this.states = [
-				new eui.State ("up",
-					[
-					])
-				,
-				new eui.State ("down",
-					[
-						new eui.SetProperty("_Image1","source","label_shop_1_png")
-					])
-				,
-				new eui.State ("disabled",
-					[
-					])
-			];
-		}
-		var _proto = shopSceneSkin$Skin308.prototype;
-
-		_proto._Image1_i = function () {
-			var t = new eui.Image();
-			this._Image1 = t;
-			t.percentHeight = 100;
-			t.source = "label_shop_2_png";
-			t.percentWidth = 100;
-			return t;
-		};
-		_proto.labelDisplay_i = function () {
-			var t = new eui.Label();
-			this.labelDisplay = t;
-			t.horizontalCenter = 0;
-			t.verticalCenter = 0;
-			return t;
-		};
-		return shopSceneSkin$Skin308;
-	})(eui.Skin);
-
-	var shopSceneSkin$Skin309 = 	(function (_super) {
-		__extends(shopSceneSkin$Skin309, _super);
-		function shopSceneSkin$Skin309() {
-			_super.call(this);
-			this.skinParts = ["labelDisplay"];
-			
-			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
-			this.states = [
-				new eui.State ("up",
-					[
-					])
-				,
-				new eui.State ("down",
-					[
-						new eui.SetProperty("_Image1","source","common_json.btn_nj_common_goback_p_png")
-					])
-				,
-				new eui.State ("disabled",
-					[
-					])
-			];
-		}
-		var _proto = shopSceneSkin$Skin309.prototype;
-
-		_proto._Image1_i = function () {
-			var t = new eui.Image();
-			this._Image1 = t;
-			t.percentHeight = 100;
-			t.source = "btn_nj_common_goback_n_png";
-			t.percentWidth = 100;
-			return t;
-		};
-		_proto.labelDisplay_i = function () {
-			var t = new eui.Label();
-			this.labelDisplay = t;
-			t.horizontalCenter = 0;
-			t.verticalCenter = 0;
-			return t;
-		};
-		return shopSceneSkin$Skin309;
-	})(eui.Skin);
-
 	var shopSceneSkin$Skin310 = 	(function (_super) {
 		__extends(shopSceneSkin$Skin310, _super);
 		function shopSceneSkin$Skin310() {
@@ -38304,7 +38371,7 @@ window.skins=window.skins||{};
 				,
 				new eui.State ("down",
 					[
-						new eui.SetProperty("_Image1","source","item_diamond_1_2_png")
+						new eui.SetProperty("_Image1","source","label_shop_1_png")
 					])
 				,
 				new eui.State ("disabled",
@@ -38318,7 +38385,7 @@ window.skins=window.skins||{};
 			var t = new eui.Image();
 			this._Image1 = t;
 			t.percentHeight = 100;
-			t.source = "item_diamond_1_png";
+			t.source = "label_shop_2_png";
 			t.percentWidth = 100;
 			return t;
 		};
@@ -38346,7 +38413,7 @@ window.skins=window.skins||{};
 				,
 				new eui.State ("down",
 					[
-						new eui.SetProperty("_Image1","source","item_gold_1_2_png")
+						new eui.SetProperty("_Image1","source","label_shop_1_png")
 					])
 				,
 				new eui.State ("disabled",
@@ -38360,7 +38427,7 @@ window.skins=window.skins||{};
 			var t = new eui.Image();
 			this._Image1 = t;
 			t.percentHeight = 100;
-			t.source = "item_gold_1_png";
+			t.source = "label_shop_2_png";
 			t.percentWidth = 100;
 			return t;
 		};
@@ -38388,7 +38455,7 @@ window.skins=window.skins||{};
 				,
 				new eui.State ("down",
 					[
-						new eui.SetProperty("_Image1","source","item_diamond_2_2_png")
+						new eui.SetProperty("_Image1","source","common_json.btn_nj_common_goback_p_png")
 					])
 				,
 				new eui.State ("disabled",
@@ -38402,7 +38469,7 @@ window.skins=window.skins||{};
 			var t = new eui.Image();
 			this._Image1 = t;
 			t.percentHeight = 100;
-			t.source = "item_diamond_2_png";
+			t.source = "btn_nj_common_goback_n_png";
 			t.percentWidth = 100;
 			return t;
 		};
@@ -38430,7 +38497,7 @@ window.skins=window.skins||{};
 				,
 				new eui.State ("down",
 					[
-						new eui.SetProperty("_Image1","source","item_gold_2_2_png")
+						new eui.SetProperty("_Image1","source","item_diamond_1_2_png")
 					])
 				,
 				new eui.State ("disabled",
@@ -38444,7 +38511,7 @@ window.skins=window.skins||{};
 			var t = new eui.Image();
 			this._Image1 = t;
 			t.percentHeight = 100;
-			t.source = "item_gold_2_png";
+			t.source = "item_diamond_1_png";
 			t.percentWidth = 100;
 			return t;
 		};
@@ -38472,7 +38539,7 @@ window.skins=window.skins||{};
 				,
 				new eui.State ("down",
 					[
-						new eui.SetProperty("_Image1","source","item_diamond_3_2_png")
+						new eui.SetProperty("_Image1","source","item_gold_1_2_png")
 					])
 				,
 				new eui.State ("disabled",
@@ -38486,7 +38553,7 @@ window.skins=window.skins||{};
 			var t = new eui.Image();
 			this._Image1 = t;
 			t.percentHeight = 100;
-			t.source = "item_diamond_3_png";
+			t.source = "item_gold_1_png";
 			t.percentWidth = 100;
 			return t;
 		};
@@ -38514,7 +38581,7 @@ window.skins=window.skins||{};
 				,
 				new eui.State ("down",
 					[
-						new eui.SetProperty("_Image1","source","item_gold_3_2_png")
+						new eui.SetProperty("_Image1","source","item_diamond_2_2_png")
 					])
 				,
 				new eui.State ("disabled",
@@ -38528,7 +38595,7 @@ window.skins=window.skins||{};
 			var t = new eui.Image();
 			this._Image1 = t;
 			t.percentHeight = 100;
-			t.source = "item_gold_3_png";
+			t.source = "item_diamond_2_png";
 			t.percentWidth = 100;
 			return t;
 		};
@@ -38556,7 +38623,7 @@ window.skins=window.skins||{};
 				,
 				new eui.State ("down",
 					[
-						new eui.SetProperty("_Image1","source","item_diamond_4_2_png")
+						new eui.SetProperty("_Image1","source","item_gold_2_2_png")
 					])
 				,
 				new eui.State ("disabled",
@@ -38570,7 +38637,7 @@ window.skins=window.skins||{};
 			var t = new eui.Image();
 			this._Image1 = t;
 			t.percentHeight = 100;
-			t.source = "item_diamond_4_png";
+			t.source = "item_gold_2_png";
 			t.percentWidth = 100;
 			return t;
 		};
@@ -38598,7 +38665,7 @@ window.skins=window.skins||{};
 				,
 				new eui.State ("down",
 					[
-						new eui.SetProperty("_Image1","source","item_gold_4_2_png")
+						new eui.SetProperty("_Image1","source","item_diamond_3_2_png")
 					])
 				,
 				new eui.State ("disabled",
@@ -38612,7 +38679,7 @@ window.skins=window.skins||{};
 			var t = new eui.Image();
 			this._Image1 = t;
 			t.percentHeight = 100;
-			t.source = "item_gold_4_png";
+			t.source = "item_diamond_3_png";
 			t.percentWidth = 100;
 			return t;
 		};
@@ -38640,7 +38707,7 @@ window.skins=window.skins||{};
 				,
 				new eui.State ("down",
 					[
-						new eui.SetProperty("_Image1","source","item_diamond_5_2_png")
+						new eui.SetProperty("_Image1","source","item_gold_3_2_png")
 					])
 				,
 				new eui.State ("disabled",
@@ -38654,7 +38721,7 @@ window.skins=window.skins||{};
 			var t = new eui.Image();
 			this._Image1 = t;
 			t.percentHeight = 100;
-			t.source = "item_diamond_5_png";
+			t.source = "item_gold_3_png";
 			t.percentWidth = 100;
 			return t;
 		};
@@ -38682,7 +38749,7 @@ window.skins=window.skins||{};
 				,
 				new eui.State ("down",
 					[
-						new eui.SetProperty("_Image1","source","item_gold_5_2_png")
+						new eui.SetProperty("_Image1","source","item_diamond_4_2_png")
 					])
 				,
 				new eui.State ("disabled",
@@ -38696,7 +38763,7 @@ window.skins=window.skins||{};
 			var t = new eui.Image();
 			this._Image1 = t;
 			t.percentHeight = 100;
-			t.source = "item_gold_5_png";
+			t.source = "item_diamond_4_png";
 			t.percentWidth = 100;
 			return t;
 		};
@@ -38724,7 +38791,7 @@ window.skins=window.skins||{};
 				,
 				new eui.State ("down",
 					[
-						new eui.SetProperty("_Image1","source","item_diamond_6_2_png")
+						new eui.SetProperty("_Image1","source","item_gold_4_2_png")
 					])
 				,
 				new eui.State ("disabled",
@@ -38738,7 +38805,7 @@ window.skins=window.skins||{};
 			var t = new eui.Image();
 			this._Image1 = t;
 			t.percentHeight = 100;
-			t.source = "item_diamond_6_png";
+			t.source = "item_gold_4_png";
 			t.percentWidth = 100;
 			return t;
 		};
@@ -38766,7 +38833,7 @@ window.skins=window.skins||{};
 				,
 				new eui.State ("down",
 					[
-						new eui.SetProperty("_Image1","source","item_gold_6_2_png")
+						new eui.SetProperty("_Image1","source","item_diamond_5_2_png")
 					])
 				,
 				new eui.State ("disabled",
@@ -38775,6 +38842,132 @@ window.skins=window.skins||{};
 			];
 		}
 		var _proto = shopSceneSkin$Skin321.prototype;
+
+		_proto._Image1_i = function () {
+			var t = new eui.Image();
+			this._Image1 = t;
+			t.percentHeight = 100;
+			t.source = "item_diamond_5_png";
+			t.percentWidth = 100;
+			return t;
+		};
+		_proto.labelDisplay_i = function () {
+			var t = new eui.Label();
+			this.labelDisplay = t;
+			t.horizontalCenter = 0;
+			t.verticalCenter = 0;
+			return t;
+		};
+		return shopSceneSkin$Skin321;
+	})(eui.Skin);
+
+	var shopSceneSkin$Skin322 = 	(function (_super) {
+		__extends(shopSceneSkin$Skin322, _super);
+		function shopSceneSkin$Skin322() {
+			_super.call(this);
+			this.skinParts = ["labelDisplay"];
+			
+			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
+			this.states = [
+				new eui.State ("up",
+					[
+					])
+				,
+				new eui.State ("down",
+					[
+						new eui.SetProperty("_Image1","source","item_gold_5_2_png")
+					])
+				,
+				new eui.State ("disabled",
+					[
+					])
+			];
+		}
+		var _proto = shopSceneSkin$Skin322.prototype;
+
+		_proto._Image1_i = function () {
+			var t = new eui.Image();
+			this._Image1 = t;
+			t.percentHeight = 100;
+			t.source = "item_gold_5_png";
+			t.percentWidth = 100;
+			return t;
+		};
+		_proto.labelDisplay_i = function () {
+			var t = new eui.Label();
+			this.labelDisplay = t;
+			t.horizontalCenter = 0;
+			t.verticalCenter = 0;
+			return t;
+		};
+		return shopSceneSkin$Skin322;
+	})(eui.Skin);
+
+	var shopSceneSkin$Skin323 = 	(function (_super) {
+		__extends(shopSceneSkin$Skin323, _super);
+		function shopSceneSkin$Skin323() {
+			_super.call(this);
+			this.skinParts = ["labelDisplay"];
+			
+			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
+			this.states = [
+				new eui.State ("up",
+					[
+					])
+				,
+				new eui.State ("down",
+					[
+						new eui.SetProperty("_Image1","source","item_diamond_6_2_png")
+					])
+				,
+				new eui.State ("disabled",
+					[
+					])
+			];
+		}
+		var _proto = shopSceneSkin$Skin323.prototype;
+
+		_proto._Image1_i = function () {
+			var t = new eui.Image();
+			this._Image1 = t;
+			t.percentHeight = 100;
+			t.source = "item_diamond_6_png";
+			t.percentWidth = 100;
+			return t;
+		};
+		_proto.labelDisplay_i = function () {
+			var t = new eui.Label();
+			this.labelDisplay = t;
+			t.horizontalCenter = 0;
+			t.verticalCenter = 0;
+			return t;
+		};
+		return shopSceneSkin$Skin323;
+	})(eui.Skin);
+
+	var shopSceneSkin$Skin324 = 	(function (_super) {
+		__extends(shopSceneSkin$Skin324, _super);
+		function shopSceneSkin$Skin324() {
+			_super.call(this);
+			this.skinParts = ["labelDisplay"];
+			
+			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
+			this.states = [
+				new eui.State ("up",
+					[
+					])
+				,
+				new eui.State ("down",
+					[
+						new eui.SetProperty("_Image1","source","item_gold_6_2_png")
+					])
+				,
+				new eui.State ("disabled",
+					[
+					])
+			];
+		}
+		var _proto = shopSceneSkin$Skin324.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -38791,7 +38984,7 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return shopSceneSkin$Skin321;
+		return shopSceneSkin$Skin324;
 	})(eui.Skin);
 
 	function shopSceneSkin() {
@@ -38846,7 +39039,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 0;
 		t.y = 0;
-		t.skinName = shopSceneSkin$Skin307;
+		t.skinName = shopSceneSkin$Skin310;
 		return t;
 	};
 	_proto.tab2_i = function () {
@@ -38856,7 +39049,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 0;
 		t.y = 102.56;
-		t.skinName = shopSceneSkin$Skin308;
+		t.skinName = shopSceneSkin$Skin311;
 		return t;
 	};
 	_proto.labelTab1_i = function () {
@@ -38911,7 +39104,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 100;
 		t.y = 4;
-		t.skinName = shopSceneSkin$Skin309;
+		t.skinName = shopSceneSkin$Skin312;
 		return t;
 	};
 	_proto._Group8_i = function () {
@@ -38946,7 +39139,7 @@ window.skins=window.skins||{};
 		t.horizontalCenter = 0;
 		t.label = "";
 		t.verticalCenter = 0;
-		t.skinName = shopSceneSkin$Skin310;
+		t.skinName = shopSceneSkin$Skin313;
 		return t;
 	};
 	_proto.btnGold1_i = function () {
@@ -38957,7 +39150,7 @@ window.skins=window.skins||{};
 		t.verticalCenter = 0;
 		t.x = 10;
 		t.y = 10;
-		t.skinName = shopSceneSkin$Skin311;
+		t.skinName = shopSceneSkin$Skin314;
 		return t;
 	};
 	_proto.item1_i = function () {
@@ -38982,7 +39175,7 @@ window.skins=window.skins||{};
 		t.horizontalCenter = 0;
 		t.label = "";
 		t.verticalCenter = 0;
-		t.skinName = shopSceneSkin$Skin312;
+		t.skinName = shopSceneSkin$Skin315;
 		return t;
 	};
 	_proto.btnGold2_i = function () {
@@ -38993,7 +39186,7 @@ window.skins=window.skins||{};
 		t.verticalCenter = 0;
 		t.x = 10;
 		t.y = 10;
-		t.skinName = shopSceneSkin$Skin313;
+		t.skinName = shopSceneSkin$Skin316;
 		return t;
 	};
 	_proto.item2_i = function () {
@@ -39018,7 +39211,7 @@ window.skins=window.skins||{};
 		t.horizontalCenter = 0;
 		t.label = "";
 		t.verticalCenter = 0;
-		t.skinName = shopSceneSkin$Skin314;
+		t.skinName = shopSceneSkin$Skin317;
 		return t;
 	};
 	_proto.btnGold3_i = function () {
@@ -39029,7 +39222,7 @@ window.skins=window.skins||{};
 		t.verticalCenter = 0;
 		t.x = 10;
 		t.y = 10;
-		t.skinName = shopSceneSkin$Skin315;
+		t.skinName = shopSceneSkin$Skin318;
 		return t;
 	};
 	_proto.item3_i = function () {
@@ -39054,7 +39247,7 @@ window.skins=window.skins||{};
 		t.horizontalCenter = 0;
 		t.label = "";
 		t.verticalCenter = 0;
-		t.skinName = shopSceneSkin$Skin316;
+		t.skinName = shopSceneSkin$Skin319;
 		return t;
 	};
 	_proto.btnGold4_i = function () {
@@ -39065,7 +39258,7 @@ window.skins=window.skins||{};
 		t.verticalCenter = 0;
 		t.x = 10;
 		t.y = 10;
-		t.skinName = shopSceneSkin$Skin317;
+		t.skinName = shopSceneSkin$Skin320;
 		return t;
 	};
 	_proto.item4_i = function () {
@@ -39090,7 +39283,7 @@ window.skins=window.skins||{};
 		t.horizontalCenter = 0;
 		t.label = "";
 		t.verticalCenter = 0;
-		t.skinName = shopSceneSkin$Skin318;
+		t.skinName = shopSceneSkin$Skin321;
 		return t;
 	};
 	_proto.btnGold5_i = function () {
@@ -39101,7 +39294,7 @@ window.skins=window.skins||{};
 		t.verticalCenter = 0;
 		t.x = 10;
 		t.y = 10;
-		t.skinName = shopSceneSkin$Skin319;
+		t.skinName = shopSceneSkin$Skin322;
 		return t;
 	};
 	_proto.item5_i = function () {
@@ -39126,7 +39319,7 @@ window.skins=window.skins||{};
 		t.horizontalCenter = 0;
 		t.label = "";
 		t.verticalCenter = 0;
-		t.skinName = shopSceneSkin$Skin320;
+		t.skinName = shopSceneSkin$Skin323;
 		return t;
 	};
 	_proto.btnGold6_i = function () {
@@ -39137,7 +39330,7 @@ window.skins=window.skins||{};
 		t.verticalCenter = 0;
 		t.x = 10;
 		t.y = 10;
-		t.skinName = shopSceneSkin$Skin321;
+		t.skinName = shopSceneSkin$Skin324;
 		return t;
 	};
 	_proto.item6_i = function () {
@@ -39224,9 +39417,9 @@ window.skins=window.skins||{};
 	return shopSceneSkin;
 })(eui.Skin);generateEUI.paths['resource/skins/hall/store/diamondItemSkin.exml'] = window.mySkin.diamondItemSkin = (function (_super) {
 	__extends(diamondItemSkin, _super);
-	var diamondItemSkin$Skin322 = 	(function (_super) {
-		__extends(diamondItemSkin$Skin322, _super);
-		function diamondItemSkin$Skin322() {
+	var diamondItemSkin$Skin325 = 	(function (_super) {
+		__extends(diamondItemSkin$Skin325, _super);
+		function diamondItemSkin$Skin325() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -39246,7 +39439,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = diamondItemSkin$Skin322.prototype;
+		var _proto = diamondItemSkin$Skin325.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -39263,7 +39456,7 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return diamondItemSkin$Skin322;
+		return diamondItemSkin$Skin325;
 	})(eui.Skin);
 
 	function diamondItemSkin() {
@@ -39320,7 +39513,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 4.66;
 		t.y = 228;
-		t.skinName = diamondItemSkin$Skin322;
+		t.skinName = diamondItemSkin$Skin325;
 		return t;
 	};
 	_proto._Label1_i = function () {
@@ -39430,9 +39623,9 @@ window.skins=window.skins||{};
 	return diamondItemSkin;
 })(eui.Skin);generateEUI.paths['resource/skins/hall/store/goldItemSkin.exml'] = window.mySkin.goldItemSkin = (function (_super) {
 	__extends(goldItemSkin, _super);
-	var goldItemSkin$Skin323 = 	(function (_super) {
-		__extends(goldItemSkin$Skin323, _super);
-		function goldItemSkin$Skin323() {
+	var goldItemSkin$Skin326 = 	(function (_super) {
+		__extends(goldItemSkin$Skin326, _super);
+		function goldItemSkin$Skin326() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -39452,7 +39645,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = goldItemSkin$Skin323.prototype;
+		var _proto = goldItemSkin$Skin326.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -39469,7 +39662,7 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return goldItemSkin$Skin323;
+		return goldItemSkin$Skin326;
 	})(eui.Skin);
 
 	function goldItemSkin() {
@@ -39526,7 +39719,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 4.66;
 		t.y = 228;
-		t.skinName = goldItemSkin$Skin323;
+		t.skinName = goldItemSkin$Skin326;
 		return t;
 	};
 	_proto._Label1_i = function () {
@@ -39628,132 +39821,6 @@ window.skins=window.skins||{};
 	return goldItemSkin;
 })(eui.Skin);generateEUI.paths['resource/skins/hall/store/storeMainSkin.exml'] = window.mySkin.storeMainSkin = (function (_super) {
 	__extends(storeMainSkin, _super);
-	var storeMainSkin$Skin324 = 	(function (_super) {
-		__extends(storeMainSkin$Skin324, _super);
-		function storeMainSkin$Skin324() {
-			_super.call(this);
-			this.skinParts = ["labelDisplay"];
-			
-			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
-			this.states = [
-				new eui.State ("up",
-					[
-					])
-				,
-				new eui.State ("down",
-					[
-						new eui.SetProperty("_Image1","source","label_shop_1_png")
-					])
-				,
-				new eui.State ("disabled",
-					[
-					])
-			];
-		}
-		var _proto = storeMainSkin$Skin324.prototype;
-
-		_proto._Image1_i = function () {
-			var t = new eui.Image();
-			this._Image1 = t;
-			t.percentHeight = 100;
-			t.source = "label_shop_2_png";
-			t.percentWidth = 100;
-			return t;
-		};
-		_proto.labelDisplay_i = function () {
-			var t = new eui.Label();
-			this.labelDisplay = t;
-			t.horizontalCenter = 0;
-			t.verticalCenter = 0;
-			return t;
-		};
-		return storeMainSkin$Skin324;
-	})(eui.Skin);
-
-	var storeMainSkin$Skin325 = 	(function (_super) {
-		__extends(storeMainSkin$Skin325, _super);
-		function storeMainSkin$Skin325() {
-			_super.call(this);
-			this.skinParts = ["labelDisplay"];
-			
-			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
-			this.states = [
-				new eui.State ("up",
-					[
-					])
-				,
-				new eui.State ("down",
-					[
-						new eui.SetProperty("_Image1","source","label_shop_1_png")
-					])
-				,
-				new eui.State ("disabled",
-					[
-					])
-			];
-		}
-		var _proto = storeMainSkin$Skin325.prototype;
-
-		_proto._Image1_i = function () {
-			var t = new eui.Image();
-			this._Image1 = t;
-			t.percentHeight = 100;
-			t.source = "label_shop_2_png";
-			t.percentWidth = 100;
-			return t;
-		};
-		_proto.labelDisplay_i = function () {
-			var t = new eui.Label();
-			this.labelDisplay = t;
-			t.horizontalCenter = 0;
-			t.verticalCenter = 0;
-			return t;
-		};
-		return storeMainSkin$Skin325;
-	})(eui.Skin);
-
-	var storeMainSkin$Skin326 = 	(function (_super) {
-		__extends(storeMainSkin$Skin326, _super);
-		function storeMainSkin$Skin326() {
-			_super.call(this);
-			this.skinParts = ["labelDisplay"];
-			
-			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
-			this.states = [
-				new eui.State ("up",
-					[
-					])
-				,
-				new eui.State ("down",
-					[
-						new eui.SetProperty("_Image1","source","img_nj_shop_title_1_1_png")
-					])
-				,
-				new eui.State ("disabled",
-					[
-					])
-			];
-		}
-		var _proto = storeMainSkin$Skin326.prototype;
-
-		_proto._Image1_i = function () {
-			var t = new eui.Image();
-			this._Image1 = t;
-			t.percentHeight = 100;
-			t.source = "img_nj_shop_title_1_2_png";
-			t.percentWidth = 100;
-			return t;
-		};
-		_proto.labelDisplay_i = function () {
-			var t = new eui.Label();
-			this.labelDisplay = t;
-			t.horizontalCenter = 0;
-			t.verticalCenter = 0;
-			return t;
-		};
-		return storeMainSkin$Skin326;
-	})(eui.Skin);
-
 	var storeMainSkin$Skin327 = 	(function (_super) {
 		__extends(storeMainSkin$Skin327, _super);
 		function storeMainSkin$Skin327() {
@@ -39768,7 +39835,7 @@ window.skins=window.skins||{};
 				,
 				new eui.State ("down",
 					[
-						new eui.SetProperty("_Image1","source","img_nj_shop_title_2_1_png")
+						new eui.SetProperty("_Image1","source","label_shop_1_png")
 					])
 				,
 				new eui.State ("disabled",
@@ -39782,7 +39849,7 @@ window.skins=window.skins||{};
 			var t = new eui.Image();
 			this._Image1 = t;
 			t.percentHeight = 100;
-			t.source = "img_nj_shop_title_2_2_png";
+			t.source = "label_shop_2_png";
 			t.percentWidth = 100;
 			return t;
 		};
@@ -39810,7 +39877,7 @@ window.skins=window.skins||{};
 				,
 				new eui.State ("down",
 					[
-						new eui.SetProperty("_Image1","source","btn_club_back_2_png")
+						new eui.SetProperty("_Image1","source","label_shop_1_png")
 					])
 				,
 				new eui.State ("disabled",
@@ -39819,6 +39886,132 @@ window.skins=window.skins||{};
 			];
 		}
 		var _proto = storeMainSkin$Skin328.prototype;
+
+		_proto._Image1_i = function () {
+			var t = new eui.Image();
+			this._Image1 = t;
+			t.percentHeight = 100;
+			t.source = "label_shop_2_png";
+			t.percentWidth = 100;
+			return t;
+		};
+		_proto.labelDisplay_i = function () {
+			var t = new eui.Label();
+			this.labelDisplay = t;
+			t.horizontalCenter = 0;
+			t.verticalCenter = 0;
+			return t;
+		};
+		return storeMainSkin$Skin328;
+	})(eui.Skin);
+
+	var storeMainSkin$Skin329 = 	(function (_super) {
+		__extends(storeMainSkin$Skin329, _super);
+		function storeMainSkin$Skin329() {
+			_super.call(this);
+			this.skinParts = ["labelDisplay"];
+			
+			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
+			this.states = [
+				new eui.State ("up",
+					[
+					])
+				,
+				new eui.State ("down",
+					[
+						new eui.SetProperty("_Image1","source","img_nj_shop_title_1_1_png")
+					])
+				,
+				new eui.State ("disabled",
+					[
+					])
+			];
+		}
+		var _proto = storeMainSkin$Skin329.prototype;
+
+		_proto._Image1_i = function () {
+			var t = new eui.Image();
+			this._Image1 = t;
+			t.percentHeight = 100;
+			t.source = "img_nj_shop_title_1_2_png";
+			t.percentWidth = 100;
+			return t;
+		};
+		_proto.labelDisplay_i = function () {
+			var t = new eui.Label();
+			this.labelDisplay = t;
+			t.horizontalCenter = 0;
+			t.verticalCenter = 0;
+			return t;
+		};
+		return storeMainSkin$Skin329;
+	})(eui.Skin);
+
+	var storeMainSkin$Skin330 = 	(function (_super) {
+		__extends(storeMainSkin$Skin330, _super);
+		function storeMainSkin$Skin330() {
+			_super.call(this);
+			this.skinParts = ["labelDisplay"];
+			
+			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
+			this.states = [
+				new eui.State ("up",
+					[
+					])
+				,
+				new eui.State ("down",
+					[
+						new eui.SetProperty("_Image1","source","img_nj_shop_title_2_1_png")
+					])
+				,
+				new eui.State ("disabled",
+					[
+					])
+			];
+		}
+		var _proto = storeMainSkin$Skin330.prototype;
+
+		_proto._Image1_i = function () {
+			var t = new eui.Image();
+			this._Image1 = t;
+			t.percentHeight = 100;
+			t.source = "img_nj_shop_title_2_2_png";
+			t.percentWidth = 100;
+			return t;
+		};
+		_proto.labelDisplay_i = function () {
+			var t = new eui.Label();
+			this.labelDisplay = t;
+			t.horizontalCenter = 0;
+			t.verticalCenter = 0;
+			return t;
+		};
+		return storeMainSkin$Skin330;
+	})(eui.Skin);
+
+	var storeMainSkin$Skin331 = 	(function (_super) {
+		__extends(storeMainSkin$Skin331, _super);
+		function storeMainSkin$Skin331() {
+			_super.call(this);
+			this.skinParts = ["labelDisplay"];
+			
+			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
+			this.states = [
+				new eui.State ("up",
+					[
+					])
+				,
+				new eui.State ("down",
+					[
+						new eui.SetProperty("_Image1","source","btn_club_back_2_png")
+					])
+				,
+				new eui.State ("disabled",
+					[
+					])
+			];
+		}
+		var _proto = storeMainSkin$Skin331.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -39835,7 +40028,7 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return storeMainSkin$Skin328;
+		return storeMainSkin$Skin331;
 	})(eui.Skin);
 
 	function storeMainSkin() {
@@ -39934,7 +40127,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 309;
 		t.y = 71.68;
-		t.skinName = storeMainSkin$Skin324;
+		t.skinName = storeMainSkin$Skin327;
 		return t;
 	};
 	_proto.tab2_i = function () {
@@ -39944,7 +40137,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 309;
 		t.y = 234.69;
-		t.skinName = storeMainSkin$Skin325;
+		t.skinName = storeMainSkin$Skin328;
 		return t;
 	};
 	_proto._Image5_i = function () {
@@ -39961,7 +40154,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 357;
 		t.y = 131.67;
-		t.skinName = storeMainSkin$Skin326;
+		t.skinName = storeMainSkin$Skin329;
 		return t;
 	};
 	_proto.tabTitle2_i = function () {
@@ -39970,7 +40163,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 357;
 		t.y = 294.66;
-		t.skinName = storeMainSkin$Skin327;
+		t.skinName = storeMainSkin$Skin330;
 		return t;
 	};
 	_proto.goldItemGrp_i = function () {
@@ -40159,15 +40352,15 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 11.84;
 		t.y = 7;
-		t.skinName = storeMainSkin$Skin328;
+		t.skinName = storeMainSkin$Skin331;
 		return t;
 	};
 	return storeMainSkin;
 })(eui.Skin);generateEUI.paths['resource/skins/hall/task/taskDialogSkin.exml'] = window.taskDialogSkin = (function (_super) {
 	__extends(taskDialogSkin, _super);
-	var taskDialogSkin$Skin329 = 	(function (_super) {
-		__extends(taskDialogSkin$Skin329, _super);
-		function taskDialogSkin$Skin329() {
+	var taskDialogSkin$Skin332 = 	(function (_super) {
+		__extends(taskDialogSkin$Skin332, _super);
+		function taskDialogSkin$Skin332() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -40187,7 +40380,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = taskDialogSkin$Skin329.prototype;
+		var _proto = taskDialogSkin$Skin332.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -40204,12 +40397,12 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return taskDialogSkin$Skin329;
+		return taskDialogSkin$Skin332;
 	})(eui.Skin);
 
-	var taskDialogSkin$Skin330 = 	(function (_super) {
-		__extends(taskDialogSkin$Skin330, _super);
-		function taskDialogSkin$Skin330() {
+	var taskDialogSkin$Skin333 = 	(function (_super) {
+		__extends(taskDialogSkin$Skin333, _super);
+		function taskDialogSkin$Skin333() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -40229,7 +40422,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = taskDialogSkin$Skin330.prototype;
+		var _proto = taskDialogSkin$Skin333.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -40246,12 +40439,12 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return taskDialogSkin$Skin330;
+		return taskDialogSkin$Skin333;
 	})(eui.Skin);
 
-	var taskDialogSkin$Skin331 = 	(function (_super) {
-		__extends(taskDialogSkin$Skin331, _super);
-		function taskDialogSkin$Skin331() {
+	var taskDialogSkin$Skin334 = 	(function (_super) {
+		__extends(taskDialogSkin$Skin334, _super);
+		function taskDialogSkin$Skin334() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -40271,7 +40464,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = taskDialogSkin$Skin331.prototype;
+		var _proto = taskDialogSkin$Skin334.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -40288,7 +40481,7 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return taskDialogSkin$Skin331;
+		return taskDialogSkin$Skin334;
 	})(eui.Skin);
 
 	function taskDialogSkin() {
@@ -40382,7 +40575,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 0;
 		t.y = 0;
-		t.skinName = taskDialogSkin$Skin329;
+		t.skinName = taskDialogSkin$Skin332;
 		return t;
 	};
 	_proto.tab2_i = function () {
@@ -40392,7 +40585,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 0;
 		t.y = 87.36;
-		t.skinName = taskDialogSkin$Skin330;
+		t.skinName = taskDialogSkin$Skin333;
 		return t;
 	};
 	_proto.labelTab1_i = function () {
@@ -40447,7 +40640,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 1139;
 		t.y = 47.92;
-		t.skinName = taskDialogSkin$Skin331;
+		t.skinName = taskDialogSkin$Skin334;
 		return t;
 	};
 	_proto.scrollerTables_i = function () {
@@ -40469,9 +40662,9 @@ window.skins=window.skins||{};
 	return taskDialogSkin;
 })(eui.Skin);generateEUI.paths['resource/skins/hall/task/taskItemSkin.exml'] = window.mySkin.taskItemSkin = (function (_super) {
 	__extends(taskItemSkin, _super);
-	var taskItemSkin$Skin332 = 	(function (_super) {
-		__extends(taskItemSkin$Skin332, _super);
-		function taskItemSkin$Skin332() {
+	var taskItemSkin$Skin335 = 	(function (_super) {
+		__extends(taskItemSkin$Skin335, _super);
+		function taskItemSkin$Skin335() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -40491,137 +40684,13 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = taskItemSkin$Skin332.prototype;
-
-		_proto._Image1_i = function () {
-			var t = new eui.Image();
-			this._Image1 = t;
-			t.percentHeight = 100;
-			t.source = "club_template_rules_delete_1_png";
-			t.percentWidth = 100;
-			return t;
-		};
-		_proto.labelDisplay_i = function () {
-			var t = new eui.Label();
-			this.labelDisplay = t;
-			t.horizontalCenter = 0;
-			t.verticalCenter = 0;
-			return t;
-		};
-		return taskItemSkin$Skin332;
-	})(eui.Skin);
-
-	var taskItemSkin$Skin333 = 	(function (_super) {
-		__extends(taskItemSkin$Skin333, _super);
-		function taskItemSkin$Skin333() {
-			_super.call(this);
-			this.skinParts = ["labelDisplay"];
-			
-			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
-			this.states = [
-				new eui.State ("up",
-					[
-					])
-				,
-				new eui.State ("down",
-					[
-						new eui.SetProperty("_Image1","source","btn_task_help_2_png")
-					])
-				,
-				new eui.State ("disabled",
-					[
-					])
-			];
-		}
-		var _proto = taskItemSkin$Skin333.prototype;
-
-		_proto._Image1_i = function () {
-			var t = new eui.Image();
-			this._Image1 = t;
-			t.percentHeight = 100;
-			t.source = "btn_task_help_1_png";
-			t.percentWidth = 100;
-			return t;
-		};
-		_proto.labelDisplay_i = function () {
-			var t = new eui.Label();
-			this.labelDisplay = t;
-			t.horizontalCenter = 0;
-			t.verticalCenter = 0;
-			return t;
-		};
-		return taskItemSkin$Skin333;
-	})(eui.Skin);
-
-	var taskItemSkin$Skin334 = 	(function (_super) {
-		__extends(taskItemSkin$Skin334, _super);
-		function taskItemSkin$Skin334() {
-			_super.call(this);
-			this.skinParts = ["labelDisplay"];
-			
-			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
-			this.states = [
-				new eui.State ("up",
-					[
-					])
-				,
-				new eui.State ("down",
-					[
-					])
-				,
-				new eui.State ("disabled",
-					[
-					])
-			];
-		}
-		var _proto = taskItemSkin$Skin334.prototype;
-
-		_proto._Image1_i = function () {
-			var t = new eui.Image();
-			t.percentHeight = 100;
-			t.source = "btn_task_do_png";
-			t.percentWidth = 100;
-			return t;
-		};
-		_proto.labelDisplay_i = function () {
-			var t = new eui.Label();
-			this.labelDisplay = t;
-			t.horizontalCenter = 0;
-			t.verticalCenter = 0;
-			return t;
-		};
-		return taskItemSkin$Skin334;
-	})(eui.Skin);
-
-	var taskItemSkin$Skin335 = 	(function (_super) {
-		__extends(taskItemSkin$Skin335, _super);
-		function taskItemSkin$Skin335() {
-			_super.call(this);
-			this.skinParts = ["labelDisplay"];
-			
-			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
-			this.states = [
-				new eui.State ("up",
-					[
-					])
-				,
-				new eui.State ("down",
-					[
-						new eui.SetProperty("_Image1","source","btn_task_go_2_png")
-					])
-				,
-				new eui.State ("disabled",
-					[
-					])
-			];
-		}
 		var _proto = taskItemSkin$Skin335.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
 			this._Image1 = t;
 			t.percentHeight = 100;
-			t.source = "btn_task_go_1_png";
+			t.source = "club_template_rules_delete_1_png";
 			t.percentWidth = 100;
 			return t;
 		};
@@ -40649,7 +40718,7 @@ window.skins=window.skins||{};
 				,
 				new eui.State ("down",
 					[
-						new eui.SetProperty("_Image1","source","btn_task_get_2_png")
+						new eui.SetProperty("_Image1","source","btn_task_help_2_png")
 					])
 				,
 				new eui.State ("disabled",
@@ -40663,7 +40732,7 @@ window.skins=window.skins||{};
 			var t = new eui.Image();
 			this._Image1 = t;
 			t.percentHeight = 100;
-			t.source = "btn_task_get_1_png";
+			t.source = "btn_task_help_1_png";
 			t.percentWidth = 100;
 			return t;
 		};
@@ -40691,7 +40760,6 @@ window.skins=window.skins||{};
 				,
 				new eui.State ("down",
 					[
-						new eui.SetProperty("_Image1","source","btn_task_geted_png")
 					])
 				,
 				new eui.State ("disabled",
@@ -40700,6 +40768,131 @@ window.skins=window.skins||{};
 			];
 		}
 		var _proto = taskItemSkin$Skin337.prototype;
+
+		_proto._Image1_i = function () {
+			var t = new eui.Image();
+			t.percentHeight = 100;
+			t.source = "btn_task_do_png";
+			t.percentWidth = 100;
+			return t;
+		};
+		_proto.labelDisplay_i = function () {
+			var t = new eui.Label();
+			this.labelDisplay = t;
+			t.horizontalCenter = 0;
+			t.verticalCenter = 0;
+			return t;
+		};
+		return taskItemSkin$Skin337;
+	})(eui.Skin);
+
+	var taskItemSkin$Skin338 = 	(function (_super) {
+		__extends(taskItemSkin$Skin338, _super);
+		function taskItemSkin$Skin338() {
+			_super.call(this);
+			this.skinParts = ["labelDisplay"];
+			
+			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
+			this.states = [
+				new eui.State ("up",
+					[
+					])
+				,
+				new eui.State ("down",
+					[
+						new eui.SetProperty("_Image1","source","btn_task_go_2_png")
+					])
+				,
+				new eui.State ("disabled",
+					[
+					])
+			];
+		}
+		var _proto = taskItemSkin$Skin338.prototype;
+
+		_proto._Image1_i = function () {
+			var t = new eui.Image();
+			this._Image1 = t;
+			t.percentHeight = 100;
+			t.source = "btn_task_go_1_png";
+			t.percentWidth = 100;
+			return t;
+		};
+		_proto.labelDisplay_i = function () {
+			var t = new eui.Label();
+			this.labelDisplay = t;
+			t.horizontalCenter = 0;
+			t.verticalCenter = 0;
+			return t;
+		};
+		return taskItemSkin$Skin338;
+	})(eui.Skin);
+
+	var taskItemSkin$Skin339 = 	(function (_super) {
+		__extends(taskItemSkin$Skin339, _super);
+		function taskItemSkin$Skin339() {
+			_super.call(this);
+			this.skinParts = ["labelDisplay"];
+			
+			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
+			this.states = [
+				new eui.State ("up",
+					[
+					])
+				,
+				new eui.State ("down",
+					[
+						new eui.SetProperty("_Image1","source","btn_task_get_2_png")
+					])
+				,
+				new eui.State ("disabled",
+					[
+					])
+			];
+		}
+		var _proto = taskItemSkin$Skin339.prototype;
+
+		_proto._Image1_i = function () {
+			var t = new eui.Image();
+			this._Image1 = t;
+			t.percentHeight = 100;
+			t.source = "btn_task_get_1_png";
+			t.percentWidth = 100;
+			return t;
+		};
+		_proto.labelDisplay_i = function () {
+			var t = new eui.Label();
+			this.labelDisplay = t;
+			t.horizontalCenter = 0;
+			t.verticalCenter = 0;
+			return t;
+		};
+		return taskItemSkin$Skin339;
+	})(eui.Skin);
+
+	var taskItemSkin$Skin340 = 	(function (_super) {
+		__extends(taskItemSkin$Skin340, _super);
+		function taskItemSkin$Skin340() {
+			_super.call(this);
+			this.skinParts = ["labelDisplay"];
+			
+			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
+			this.states = [
+				new eui.State ("up",
+					[
+					])
+				,
+				new eui.State ("down",
+					[
+						new eui.SetProperty("_Image1","source","btn_task_geted_png")
+					])
+				,
+				new eui.State ("disabled",
+					[
+					])
+			];
+		}
+		var _proto = taskItemSkin$Skin340.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -40716,7 +40909,7 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return taskItemSkin$Skin337;
+		return taskItemSkin$Skin340;
 	})(eui.Skin);
 
 	function taskItemSkin() {
@@ -40770,7 +40963,7 @@ window.skins=window.skins||{};
 		t.scaleY = 1;
 		t.verticalCenter = 0.5;
 		t.x = 885.08;
-		t.skinName = taskItemSkin$Skin332;
+		t.skinName = taskItemSkin$Skin335;
 		return t;
 	};
 	_proto.labelTaskTitle_i = function () {
@@ -40792,7 +40985,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 117;
 		t.y = 22;
-		t.skinName = taskItemSkin$Skin333;
+		t.skinName = taskItemSkin$Skin336;
 		return t;
 	};
 	_proto._Group1_i = function () {
@@ -40809,7 +41002,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 0;
 		t.y = 0;
-		t.skinName = taskItemSkin$Skin334;
+		t.skinName = taskItemSkin$Skin337;
 		return t;
 	};
 	_proto.btnGoDo_i = function () {
@@ -40818,7 +41011,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 0;
 		t.y = 0;
-		t.skinName = taskItemSkin$Skin335;
+		t.skinName = taskItemSkin$Skin338;
 		return t;
 	};
 	_proto.btnGet_i = function () {
@@ -40827,7 +41020,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 14;
 		t.y = -3;
-		t.skinName = taskItemSkin$Skin336;
+		t.skinName = taskItemSkin$Skin339;
 		return t;
 	};
 	_proto.btnGeted_i = function () {
@@ -40837,7 +41030,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 0;
 		t.y = 0;
-		t.skinName = taskItemSkin$Skin337;
+		t.skinName = taskItemSkin$Skin340;
 		return t;
 	};
 	_proto._Image2_i = function () {
@@ -40892,11 +41085,590 @@ window.skins=window.skins||{};
 		return t;
 	};
 	return taskItemSkin;
+})(eui.Skin);generateEUI.paths['resource/skins/hall/turntable/turntableUnit.exml'] = window.turntableUnit = (function (_super) {
+	__extends(turntableUnit, _super);
+	function turntableUnit() {
+		_super.call(this);
+		this.skinParts = ["item","imgIcon","txtIntroduce"];
+		
+		this.height = 290;
+		this.width = 140;
+		this.elementsContent = [this.item_i(),this.imgIcon_i(),this.txtIntroduce_i()];
+	}
+	var _proto = turntableUnit.prototype;
+
+	_proto.item_i = function () {
+		var t = new eui.Image();
+		this.item = t;
+		t.bottom = 0;
+		t.height = 274;
+		t.horizontalCenter = 0;
+		t.source = "turntable_json.bg_turntable_spin_item_png";
+		t.width = 136;
+		return t;
+	};
+	_proto.imgIcon_i = function () {
+		var t = new eui.Image();
+		this.imgIcon = t;
+		t.height = 80;
+		t.horizontalCenter = 0;
+		t.width = 102;
+		t.y = 0;
+		return t;
+	};
+	_proto.txtIntroduce_i = function () {
+		var t = new eui.Label();
+		this.txtIntroduce = t;
+		t.fontFamily = "fzzy";
+		t.horizontalCenter = 0;
+		t.size = 24;
+		t.text = "暂无奖品";
+		t.textColor = 0x874208;
+		t.y = 80;
+		return t;
+	};
+	return turntableUnit;
+})(eui.Skin);generateEUI.paths['resource/skins/hall/turntable/turntableBox.exml'] = window.turntableBox = (function (_super) {
+	__extends(turntableBox, _super);
+	var turntableBox$Skin341 = 	(function (_super) {
+		__extends(turntableBox$Skin341, _super);
+		function turntableBox$Skin341() {
+			_super.call(this);
+			this.skinParts = ["labelDisplay"];
+			
+			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
+			this.states = [
+				new eui.State ("up",
+					[
+					])
+				,
+				new eui.State ("down",
+					[
+						new eui.SetProperty("_Image1","source","turntable_json.btn_turntable_record_2_png")
+					])
+				,
+				new eui.State ("disabled",
+					[
+					])
+			];
+		}
+		var _proto = turntableBox$Skin341.prototype;
+
+		_proto._Image1_i = function () {
+			var t = new eui.Image();
+			this._Image1 = t;
+			t.percentHeight = 100;
+			t.source = "turntable_json.btn_turntable_record_1_png";
+			t.percentWidth = 100;
+			return t;
+		};
+		_proto.labelDisplay_i = function () {
+			var t = new eui.Label();
+			this.labelDisplay = t;
+			t.horizontalCenter = 0;
+			t.verticalCenter = 0;
+			return t;
+		};
+		return turntableBox$Skin341;
+	})(eui.Skin);
+
+	var turntableBox$Skin342 = 	(function (_super) {
+		__extends(turntableBox$Skin342, _super);
+		function turntableBox$Skin342() {
+			_super.call(this);
+			this.skinParts = ["labelDisplay"];
+			
+			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
+			this.states = [
+				new eui.State ("up",
+					[
+					])
+				,
+				new eui.State ("down",
+					[
+						new eui.SetProperty("_Image1","source","turntable_json.btn_turntable_rules_2_png")
+					])
+				,
+				new eui.State ("disabled",
+					[
+					])
+			];
+		}
+		var _proto = turntableBox$Skin342.prototype;
+
+		_proto._Image1_i = function () {
+			var t = new eui.Image();
+			this._Image1 = t;
+			t.percentHeight = 100;
+			t.source = "turntable_json.btn_turntable_rules_1_png";
+			t.percentWidth = 100;
+			return t;
+		};
+		_proto.labelDisplay_i = function () {
+			var t = new eui.Label();
+			this.labelDisplay = t;
+			t.horizontalCenter = 0;
+			t.verticalCenter = 0;
+			return t;
+		};
+		return turntableBox$Skin342;
+	})(eui.Skin);
+
+	var turntableBox$Skin343 = 	(function (_super) {
+		__extends(turntableBox$Skin343, _super);
+		function turntableBox$Skin343() {
+			_super.call(this);
+			this.skinParts = ["labelDisplay"];
+			
+			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
+			this.states = [
+				new eui.State ("up",
+					[
+					])
+				,
+				new eui.State ("down",
+					[
+						new eui.SetProperty("_Image1","source","turntable_json.btn_turntable_spin_2_png")
+					])
+				,
+				new eui.State ("disabled",
+					[
+					])
+			];
+		}
+		var _proto = turntableBox$Skin343.prototype;
+
+		_proto._Image1_i = function () {
+			var t = new eui.Image();
+			this._Image1 = t;
+			t.percentHeight = 100;
+			t.source = "turntable_json.btn_turntable_spin_1_png";
+			t.percentWidth = 100;
+			return t;
+		};
+		_proto.labelDisplay_i = function () {
+			var t = new eui.Label();
+			this.labelDisplay = t;
+			t.horizontalCenter = 0;
+			t.verticalCenter = 0;
+			return t;
+		};
+		return turntableBox$Skin343;
+	})(eui.Skin);
+
+	var turntableBox$Skin344 = 	(function (_super) {
+		__extends(turntableBox$Skin344, _super);
+		function turntableBox$Skin344() {
+			_super.call(this);
+			this.skinParts = ["labelDisplay"];
+			
+			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
+			this.states = [
+				new eui.State ("up",
+					[
+					])
+				,
+				new eui.State ("down",
+					[
+						new eui.SetProperty("_Image1","source","turntable_json.button_turntable_rank_2_png")
+					])
+				,
+				new eui.State ("disabled",
+					[
+					])
+			];
+		}
+		var _proto = turntableBox$Skin344.prototype;
+
+		_proto._Image1_i = function () {
+			var t = new eui.Image();
+			this._Image1 = t;
+			t.percentHeight = 100;
+			t.source = "turntable_json.button_turntable_rank_1_png";
+			t.percentWidth = 100;
+			return t;
+		};
+		_proto.labelDisplay_i = function () {
+			var t = new eui.Label();
+			this.labelDisplay = t;
+			t.horizontalCenter = 0;
+			t.verticalCenter = 0;
+			return t;
+		};
+		return turntableBox$Skin344;
+	})(eui.Skin);
+
+	var turntableBox$Skin345 = 	(function (_super) {
+		__extends(turntableBox$Skin345, _super);
+		function turntableBox$Skin345() {
+			_super.call(this);
+			this.skinParts = ["labelDisplay"];
+			
+			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
+			this.states = [
+				new eui.State ("up",
+					[
+					])
+				,
+				new eui.State ("down",
+					[
+						new eui.SetProperty("_Image1","source","common_json.btn_nj_common_goback_p_png")
+					])
+				,
+				new eui.State ("disabled",
+					[
+					])
+			];
+		}
+		var _proto = turntableBox$Skin345.prototype;
+
+		_proto._Image1_i = function () {
+			var t = new eui.Image();
+			this._Image1 = t;
+			t.percentHeight = 100;
+			t.source = "common_json.btn_nj_common_goback_n_png";
+			t.percentWidth = 100;
+			return t;
+		};
+		_proto.labelDisplay_i = function () {
+			var t = new eui.Label();
+			this.labelDisplay = t;
+			t.horizontalCenter = 0;
+			t.verticalCenter = 0;
+			return t;
+		};
+		return turntableBox$Skin345;
+	})(eui.Skin);
+
+	function turntableBox() {
+		_super.call(this);
+		this.skinParts = ["bg","recordBg","titleBg","txt1","recordFrame","recordList","btRecord","btRules","item_1","item_2","item_3","item_4","item_5","item_6","item_7","item_8","item_9","item_10","item_11","item_12","itemNode","btStart","btBank","btClose","txtDrawNums"];
+		
+		this.height = 720;
+		this.width = 1280;
+		this.elementsContent = [this.bg_i(),this.recordBg_i(),this.titleBg_i(),this.txt1_i(),this.recordFrame_i(),this.recordList_i(),this.btRecord_i(),this.btRules_i(),this.itemNode_i(),this.btStart_i(),this.btBank_i(),this.btClose_i(),this.txtDrawNums_i()];
+	}
+	var _proto = turntableBox.prototype;
+
+	_proto.bg_i = function () {
+		var t = new eui.Image();
+		this.bg = t;
+		t.height = 720;
+		t.source = "bg_turntable_jpg";
+		t.width = 1560;
+		t.x = -140;
+		t.y = 0;
+		return t;
+	};
+	_proto.recordBg_i = function () {
+		var t = new eui.Image();
+		this.recordBg = t;
+		t.height = 660;
+		t.scale9Grid = new egret.Rectangle(51,34,449,295);
+		t.source = "frame_1_png";
+		t.width = 570;
+		t.x = 685;
+		t.y = 80;
+		return t;
+	};
+	_proto.titleBg_i = function () {
+		var t = new eui.Image();
+		this.titleBg = t;
+		t.anchorOffsetX = 0;
+		t.anchorOffsetY = 0;
+		t.height = 71;
+		t.source = "img_frame_title_1_png";
+		t.width = 460;
+		t.x = 740;
+		t.y = 115;
+		return t;
+	};
+	_proto.txt1_i = function () {
+		var t = new eui.Label();
+		this.txt1 = t;
+		t.fontFamily = "fzch";
+		t.text = "中奖纪录";
+		t.textColor = 0x874208;
+		t.x = 910;
+		t.y = 130;
+		return t;
+	};
+	_proto.recordFrame_i = function () {
+		var t = new eui.Image();
+		this.recordFrame = t;
+		t.fillMode = "scale";
+		t.height = 380;
+		t.scale9Grid = new egret.Rectangle(8,5,48,38);
+		t.source = "common2_json.common2_bg_1_png";
+		t.width = 468;
+		t.x = 740;
+		t.y = 186;
+		return t;
+	};
+	_proto.recordList_i = function () {
+		var t = new EScroller();
+		this.recordList = t;
+		t.enabled = true;
+		t.height = 380;
+		t.width = 468;
+		t.x = 740;
+		t.y = 186;
+		t.viewport = this._Group1_i();
+		return t;
+	};
+	_proto._Group1_i = function () {
+		var t = new eui.Group();
+		t.height = 380;
+		t.width = 468;
+		return t;
+	};
+	_proto.btRecord_i = function () {
+		var t = new EButton();
+		this.btRecord = t;
+		t.enabled = true;
+		t.label = "";
+		t.x = 844;
+		t.y = 585;
+		t.skinName = turntableBox$Skin341;
+		return t;
+	};
+	_proto.btRules_i = function () {
+		var t = new EButton();
+		this.btRules = t;
+		t.enabled = true;
+		t.label = "";
+		t.x = 650;
+		t.y = 115;
+		t.skinName = turntableBox$Skin342;
+		return t;
+	};
+	_proto.itemNode_i = function () {
+		var t = new eui.Group();
+		this.itemNode = t;
+		t.anchorOffsetX = 300;
+		t.anchorOffsetY = 300;
+		t.height = 600;
+		t.width = 600;
+		t.x = 360;
+		t.y = 395;
+		t.elementsContent = [this.item_1_i(),this.item_2_i(),this.item_3_i(),this.item_4_i(),this.item_5_i(),this.item_6_i(),this.item_7_i(),this.item_8_i(),this.item_9_i(),this.item_10_i(),this.item_11_i(),this.item_12_i()];
+		return t;
+	};
+	_proto.item_1_i = function () {
+		var t = new game.TurntableUnit();
+		this.item_1 = t;
+		t.anchorOffsetX = 75;
+		t.anchorOffsetY = 300;
+		t.enabled = true;
+		t.height = 300;
+		t.rotation = 0;
+		t.skinName = "turntableUnit";
+		t.width = 150;
+		t.x = 300;
+		t.y = 300;
+		return t;
+	};
+	_proto.item_2_i = function () {
+		var t = new game.TurntableUnit();
+		this.item_2 = t;
+		t.anchorOffsetX = 75;
+		t.anchorOffsetY = 300;
+		t.enabled = true;
+		t.height = 300;
+		t.rotation = 30;
+		t.scaleX = 1;
+		t.skinName = "turntableUnit";
+		t.width = 150;
+		t.x = 300;
+		t.y = 300;
+		return t;
+	};
+	_proto.item_3_i = function () {
+		var t = new game.TurntableUnit();
+		this.item_3 = t;
+		t.anchorOffsetX = 75;
+		t.anchorOffsetY = 300;
+		t.enabled = true;
+		t.height = 300;
+		t.rotation = 60;
+		t.skinName = "turntableUnit";
+		t.width = 150;
+		t.x = 300;
+		t.y = 300;
+		return t;
+	};
+	_proto.item_4_i = function () {
+		var t = new game.TurntableUnit();
+		this.item_4 = t;
+		t.anchorOffsetX = 75;
+		t.anchorOffsetY = 300;
+		t.enabled = true;
+		t.height = 300;
+		t.rotation = 90;
+		t.skinName = "turntableUnit";
+		t.width = 150;
+		t.x = 300;
+		t.y = 300;
+		return t;
+	};
+	_proto.item_5_i = function () {
+		var t = new game.TurntableUnit();
+		this.item_5 = t;
+		t.anchorOffsetX = 75;
+		t.anchorOffsetY = 300;
+		t.enabled = true;
+		t.height = 300;
+		t.rotation = 120;
+		t.skinName = "turntableUnit";
+		t.width = 150;
+		t.x = 300;
+		t.y = 300;
+		return t;
+	};
+	_proto.item_6_i = function () {
+		var t = new game.TurntableUnit();
+		this.item_6 = t;
+		t.anchorOffsetX = 75;
+		t.anchorOffsetY = 300;
+		t.enabled = true;
+		t.height = 300;
+		t.rotation = 150;
+		t.skinName = "turntableUnit";
+		t.width = 150;
+		t.x = 300;
+		t.y = 300;
+		return t;
+	};
+	_proto.item_7_i = function () {
+		var t = new game.TurntableUnit();
+		this.item_7 = t;
+		t.anchorOffsetX = 75;
+		t.anchorOffsetY = 300;
+		t.enabled = true;
+		t.height = 300;
+		t.rotation = 180;
+		t.skinName = "turntableUnit";
+		t.width = 150;
+		t.x = 300;
+		t.y = 300;
+		return t;
+	};
+	_proto.item_8_i = function () {
+		var t = new game.TurntableUnit();
+		this.item_8 = t;
+		t.anchorOffsetX = 75;
+		t.anchorOffsetY = 300;
+		t.enabled = true;
+		t.height = 300;
+		t.rotation = 210;
+		t.skinName = "turntableUnit";
+		t.width = 150;
+		t.x = 300;
+		t.y = 300;
+		return t;
+	};
+	_proto.item_9_i = function () {
+		var t = new game.TurntableUnit();
+		this.item_9 = t;
+		t.anchorOffsetX = 75;
+		t.anchorOffsetY = 300;
+		t.enabled = true;
+		t.height = 300;
+		t.rotation = 240;
+		t.skinName = "turntableUnit";
+		t.width = 150;
+		t.x = 300;
+		t.y = 300;
+		return t;
+	};
+	_proto.item_10_i = function () {
+		var t = new game.TurntableUnit();
+		this.item_10 = t;
+		t.anchorOffsetX = 75;
+		t.anchorOffsetY = 300;
+		t.enabled = true;
+		t.height = 300;
+		t.rotation = 270;
+		t.skinName = "turntableUnit";
+		t.width = 150;
+		t.x = 300;
+		t.y = 300;
+		return t;
+	};
+	_proto.item_11_i = function () {
+		var t = new game.TurntableUnit();
+		this.item_11 = t;
+		t.anchorOffsetX = 75;
+		t.anchorOffsetY = 300;
+		t.enabled = true;
+		t.height = 300;
+		t.rotation = 300;
+		t.skinName = "turntableUnit";
+		t.width = 150;
+		t.x = 300;
+		t.y = 300;
+		return t;
+	};
+	_proto.item_12_i = function () {
+		var t = new game.TurntableUnit();
+		this.item_12 = t;
+		t.anchorOffsetX = 75;
+		t.anchorOffsetY = 300;
+		t.enabled = true;
+		t.height = 300;
+		t.rotation = 330;
+		t.skinName = "turntableUnit";
+		t.width = 150;
+		t.x = 300;
+		t.y = 300;
+		return t;
+	};
+	_proto.btStart_i = function () {
+		var t = new EButton();
+		this.btStart = t;
+		t.enabled = true;
+		t.label = "";
+		t.x = 250;
+		t.y = 270;
+		t.skinName = turntableBox$Skin343;
+		return t;
+	};
+	_proto.btBank_i = function () {
+		var t = new EButton();
+		this.btBank = t;
+		t.enabled = true;
+		t.label = "";
+		t.x = -15.67;
+		t.y = 535.95;
+		t.skinName = turntableBox$Skin344;
+		return t;
+	};
+	_proto.btClose_i = function () {
+		var t = new EButton();
+		this.btClose = t;
+		t.enabled = true;
+		t.label = "";
+		t.x = 17.83;
+		t.y = 18;
+		t.skinName = turntableBox$Skin345;
+		return t;
+	};
+	_proto.txtDrawNums_i = function () {
+		var t = new eui.Label();
+		this.txtDrawNums = t;
+		t.fontFamily = "fzzy";
+		t.size = 24;
+		t.text = "0次抽奖机会";
+		t.x = 294;
+		t.y = 398;
+		return t;
+	};
+	return turntableBox;
 })(eui.Skin);generateEUI.paths['resource/skins/hall/user/chargeRecordDialogSkin.exml'] = window.mySkin.chargeRecordDialogSkin = (function (_super) {
 	__extends(chargeRecordDialogSkin, _super);
-	var chargeRecordDialogSkin$Skin338 = 	(function (_super) {
-		__extends(chargeRecordDialogSkin$Skin338, _super);
-		function chargeRecordDialogSkin$Skin338() {
+	var chargeRecordDialogSkin$Skin346 = 	(function (_super) {
+		__extends(chargeRecordDialogSkin$Skin346, _super);
+		function chargeRecordDialogSkin$Skin346() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -40916,7 +41688,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = chargeRecordDialogSkin$Skin338.prototype;
+		var _proto = chargeRecordDialogSkin$Skin346.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -40933,12 +41705,12 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return chargeRecordDialogSkin$Skin338;
+		return chargeRecordDialogSkin$Skin346;
 	})(eui.Skin);
 
-	var chargeRecordDialogSkin$Skin339 = 	(function (_super) {
-		__extends(chargeRecordDialogSkin$Skin339, _super);
-		function chargeRecordDialogSkin$Skin339() {
+	var chargeRecordDialogSkin$Skin347 = 	(function (_super) {
+		__extends(chargeRecordDialogSkin$Skin347, _super);
+		function chargeRecordDialogSkin$Skin347() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -40958,7 +41730,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = chargeRecordDialogSkin$Skin339.prototype;
+		var _proto = chargeRecordDialogSkin$Skin347.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -40975,12 +41747,12 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return chargeRecordDialogSkin$Skin339;
+		return chargeRecordDialogSkin$Skin347;
 	})(eui.Skin);
 
-	var chargeRecordDialogSkin$Skin340 = 	(function (_super) {
-		__extends(chargeRecordDialogSkin$Skin340, _super);
-		function chargeRecordDialogSkin$Skin340() {
+	var chargeRecordDialogSkin$Skin348 = 	(function (_super) {
+		__extends(chargeRecordDialogSkin$Skin348, _super);
+		function chargeRecordDialogSkin$Skin348() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -41000,7 +41772,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = chargeRecordDialogSkin$Skin340.prototype;
+		var _proto = chargeRecordDialogSkin$Skin348.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -41017,7 +41789,7 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return chargeRecordDialogSkin$Skin340;
+		return chargeRecordDialogSkin$Skin348;
 	})(eui.Skin);
 
 	function chargeRecordDialogSkin() {
@@ -41157,7 +41929,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 0;
 		t.y = 0;
-		t.skinName = chargeRecordDialogSkin$Skin338;
+		t.skinName = chargeRecordDialogSkin$Skin346;
 		return t;
 	};
 	_proto.tab2_i = function () {
@@ -41167,7 +41939,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 0;
 		t.y = 87.36;
-		t.skinName = chargeRecordDialogSkin$Skin339;
+		t.skinName = chargeRecordDialogSkin$Skin347;
 		return t;
 	};
 	_proto.labelTab1_i = function () {
@@ -41204,7 +41976,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 1055.02;
 		t.y = 41.84;
-		t.skinName = chargeRecordDialogSkin$Skin340;
+		t.skinName = chargeRecordDialogSkin$Skin348;
 		return t;
 	};
 	_proto.scrollerTables_i = function () {
@@ -41278,9 +42050,9 @@ window.skins=window.skins||{};
 	return chargeRecordItemSkin;
 })(eui.Skin);generateEUI.paths['resource/skins/hall/wanfa/ruleDescSkin.exml'] = window.ruleDescSkin = (function (_super) {
 	__extends(ruleDescSkin, _super);
-	var ruleDescSkin$Skin341 = 	(function (_super) {
-		__extends(ruleDescSkin$Skin341, _super);
-		function ruleDescSkin$Skin341() {
+	var ruleDescSkin$Skin349 = 	(function (_super) {
+		__extends(ruleDescSkin$Skin349, _super);
+		function ruleDescSkin$Skin349() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -41300,7 +42072,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = ruleDescSkin$Skin341.prototype;
+		var _proto = ruleDescSkin$Skin349.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -41317,12 +42089,12 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return ruleDescSkin$Skin341;
+		return ruleDescSkin$Skin349;
 	})(eui.Skin);
 
-	var ruleDescSkin$Skin342 = 	(function (_super) {
-		__extends(ruleDescSkin$Skin342, _super);
-		function ruleDescSkin$Skin342() {
+	var ruleDescSkin$Skin350 = 	(function (_super) {
+		__extends(ruleDescSkin$Skin350, _super);
+		function ruleDescSkin$Skin350() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -41342,7 +42114,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = ruleDescSkin$Skin342.prototype;
+		var _proto = ruleDescSkin$Skin350.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -41359,12 +42131,12 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return ruleDescSkin$Skin342;
+		return ruleDescSkin$Skin350;
 	})(eui.Skin);
 
-	var ruleDescSkin$Skin343 = 	(function (_super) {
-		__extends(ruleDescSkin$Skin343, _super);
-		function ruleDescSkin$Skin343() {
+	var ruleDescSkin$Skin351 = 	(function (_super) {
+		__extends(ruleDescSkin$Skin351, _super);
+		function ruleDescSkin$Skin351() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -41384,7 +42156,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = ruleDescSkin$Skin343.prototype;
+		var _proto = ruleDescSkin$Skin351.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -41401,7 +42173,7 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return ruleDescSkin$Skin343;
+		return ruleDescSkin$Skin351;
 	})(eui.Skin);
 
 	function ruleDescSkin() {
@@ -41516,7 +42288,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 1119.46;
 		t.y = 33.67;
-		t.skinName = ruleDescSkin$Skin341;
+		t.skinName = ruleDescSkin$Skin349;
 		return t;
 	};
 	_proto.tab1_i = function () {
@@ -41526,7 +42298,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 142.51;
 		t.y = 133.49;
-		t.skinName = ruleDescSkin$Skin342;
+		t.skinName = ruleDescSkin$Skin350;
 		return t;
 	};
 	_proto.tab2_i = function () {
@@ -41536,7 +42308,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 142.51;
 		t.y = 220.85;
-		t.skinName = ruleDescSkin$Skin343;
+		t.skinName = ruleDescSkin$Skin351;
 		return t;
 	};
 	_proto.labelTab1_i = function () {
@@ -41685,9 +42457,9 @@ window.skins=window.skins||{};
 	return combatUserItemSkin;
 })(eui.Skin);generateEUI.paths['resource/skins/hall/zhanji/combatItemSkin.exml'] = window.mySkin.combatItemSkin = (function (_super) {
 	__extends(combatItemSkin, _super);
-	var combatItemSkin$Skin344 = 	(function (_super) {
-		__extends(combatItemSkin$Skin344, _super);
-		function combatItemSkin$Skin344() {
+	var combatItemSkin$Skin352 = 	(function (_super) {
+		__extends(combatItemSkin$Skin352, _super);
+		function combatItemSkin$Skin352() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -41707,7 +42479,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = combatItemSkin$Skin344.prototype;
+		var _proto = combatItemSkin$Skin352.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -41724,12 +42496,12 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return combatItemSkin$Skin344;
+		return combatItemSkin$Skin352;
 	})(eui.Skin);
 
-	var combatItemSkin$Skin345 = 	(function (_super) {
-		__extends(combatItemSkin$Skin345, _super);
-		function combatItemSkin$Skin345() {
+	var combatItemSkin$Skin353 = 	(function (_super) {
+		__extends(combatItemSkin$Skin353, _super);
+		function combatItemSkin$Skin353() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -41749,7 +42521,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = combatItemSkin$Skin345.prototype;
+		var _proto = combatItemSkin$Skin353.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -41766,12 +42538,12 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return combatItemSkin$Skin345;
+		return combatItemSkin$Skin353;
 	})(eui.Skin);
 
-	var combatItemSkin$Skin346 = 	(function (_super) {
-		__extends(combatItemSkin$Skin346, _super);
-		function combatItemSkin$Skin346() {
+	var combatItemSkin$Skin354 = 	(function (_super) {
+		__extends(combatItemSkin$Skin354, _super);
+		function combatItemSkin$Skin354() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -41791,7 +42563,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = combatItemSkin$Skin346.prototype;
+		var _proto = combatItemSkin$Skin354.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -41808,12 +42580,12 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return combatItemSkin$Skin346;
+		return combatItemSkin$Skin354;
 	})(eui.Skin);
 
-	var combatItemSkin$Skin347 = 	(function (_super) {
-		__extends(combatItemSkin$Skin347, _super);
-		function combatItemSkin$Skin347() {
+	var combatItemSkin$Skin355 = 	(function (_super) {
+		__extends(combatItemSkin$Skin355, _super);
+		function combatItemSkin$Skin355() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -41833,7 +42605,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = combatItemSkin$Skin347.prototype;
+		var _proto = combatItemSkin$Skin355.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -41850,7 +42622,7 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return combatItemSkin$Skin347;
+		return combatItemSkin$Skin355;
 	})(eui.Skin);
 
 	function combatItemSkin() {
@@ -41965,7 +42737,7 @@ window.skins=window.skins||{};
 		t.visible = false;
 		t.x = 728.6;
 		t.y = 16.99;
-		t.skinName = combatItemSkin$Skin344;
+		t.skinName = combatItemSkin$Skin352;
 		return t;
 	};
 	_proto.btnCancel_i = function () {
@@ -41975,7 +42747,7 @@ window.skins=window.skins||{};
 		t.visible = false;
 		t.x = 728.6;
 		t.y = 84.12;
-		t.skinName = combatItemSkin$Skin345;
+		t.skinName = combatItemSkin$Skin353;
 		return t;
 	};
 	_proto.userItem1_i = function () {
@@ -42030,7 +42802,7 @@ window.skins=window.skins||{};
 		t.verticalCenter = -2.5;
 		t.width = 114;
 		t.x = 786.6;
-		t.skinName = combatItemSkin$Skin346;
+		t.skinName = combatItemSkin$Skin354;
 		return t;
 	};
 	_proto.btnView_i = function () {
@@ -42041,7 +42813,7 @@ window.skins=window.skins||{};
 		t.verticalCenter = -2.5;
 		t.width = 114;
 		t.x = 786.6;
-		t.skinName = combatItemSkin$Skin347;
+		t.skinName = combatItemSkin$Skin355;
 		return t;
 	};
 	return combatItemSkin;
@@ -42189,9 +42961,9 @@ window.skins=window.skins||{};
 	return gainUserItemSkin;
 })(eui.Skin);generateEUI.paths['resource/skins/hall/zhanji/gainItemSkin.exml'] = window.mySkin.gainItemSkin = (function (_super) {
 	__extends(gainItemSkin, _super);
-	var gainItemSkin$Skin348 = 	(function (_super) {
-		__extends(gainItemSkin$Skin348, _super);
-		function gainItemSkin$Skin348() {
+	var gainItemSkin$Skin356 = 	(function (_super) {
+		__extends(gainItemSkin$Skin356, _super);
+		function gainItemSkin$Skin356() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -42211,7 +42983,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = gainItemSkin$Skin348.prototype;
+		var _proto = gainItemSkin$Skin356.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -42228,7 +43000,7 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return gainItemSkin$Skin348;
+		return gainItemSkin$Skin356;
 	})(eui.Skin);
 
 	function gainItemSkin() {
@@ -42322,7 +43094,7 @@ window.skins=window.skins||{};
 		t.horizontalCenter = 0;
 		t.label = "";
 		t.y = 67.99;
-		t.skinName = gainItemSkin$Skin348;
+		t.skinName = gainItemSkin$Skin356;
 		return t;
 	};
 	_proto._Label1_i = function () {
@@ -42409,9 +43181,9 @@ window.skins=window.skins||{};
 	return gainItemSkin;
 })(eui.Skin);generateEUI.paths['resource/skins/hall/zhanji/gainListSkin.exml'] = window.mySkin.gainListSkin = (function (_super) {
 	__extends(gainListSkin, _super);
-	var gainListSkin$Skin349 = 	(function (_super) {
-		__extends(gainListSkin$Skin349, _super);
-		function gainListSkin$Skin349() {
+	var gainListSkin$Skin357 = 	(function (_super) {
+		__extends(gainListSkin$Skin357, _super);
+		function gainListSkin$Skin357() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -42431,7 +43203,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = gainListSkin$Skin349.prototype;
+		var _proto = gainListSkin$Skin357.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -42448,7 +43220,7 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return gainListSkin$Skin349;
+		return gainListSkin$Skin357;
 	})(eui.Skin);
 
 	function gainListSkin() {
@@ -42532,15 +43304,15 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 1048.38;
 		t.y = 80.56;
-		t.skinName = gainListSkin$Skin349;
+		t.skinName = gainListSkin$Skin357;
 		return t;
 	};
 	return gainListSkin;
 })(eui.Skin);generateEUI.paths['resource/skins/hall/zhanji/viewReplaySkin.exml'] = window.myskins.viewReplaySkin = (function (_super) {
 	__extends(viewReplaySkin, _super);
-	var viewReplaySkin$Skin350 = 	(function (_super) {
-		__extends(viewReplaySkin$Skin350, _super);
-		function viewReplaySkin$Skin350() {
+	var viewReplaySkin$Skin358 = 	(function (_super) {
+		__extends(viewReplaySkin$Skin358, _super);
+		function viewReplaySkin$Skin358() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -42560,7 +43332,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = viewReplaySkin$Skin350.prototype;
+		var _proto = viewReplaySkin$Skin358.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -42577,12 +43349,12 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return viewReplaySkin$Skin350;
+		return viewReplaySkin$Skin358;
 	})(eui.Skin);
 
-	var viewReplaySkin$Skin351 = 	(function (_super) {
-		__extends(viewReplaySkin$Skin351, _super);
-		function viewReplaySkin$Skin351() {
+	var viewReplaySkin$Skin359 = 	(function (_super) {
+		__extends(viewReplaySkin$Skin359, _super);
+		function viewReplaySkin$Skin359() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -42602,7 +43374,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = viewReplaySkin$Skin351.prototype;
+		var _proto = viewReplaySkin$Skin359.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -42619,7 +43391,7 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return viewReplaySkin$Skin351;
+		return viewReplaySkin$Skin359;
 	})(eui.Skin);
 
 	function viewReplaySkin() {
@@ -42655,7 +43427,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 400;
 		t.y = 288;
-		t.skinName = viewReplaySkin$Skin350;
+		t.skinName = viewReplaySkin$Skin358;
 		return t;
 	};
 	_proto._Image2_i = function () {
@@ -42674,7 +43446,7 @@ window.skins=window.skins||{};
 		t.horizontalCenter = -158;
 		t.label = "";
 		t.y = 288;
-		t.skinName = viewReplaySkin$Skin351;
+		t.skinName = viewReplaySkin$Skin359;
 		return t;
 	};
 	_proto._Label1_i = function () {
@@ -42706,9 +43478,9 @@ window.skins=window.skins||{};
 	return viewReplaySkin;
 })(eui.Skin);generateEUI.paths['resource/skins/hall/zhanji/zhanJiSkin.exml'] = window.mySkin.zhanJiSkin = (function (_super) {
 	__extends(zhanJiSkin, _super);
-	var zhanJiSkin$Skin352 = 	(function (_super) {
-		__extends(zhanJiSkin$Skin352, _super);
-		function zhanJiSkin$Skin352() {
+	var zhanJiSkin$Skin360 = 	(function (_super) {
+		__extends(zhanJiSkin$Skin360, _super);
+		function zhanJiSkin$Skin360() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -42728,7 +43500,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = zhanJiSkin$Skin352.prototype;
+		var _proto = zhanJiSkin$Skin360.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -42745,12 +43517,12 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return zhanJiSkin$Skin352;
+		return zhanJiSkin$Skin360;
 	})(eui.Skin);
 
-	var zhanJiSkin$Skin353 = 	(function (_super) {
-		__extends(zhanJiSkin$Skin353, _super);
-		function zhanJiSkin$Skin353() {
+	var zhanJiSkin$Skin361 = 	(function (_super) {
+		__extends(zhanJiSkin$Skin361, _super);
+		function zhanJiSkin$Skin361() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -42770,7 +43542,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = zhanJiSkin$Skin353.prototype;
+		var _proto = zhanJiSkin$Skin361.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -42787,12 +43559,12 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return zhanJiSkin$Skin353;
+		return zhanJiSkin$Skin361;
 	})(eui.Skin);
 
-	var zhanJiSkin$Skin354 = 	(function (_super) {
-		__extends(zhanJiSkin$Skin354, _super);
-		function zhanJiSkin$Skin354() {
+	var zhanJiSkin$Skin362 = 	(function (_super) {
+		__extends(zhanJiSkin$Skin362, _super);
+		function zhanJiSkin$Skin362() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -42812,7 +43584,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = zhanJiSkin$Skin354.prototype;
+		var _proto = zhanJiSkin$Skin362.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -42829,7 +43601,7 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return zhanJiSkin$Skin354;
+		return zhanJiSkin$Skin362;
 	})(eui.Skin);
 
 	function zhanJiSkin() {
@@ -42946,7 +43718,7 @@ window.skins=window.skins||{};
 		t.horizontalCenter = 437;
 		t.label = "";
 		t.y = 553.95;
-		t.skinName = zhanJiSkin$Skin352;
+		t.skinName = zhanJiSkin$Skin360;
 		return t;
 	};
 	_proto._Label2_i = function () {
@@ -42968,7 +43740,7 @@ window.skins=window.skins||{};
 		t.width = 226;
 		t.x = 41.58;
 		t.y = 83.44;
-		t.skinName = zhanJiSkin$Skin353;
+		t.skinName = zhanJiSkin$Skin361;
 		return t;
 	};
 	_proto.labelMahjong_i = function () {
@@ -42994,7 +43766,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 1141.54;
 		t.y = 28.83;
-		t.skinName = zhanJiSkin$Skin354;
+		t.skinName = zhanJiSkin$Skin362;
 		return t;
 	};
 	return zhanJiSkin;
@@ -43084,9 +43856,9 @@ window.skins=window.skins||{};
 	return LoadingSceneSkin;
 })(eui.Skin);generateEUI.paths['resource/skins/login/bindWechatBox.exml'] = window.bindWechatBox = (function (_super) {
 	__extends(bindWechatBox, _super);
-	var bindWechatBox$Skin355 = 	(function (_super) {
-		__extends(bindWechatBox$Skin355, _super);
-		function bindWechatBox$Skin355() {
+	var bindWechatBox$Skin363 = 	(function (_super) {
+		__extends(bindWechatBox$Skin363, _super);
+		function bindWechatBox$Skin363() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -43106,7 +43878,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = bindWechatBox$Skin355.prototype;
+		var _proto = bindWechatBox$Skin363.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -43123,12 +43895,12 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return bindWechatBox$Skin355;
+		return bindWechatBox$Skin363;
 	})(eui.Skin);
 
-	var bindWechatBox$Skin356 = 	(function (_super) {
-		__extends(bindWechatBox$Skin356, _super);
-		function bindWechatBox$Skin356() {
+	var bindWechatBox$Skin364 = 	(function (_super) {
+		__extends(bindWechatBox$Skin364, _super);
+		function bindWechatBox$Skin364() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -43148,7 +43920,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = bindWechatBox$Skin356.prototype;
+		var _proto = bindWechatBox$Skin364.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -43165,12 +43937,12 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return bindWechatBox$Skin356;
+		return bindWechatBox$Skin364;
 	})(eui.Skin);
 
-	var bindWechatBox$Skin357 = 	(function (_super) {
-		__extends(bindWechatBox$Skin357, _super);
-		function bindWechatBox$Skin357() {
+	var bindWechatBox$Skin365 = 	(function (_super) {
+		__extends(bindWechatBox$Skin365, _super);
+		function bindWechatBox$Skin365() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -43190,7 +43962,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = bindWechatBox$Skin357.prototype;
+		var _proto = bindWechatBox$Skin365.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -43207,7 +43979,7 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return bindWechatBox$Skin357;
+		return bindWechatBox$Skin365;
 	})(eui.Skin);
 
 	function bindWechatBox() {
@@ -43251,7 +44023,7 @@ window.skins=window.skins||{};
 		t.horizontalCenter = -130;
 		t.label = "";
 		t.y = 382;
-		t.skinName = bindWechatBox$Skin355;
+		t.skinName = bindWechatBox$Skin363;
 		return t;
 	};
 	_proto.Button_close_i = function () {
@@ -43260,7 +44032,7 @@ window.skins=window.skins||{};
 		t.horizontalCenter = 312.5;
 		t.label = "";
 		t.y = 146;
-		t.skinName = bindWechatBox$Skin356;
+		t.skinName = bindWechatBox$Skin364;
 		return t;
 	};
 	_proto.Button_open_wechat_i = function () {
@@ -43269,15 +44041,15 @@ window.skins=window.skins||{};
 		t.horizontalCenter = 130;
 		t.label = "";
 		t.y = 382;
-		t.skinName = bindWechatBox$Skin357;
+		t.skinName = bindWechatBox$Skin365;
 		return t;
 	};
 	return bindWechatBox;
 })(eui.Skin);generateEUI.paths['resource/skins/login/loginSceneSkin.exml'] = window.mySkin.loginSceneSkin = (function (_super) {
 	__extends(loginSceneSkin, _super);
-	var loginSceneSkin$Skin358 = 	(function (_super) {
-		__extends(loginSceneSkin$Skin358, _super);
-		function loginSceneSkin$Skin358() {
+	var loginSceneSkin$Skin366 = 	(function (_super) {
+		__extends(loginSceneSkin$Skin366, _super);
+		function loginSceneSkin$Skin366() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -43297,7 +44069,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = loginSceneSkin$Skin358.prototype;
+		var _proto = loginSceneSkin$Skin366.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -43314,12 +44086,12 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return loginSceneSkin$Skin358;
+		return loginSceneSkin$Skin366;
 	})(eui.Skin);
 
-	var loginSceneSkin$Skin359 = 	(function (_super) {
-		__extends(loginSceneSkin$Skin359, _super);
-		function loginSceneSkin$Skin359() {
+	var loginSceneSkin$Skin367 = 	(function (_super) {
+		__extends(loginSceneSkin$Skin367, _super);
+		function loginSceneSkin$Skin367() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -43340,7 +44112,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = loginSceneSkin$Skin359.prototype;
+		var _proto = loginSceneSkin$Skin367.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -43357,7 +44129,7 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return loginSceneSkin$Skin359;
+		return loginSceneSkin$Skin367;
 	})(eui.Skin);
 
 	function loginSceneSkin() {
@@ -43495,7 +44267,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 195.52;
 		t.y = 442.96;
-		t.skinName = loginSceneSkin$Skin358;
+		t.skinName = loginSceneSkin$Skin366;
 		return t;
 	};
 	_proto._Group1_i = function () {
@@ -43556,7 +44328,7 @@ window.skins=window.skins||{};
 		t.label = "";
 		t.x = 225.08;
 		t.y = 0;
-		t.skinName = loginSceneSkin$Skin359;
+		t.skinName = loginSceneSkin$Skin367;
 		return t;
 	};
 	_proto._Image6_i = function () {
@@ -43612,4 +44384,25 @@ window.skins=window.skins||{};
 		return t;
 	};
 	return loginSceneSkin;
+})(eui.Skin);generateEUI.paths['resource/skins/splash/SplashScene.exml'] = window.SplashScene = (function (_super) {
+	__extends(SplashScene, _super);
+	function SplashScene() {
+		_super.call(this);
+		this.skinParts = ["Image_bg"];
+		
+		this.height = 720;
+		this.width = 1280;
+		this.elementsContent = [this.Image_bg_i()];
+	}
+	var _proto = SplashScene.prototype;
+
+	_proto.Image_bg_i = function () {
+		var t = new eui.Image();
+		this.Image_bg = t;
+		t.horizontalCenter = 0;
+		t.source = "mode_splash_jpg";
+		t.verticalCenter = 0;
+		return t;
+	};
+	return SplashScene;
 })(eui.Skin);
