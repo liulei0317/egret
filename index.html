@@ -146,14 +146,7 @@
         }
         var detectOrient = function () {
             setTimeout(function () {
-                var width = document.documentElement.clientWidth,
-                    height = document.documentElement.clientHeight,
-                    $noticeText = document.getElementById("notice")
-                if (width >= height) { // 横屏
-                }
-                else { // 竖屏
-                    $noticeText.innerHTML = "抵制不良游戏，拒绝盗版游戏。<br>注意自我保护，谨防受骗上当。<br>适度游戏益脑，沉迷游戏伤身。<br>合理安排时间，享受健康生活。"
-                }
+                // detectOrientOri()
             }, 300)
         }
         var evt = "onorientationchange" in window ? "orientationchange" : "resize";
